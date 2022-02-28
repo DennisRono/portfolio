@@ -110,9 +110,6 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  left: calc(100% - 3px);
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
   -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
 }
