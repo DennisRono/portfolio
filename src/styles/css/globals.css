@@ -1,0 +1,27 @@
+/*
+ *font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+*/
+/* __colors__ => theme white
+* text-color: #444452
+* background-color: #fff
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  border-style: border-box;
+  font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*# sourceMappingURL=globals.css.map */
