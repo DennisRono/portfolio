@@ -66,4 +66,8 @@ a {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
+.App {
+  background-color: var(--background);
+}
 /*# sourceMappingURL=globals.css.map */
