@@ -70,4 +70,8 @@ a {
 .App {
   background-color: var(--background);
 }
+
+.lightMode, .darkMode {
+  color: var(--text-primary);
+}
 /*# sourceMappingURL=globals.css.map */

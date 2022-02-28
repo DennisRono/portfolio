@@ -66,3 +66,6 @@ a {
 .App{
     background-color: var(--background);
 }
+.lightMode, .darkMode{
+    color: var(--text-primary);
+}
