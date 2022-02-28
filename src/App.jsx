@@ -2,7 +2,6 @@ import React from 'react'
 import Landing from './components/Landing'
 import useLocalStorage from 'use-local-storage'
 import CookieConsent from "react-cookie-consent"
-import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 
