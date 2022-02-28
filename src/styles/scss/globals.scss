@@ -85,11 +85,15 @@ a {
         border-radius: 30px;
         background-color: rgb(156, 156, 156);
         margin: 0 10px;
+        position: relative;
         .toggleButton{
             height: 15px;
             width: 15px;
             border-radius: 50%;
             background-color: #fff;
+            position: absolute;
+            top: 0;
+            right: 0;
         }
     }
 }

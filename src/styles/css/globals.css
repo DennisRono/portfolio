@@ -97,6 +97,7 @@ a {
   border-radius: 30px;
   background-color: #9c9c9c;
   margin: 0 10px;
+  position: relative;
 }
 
 .themeControls .themeToggle .toggleButton {
@@ -104,5 +105,8 @@ a {
   width: 15px;
   border-radius: 50%;
   background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 /*# sourceMappingURL=globals.css.map */
