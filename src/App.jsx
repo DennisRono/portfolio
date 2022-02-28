@@ -2,8 +2,8 @@ import React from 'react'
 import Landing from './components/Landing'
 import useLocalStorage from 'use-local-storage'
 import CookieConsent from "react-cookie-consent"
-// import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
-// import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
+import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
+import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
