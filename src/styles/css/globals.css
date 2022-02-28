@@ -91,5 +91,7 @@ a {
 .themeControls .themeToggle {
   height: 20px;
   width: 60px;
+  background-color: #9c9c9c;
+  margin: 0 10px;
 }
 /*# sourceMappingURL=globals.css.map */
