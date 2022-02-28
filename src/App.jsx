@@ -15,12 +15,14 @@ function App() {
     const toggleTheme = () => {
         if(theme === 'dark'){
             setTheme('white')
-            document.querySelector('.toggleButton').style.left="unset";
-            document.querySelector('.toggleButton').style.right="0";
+            // document.querySelector('.toggleButton').style.left="unset";
+            // document.querySelector('.toggleButton').style.right="0";
+            document.querySelector('.toggleButton').style.transform="translateX(100%)";
         } else {
             setTheme('dark')
-            document.querySelector('.toggleButton').style.left="0";
-            document.querySelector('.toggleButton').style.right="unset";
+            // document.querySelector('.toggleButton').style.left="0";
+            // document.querySelector('.toggleButton').style.right="unset";
+            document.querySelector('.toggleButton').style.transform="translateX(0)";
         }
     }
     return ( 
