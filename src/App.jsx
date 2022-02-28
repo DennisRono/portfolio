@@ -16,9 +16,11 @@ function App() {
         if(theme === 'dark'){
             setTheme('white')
             document.querySelector('.toggleButton').style.left="unset";
+            document.querySelector('.toggleButton').style.right="0";
         } else {
             setTheme('dark')
             document.querySelector('.toggleButton').style.left="0";
+            document.querySelector('.toggleButton').style.right="unset";
         }
     }
     return ( 
