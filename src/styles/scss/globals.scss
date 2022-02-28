@@ -68,6 +68,8 @@ a {
 }
 .lightMode, .darkMode{
     stroke: var(--text-primary);
+    height: 17px;
+    width: 17px;
 }
 .themeControls{
     position: absolute;
