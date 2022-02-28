@@ -74,5 +74,6 @@ a {
 .lightMode, .darkMode {
   color: var(--text-primary);
   fill: var(--text-primary);
+  stroke: var(--text-primary);
 }
 /*# sourceMappingURL=globals.css.map */
