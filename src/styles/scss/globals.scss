@@ -67,8 +67,6 @@ a {
     background-color: var(--background);
 }
 .lightMode, .darkMode{
-    color: var(--text-primary);
-    fill: var(--text-primary);
     stroke: var(--text-primary);
 }
 .themeControls{
@@ -79,8 +77,9 @@ a {
     margin-right: 30px;
     display: flex;
     .themeToggle{
-        height: 20px;
-        width: 60px;
+        height: 25px;
+        width: 50px;
+        border-radius: 30px;
         background-color: rgb(156, 156, 156);
         margin: 0 10px;
         .toogleButton{
