@@ -2,8 +2,8 @@ import React from 'react'
 import Landing from './components/Landing'
 import useLocalStorage from 'use-local-storage'
 import CookieConsent from "react-cookie-consent"
-import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
-import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
+// import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
+// import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -14,11 +14,11 @@ function App() {
       }
     return ( 
         <div className = "App" data-theme={theme} >
-            <div className="themeControls">
+            {/* <div className="themeControls">
                 <LightModeOutlinedIcon onClick={()=>{switchTheme('white'); window.scrollTo(0, 0);}} className="LightModeOutlinedIcon" />
                 <button onClick={()=>{switchTheme('whiteblue'); window.scrollTo(0, 0);}}></button>
                 <DarkModeOutlinedIcon onClick={()=>{switchTheme('dark'); window.scrollTo(0, 0);}} className="DarkModeOutlinedIcon" />
-            </div>
+            </div> */}
             <CookieConsent
             disableStyles={true}
             location="bottom"
