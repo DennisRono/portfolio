@@ -2,7 +2,7 @@ import React from 'react'
 import Landing from './components/Landing'
 import useLocalStorage from 'use-local-storage'
 import CookieConsent from "react-cookie-consent"
-import Sun from './images/sun.svg'
+import { ReactComponent as Sun } from './images/sun.svg'
 import Moon from './images/moon.svg'
 
 function App() {
