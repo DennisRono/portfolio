@@ -97,7 +97,7 @@ a {
             top: 0;
             left: 0;
             left: calc(100% - 3px);
-            transform: translateX(-100%);
+            transform: translateX(100%);
             transition: all 0.2s ease-in-out 0s;
         }
     }
