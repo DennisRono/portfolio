@@ -2,6 +2,15 @@
  *font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
 */
 
+/* color schemes */
+/*
+-- #272727 = darkgray
+--#09090c = darkblue
+--#dee0ff = whiteblue
+--#0d0014 = darkpurle
+
+*/
+
 
 /* __colors__ => theme white
 * text-color: #444452
@@ -17,6 +26,14 @@ html,
 body {
     border-style: border-box;
     font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    overflow-x: hidden !important;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    position: relative;
+    z-index: 0 !important;
+    scroll-behavior: smooth;
 }
 
 li {
@@ -26,4 +43,23 @@ li {
 a {
     text-decoration: none;
     color: inherit;
+}
+:root {
+    --background: #fff;
+    --text-primary: #444452;
+    --back-boxes: rgb(223, 220, 255);
+    --back-related: #F3F8FF;
+}
+[data-theme='light'] {
+    --background: #dee0ff;
+    --text-primary: black;
+    --back-related: #98b2dd;
+    transition: 0.5s;
+}
+
+[data-theme='dark'] {
+    --background: #171c28;
+    --text-primary: rgb(230, 230, 230);
+    --back-related: #98b2dd;
+    transition: 0.5s;
 }
