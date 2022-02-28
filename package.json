@@ -19,6 +19,7 @@
     "shelljs": "^0.8.5",
     "typeit-react": "^2.3.2",
     "use-local-storage": "^2.3.6",
+    "vanilla-tilt": "^1.7.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
