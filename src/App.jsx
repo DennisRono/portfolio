@@ -2,6 +2,8 @@ import React from 'react'
 import Landing from './components/Landing'
 import useLocalStorage from 'use-local-storage'
 import CookieConsent from "react-cookie-consent"
+import Sun from './images/sun.svg'
+import Moon from './images/moon.svg'
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -13,9 +15,8 @@ function App() {
     return ( 
         <div className = "App" data-theme={theme} >
             <div className="themeControls">
-                <img src={} onClick={()=>{switchTheme('white'); window.scrollTo(0, 0);}} className="lightMode" />
-                <button onClick={()=>{switchTheme('whiteblue'); window.scrollTo(0, 0);}}></button>
-                <img src={} onClick={()=>{switchTheme('dark'); window.scrollTo(0, 0);}} className="darkMode" />
+                <img src={Sun} onClick={()=>{switchTheme('white'); window.scrollTo(0, 0);}} className="lightMode" />
+                <img src={Moon} onClick={()=>{switchTheme('dark'); window.scrollTo(0, 0);}} className="darkMode" />
             </div>
             <CookieConsent
             disableStyles={true}
