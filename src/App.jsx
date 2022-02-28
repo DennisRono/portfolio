@@ -17,7 +17,7 @@ function App() {
             setTheme('white')
             // document.querySelector('.toggleButton').style.left="unset";
             // document.querySelector('.toggleButton').style.right="0";
-            document.querySelector('.toggleButton').style.transform="translateX(100%)";
+            document.querySelector('.toggleButton').style.transform="translateX(120%)";
         } else {
             setTheme('dark')
             // document.querySelector('.toggleButton').style.left="0";
