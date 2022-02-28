@@ -16,7 +16,7 @@ function App() {
         <div className = "App" data-theme={theme}>
             <div className="themeControls">
                 <Sun onClick={()=>{switchTheme('light'); window.scrollTo(0, 0);}} className="lightMode" />
-                <div className="themeToggle"><span className="toogleButton"></span></div>
+                <div className="themeToggle"><span className="toggleButton"></span></div>
                 <Moon onClick={()=>{switchTheme('dark'); window.scrollTo(0, 0);}} className="darkMode" />
             </div>
             <CookieConsent

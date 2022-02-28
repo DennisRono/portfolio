@@ -98,4 +98,11 @@ a {
   background-color: #9c9c9c;
   margin: 0 10px;
 }
+
+.themeControls .themeToggle .toggleButton {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+}
 /*# sourceMappingURL=globals.css.map */
