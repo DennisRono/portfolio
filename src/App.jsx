@@ -29,7 +29,7 @@ function App() {
             containerClasses="cookieConsent"
             expires={150}
             >
-                <p className="cookieText">We use cookies to improve your browsing experience. And <span className="cookiehiglight">Pizzas</span> to boost morale on Fridays. <span className="cookiehiglight">Learn about our <Link to="/privacy" className="privacyPolicy">Privacy policy</Link> here.{" "}</span></p>
+                <p className="cookieText">We use cookies to improve your browsing experience. And <span className="cookiehiglight">Pizzas</span> to boost morale on Fridays. <span className="cookiehiglight">Learn about our here.{" "}</span></p>
             </CookieConsent>
             <Landing />
         </div>
