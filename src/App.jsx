@@ -11,12 +11,19 @@ function App() {
 
     const switchTheme = (theme) => {
         setTheme(theme)
-      }
+    }
+    const toggleTheme = () => {
+        if(theme === 'dark'){
+            setTheme('white')
+        } else {
+            setTheme('dark')
+        }
+    }
     return ( 
         <div className = "App" data-theme={theme}>
             <div className="themeControls">
                 <Sun onClick={()=>{switchTheme('light'); window.scrollTo(0, 0);}} className="lightMode" />
-                <div className="themeToggle"><span className="toggleButton"></span></div>
+                <div onClick={()=>{toggleTheme('light'); window.scrollTo(0, 0);}} className="themeToggle"><span className="toggleButton"></span></div>
                 <Moon onClick={()=>{switchTheme('dark'); window.scrollTo(0, 0);}} className="darkMode" />
             </div>
             <CookieConsent
