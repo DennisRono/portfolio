@@ -101,12 +101,12 @@ a {
 }
 
 .themeControls .themeToggle .toggleButton {
-  height: 15px;
-  width: 15px;
+  height: 24px;
+  width: 24px;
   border-radius: 50%;
   background-color: #fff;
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
 }
 /*# sourceMappingURL=globals.css.map */
