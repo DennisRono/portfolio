@@ -15,8 +15,8 @@ function App() {
     return ( 
         <div className = "App" data-theme={theme} >
             <div className="themeControls">
-                <img src={Sun} onClick={()=>{switchTheme('white'); window.scrollTo(0, 0);}} className="lightMode" />
-                <img src={Moon} onClick={()=>{switchTheme('dark'); window.scrollTo(0, 0);}} className="darkMode" />
+                <img src={Sun} alt="" onClick={()=>{switchTheme('white'); window.scrollTo(0, 0);}} className="lightMode" />
+                <img src={Moon} alt="" onClick={()=>{switchTheme('dark'); window.scrollTo(0, 0);}} className="darkMode" />
             </div>
             <CookieConsent
             disableStyles={true}
