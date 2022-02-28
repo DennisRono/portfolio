@@ -15,12 +15,12 @@ function App() {
     const toggleTheme = () => {
         if(theme === 'dark'){
             setTheme('white')
-            document.querySelector('.themeToggle').style.left="unset";
-            document.querySelector('.themeToggle').style.right="0";
+            document.querySelector('.toggleButton').style.left="unset";
+            document.querySelector('.toggleButton').style.right="0";
         } else {
             setTheme('dark')
-            document.querySelector('.themeToggle').style.left="0";
-            document.querySelector('.themeToggle').style.right="unset";
+            document.querySelector('.toggleButton').style.left="0";
+            document.querySelector('.toggleButton').style.right="unset";
         }
     }
     return ( 
