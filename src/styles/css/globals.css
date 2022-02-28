@@ -109,5 +109,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 /*# sourceMappingURL=globals.css.map */
