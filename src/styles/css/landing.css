@@ -138,11 +138,11 @@
 }
 
 .landing .lcontainer .lwrapper .lflex .ltexts .lintrotxts::-moz-selection {
-  background: #95d8ff;
+  background: #fffddb;
 }
 
 .landing .lcontainer .lwrapper .lflex .ltexts .lintrotxts::selection {
-  background: #95d8ff;
+  background: #fffddb;
 }
 
 .landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks {
