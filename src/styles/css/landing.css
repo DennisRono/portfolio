@@ -132,6 +132,21 @@
   font-weight: normal;
 }
 
+.landing .lcontainer .lwrapper .lflex .limages .limageWrapper {
+  width: 50%;
+}
+
+.landing .lcontainer .lwrapper .lflex .limages .limageWrapper .denoo {
+  width: 70%;
+  height: auto;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0)));
+  -webkit-mask-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0));
+          mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0)));
+          mask-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0));
+}
+
 .landing .callToActionScroll {
   -webkit-animation: calltoaction 1s ease-out 0s infinite alternate none running;
   animation: calltoaction 1s ease-out 0s infinite alternate none running;
