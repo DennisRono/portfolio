@@ -15,7 +15,7 @@ const Landing = () => {
   const hidecallToActionScroll = (e) => {
       const header = document.querySelector('.callToActionScroll');
       const scrollTop = window.scrollY;
-      scrollTop >= 70 ? header.classList.add('hidecallToActionScroll') : header.classList.remove('hidecallToActionScroll');
+      scrollTop >= 200 ? header.classList.add('hidecallToActionScroll') : header.classList.remove('hidecallToActionScroll');
   };
   return (
     <div className="landing">
