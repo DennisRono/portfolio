@@ -24,11 +24,15 @@ const Landing = () => {
             <div className="ltexts">
               <p className="lcachy">Hi, <img className="wave" src={Wave} alt="👋"/> I am</p>
               <h1 className="myname">Dennis Kibet</h1>
-              <p className="lintrotxts">
+              <h2 className="lintrotxts">
                 a graphics designer and software engineer focused on creating impressive interfaces & experiences 
-              </p>
+              </h2>
             </div>
-            <div className="limages"></div>
+            <div className="limages">
+              <div className="limageWrapper">
+                <img src={Kibet} alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
