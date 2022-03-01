@@ -6,6 +6,10 @@
   margin: 0 5%;
 }
 
+.landing .lcontainer .lwrapper {
+  padding-top: 100px;
+}
+
 .landing .lcontainer .lwrapper .lflex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,7 +22,7 @@
 }
 
 .landing .lcontainer .lwrapper .lflex .ltexts .lcachy img {
-  margin-left: 20px;
+  margin-left: 15px;
   width: 1.8rem;
   height: 1.8rem;
 }
