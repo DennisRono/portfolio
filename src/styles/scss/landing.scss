@@ -58,7 +58,10 @@
                 position: absolute;
                 text-align: center!important;
                 width: 90%!important;
-                z-index: 10
+                z-index: 10;
+                .thescroll{
+                    color: red;
+                }
             }
 
             @-webkit-keyframes calltoaction {

@@ -137,6 +137,10 @@
   z-index: 10;
 }
 
+.landing .lcontainer .lwrapper .callToActionScroll .thescroll {
+  color: red;
+}
+
 @-webkit-keyframes calltoaction {
   0% {
     color: red;
