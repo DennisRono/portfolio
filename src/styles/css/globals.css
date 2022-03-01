@@ -87,7 +87,7 @@
 html,
 body {
   border-style: border-box;
-  font-family: Apercu, 'Cabin', 'Lato', 'Poppins', "Source Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  font-family: Apercu,source sans pro,system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   width: 100%;
   overflow-x: hidden !important;
