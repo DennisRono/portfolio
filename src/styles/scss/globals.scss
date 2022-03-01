@@ -150,6 +150,10 @@ body::-webkit-scrollbar-thumb {
 }
 .App{
     background-color: var(--background);
+    transition: all 0.2s ease-in-out 0s;
+}
+.contents{
+    transition: all 0.2s ease-in-out 0s;
 }
 .lightMode, .darkMode{
     stroke: var(--text-primary);

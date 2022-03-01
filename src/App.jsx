@@ -27,7 +27,7 @@ function App() {
                 document.querySelector(".preloader").style.display = "none";
                 document.querySelector(".contents").style.visibility = "visible";
                 document.querySelector(".contents").style.display = "unset";
-            }, 5000);
+            }, 6000);
         }
     };
     return ( 

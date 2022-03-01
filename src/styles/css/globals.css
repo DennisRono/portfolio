@@ -154,6 +154,13 @@ body::-webkit-scrollbar-thumb {
 
 .App {
   background-color: var(--background);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.contents {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 .lightMode, .darkMode {
