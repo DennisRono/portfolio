@@ -260,6 +260,7 @@
     width: 100% !important;
   }
   .ltexts .lcachy {
+    margin-top: 50px;
     font-size: 1.5rem;
     color: var(--text-primary);
   }
@@ -365,6 +366,7 @@
     color: var(--text-primary);
     margin-top: 10px;
     font-size: 1.75rem !important;
+    margin-bottom: 100px;
   }
   .limages {
     display: none !important;
