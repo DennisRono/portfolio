@@ -123,4 +123,39 @@
   margin-top: 20px;
   font-size: 50px;
 }
+
+.landing .lcontainer .lwrapper .callToActionScroll {
+  -webkit-animation: calltoaction 1s ease-out 0s infinite alternate none running;
+  animation: calltoaction 1s ease-out 0s infinite alternate none running;
+  bottom: 0;
+  color: red;
+  font-size: 100px !important;
+  margin-bottom: 10px;
+  position: absolute;
+  text-align: center !important;
+  width: 90% !important;
+  z-index: 10;
+}
+
+@-webkit-keyframes calltoaction {
+  0% {
+    color: red;
+    margin-bottom: 20px;
+  }
+  to {
+    color: #ff0 !important;
+    margin-bottom: 5px;
+  }
+}
+
+@keyframes calltoaction {
+  0% {
+    color: red;
+    margin-bottom: 20px;
+  }
+  to {
+    color: #ff0 !important;
+    margin-bottom: 5px;
+  }
+}
 /*# sourceMappingURL=landing.css.map */
