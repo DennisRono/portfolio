@@ -35,6 +35,7 @@ body {
     position: relative;
     z-index: 0 !important;
     scroll-behavior: smooth;
+    line-height: 1.5;
 }
 
 li {
@@ -53,7 +54,7 @@ a {
 }
 [data-theme='light'] {
     --background: #dee0ff;
-    --text-primary: black;
+    --text-primary: #444452;
     --back-related: #98b2dd;
     --toggle-transform: translate(0);
     transition: 0.5s;
