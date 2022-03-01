@@ -3,6 +3,8 @@ import '../styles/css/landing.css'
 import Wave from '../images/wave.png'
 import Kibet from '../images/jumb_kibet.png'
 import { ReactComponent as Scroll } from '../images/scroll.svg'
+import { FiGithub } from 'react-icons/fi'
+import DownloadIcon from '@mui/icons-material/Download'
 
 const Landing = () => {
   useEffect(() => {
