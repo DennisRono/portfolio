@@ -50,6 +50,41 @@
                         font-size: 2.5rem;
                         font-weight: normal;
                     }
+                    .pouterLinks{
+                        margin-top: 40px;
+                        display: flex;
+                        .git{
+                            margin-right: 15px;
+                            a{
+                                border: 0;
+                                background-color: rgb(0, 0, 0);
+                                padding: 15px 40px;
+                                border-radius: 5px;
+                                position: relative;
+                                color: #fff !important;
+                                text-decoration: none;
+                                .pIcons{
+                                    font-size: 20px;
+                                    margin-bottom: -5px !important;
+                                }
+                            }
+                        }
+                        .dresume{
+                            .dresumeLink{
+                                border: 0;
+                                background-color: rgb(0, 0, 0);
+                                padding: 15px 40px;
+                                border-radius: 5px;
+                                position: relative;
+                                color: #fff !important;
+                                text-decoration: none;
+                                .pIcons{
+                                    font-size: 20px;
+                                    margin-bottom: -5px !important;
+                                }
+                            }
+                        }
+                    }
                 }
                 .limages{
                     width: 50%;

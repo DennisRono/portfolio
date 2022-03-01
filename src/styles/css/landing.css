@@ -138,6 +138,47 @@
   font-weight: normal;
 }
 
+.landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks .git {
+  margin-right: 15px;
+}
+
+.landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks .git a {
+  border: 0;
+  background-color: black;
+  padding: 15px 40px;
+  border-radius: 5px;
+  position: relative;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks .git a .pIcons {
+  font-size: 20px;
+  margin-bottom: -5px !important;
+}
+
+.landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks .dresume .dresumeLink {
+  border: 0;
+  background-color: black;
+  padding: 15px 40px;
+  border-radius: 5px;
+  position: relative;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks .dresume .dresumeLink .pIcons {
+  font-size: 20px;
+  margin-bottom: -5px !important;
+}
+
 .landing .lcontainer .lwrapper .lflex .limages {
   width: 50%;
 }
