@@ -129,11 +129,11 @@
   animation: calltoaction 1s ease-out 0s infinite alternate none running;
   bottom: 0;
   fill: red;
-  font-size: 100px !important;
+  font-size: 10px !important;
   margin-bottom: 10px;
   position: absolute;
   text-align: center !important;
-  width: 90% !important;
+  width: 90%;
   z-index: 10;
 }
 
