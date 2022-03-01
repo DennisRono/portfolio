@@ -137,11 +137,7 @@
   z-index: 10;
 }
 
-.landing .lcontainer .lwrapper .callToActionScroll .thescroll {
-  stroke: red;
-}
-
-.landing .lcontainer .lwrapper .callToActionScroll .thescroll path {
+.landing .lcontainer .lwrapper .callToActionScroll .MuiSvgIcon-root path {
   width: 20px !important;
 }
 
