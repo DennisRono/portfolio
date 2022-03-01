@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/preloader.scss"
+    ],
+    "names": [],
+    "file": "preloader.css"
+}
