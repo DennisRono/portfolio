@@ -3,7 +3,13 @@ import '../styles/css/landing.css'
 
 const Landing = () => {
   return (
-    <div class="landing">Landing</div>
+    <div class="landing">
+      <div className="lcontainer">
+        <div className="lwrapper">
+          <div className="lflex"></div>
+        </div>
+      </div>
+    </div>
   )
 }
 
