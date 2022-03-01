@@ -31,6 +31,11 @@ function App() {
     };
     return ( 
         <div className = "App" data-theme={theme}>
+            {/* preloader */}
+            <div className="preloader">
+                <Preloader />
+            </div>
+            {/* contents */}
             <div className="contents">
                 <div className="themeControls">
                     <Sun className="lightMode" />
