@@ -199,12 +199,14 @@
         .git{
             margin-right: 0px !important;
             a{
-                width: 100%;
+                padding: 15px 35% !important;
             }
         }
         .dresume{
             margin-top: 20px;
-            width: 100%;
+            a{
+                padding: 15px 35% !important;
+            }
         }
     }
 }

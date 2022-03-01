@@ -319,11 +319,13 @@
     margin-right: 0px !important;
   }
   .pouterLinks .git a {
-    width: 100%;
+    padding: 15px 35% !important;
   }
   .pouterLinks .dresume {
     margin-top: 20px;
-    width: 100%;
+  }
+  .pouterLinks .dresume a {
+    padding: 15px 35% !important;
   }
 }
 /*# sourceMappingURL=landing.css.map */
