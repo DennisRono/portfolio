@@ -193,6 +193,9 @@
     }
 }
 @media(max-width: 420px){
+    .lintrotxts{
+        margin-bottom: 60px !important;
+    }
     .pouterLinks{
         display: flex;
         flex-direction: column !important;
@@ -203,7 +206,7 @@
             }
         }
         .dresume{
-            margin-top: 60px;
+            margin-top: 50px;
             a{
                 padding: 15px 33.5% !important;
             }
