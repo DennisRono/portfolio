@@ -117,4 +117,9 @@
             transform: rotate(0deg);
   }
 }
+
+.landing .lcontainer .lwrapper .lflex .ltexts .myname {
+  color: var(--text-primary);
+  margin-top: 20px;
+}
 /*# sourceMappingURL=landing.css.map */
