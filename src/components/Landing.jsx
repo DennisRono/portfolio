@@ -31,7 +31,7 @@ const Landing = () => {
             </div>
             <div className="limages">
               <div className="limageWrapper">
-                <img src={Kibet} alt="" />
+                <img draggable="false" className="denoo" src={Kibet} alt="" />
               </div>
             </div>
           </div>
