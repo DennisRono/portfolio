@@ -22,7 +22,7 @@ function App() {
             document.querySelector(".contents").style.visibility = "hidden";
             document.querySelector(".preloader").style.visibility = "visible";
         } else {
-            document.querySelector(".contents").style.visibility = "hidden";
+            document.querySelector(".contents").style.display = "none";
             setTimeout(() => {
                 document.querySelector(".preloader").style.display = "none";
                 document.querySelector(".contents").style.visibility = "visible";
