@@ -317,9 +317,11 @@
   }
   .pouterLinks .git {
     margin-right: 0px !important;
+    width: 100%;
   }
   .pouterLinks .dresume {
     margin-top: 20px;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=landing.css.map */
