@@ -19,15 +19,11 @@ function App() {
     //page pre loader
     document.onreadystatechange = function() {
         if (document.readyState !== "complete") {
-            document.querySelector(
-              "body").style.visibility = "hidden";
-            document.querySelector(
-              "#loader").style.visibility = "visible";
+            document.querySelector(".contents").style.visibility = "hidden";
+            document.querySelector(".preloader").style.visibility = "visible";
         } else {
-            document.querySelector(
-              "#loader").style.display = "none";
-            document.querySelector(
-              "body").style.visibility = "visible";
+            document.querySelector(".preloader").style.display = "none";
+            document.querySelector(".contents").style.visibility = "visible";
         }
     };
     return ( 
