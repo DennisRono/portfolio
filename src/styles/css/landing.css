@@ -317,6 +317,8 @@
   }
   .pouterLinks .git {
     margin-right: 0px !important;
+  }
+  .pouterLinks .git a {
     width: 100%;
   }
   .pouterLinks .dresume {
