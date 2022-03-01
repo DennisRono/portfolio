@@ -129,7 +129,7 @@
   color: var(--text-primary);
   margin-top: 10px;
   font-size: 2.5rem;
-  font-weight: 1rem !important;
+  font-weight: normal;
 }
 
 .landing .callToActionScroll {
