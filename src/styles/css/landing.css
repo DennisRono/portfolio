@@ -13,11 +13,12 @@
 }
 
 .landing .lcontainer .lwrapper .lflex .ltexts .lcachy {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  color: var(--text-primary);
 }
 
 .landing .lcontainer .lwrapper .lflex .ltexts .lcachy img {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
 }
 /*# sourceMappingURL=landing.css.map */
