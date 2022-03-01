@@ -38,7 +38,7 @@
 }
 
 .landing .lcontainer .lwrapper .lflex .ltexts p .wave {
-  background: url("https://aquaworldcruises.com/wp-content/themes/aqua-world-theme/images/wave.svg") repeat-x;
+  background: url("../../images/wave.png") repeat-x;
   position: absolute;
   bottom: 0px;
   width: 7680px;
