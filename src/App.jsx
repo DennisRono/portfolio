@@ -1,5 +1,6 @@
 import React from 'react'
 import Landing from './components/Landing'
+import Preloader from './components/Preloader'
 import useLocalStorage from 'use-local-storage'
 import CookieConsent from "react-cookie-consent"
 import { ReactComponent as Sun } from './images/sun.svg'
