@@ -135,7 +135,7 @@
   color: var(--text-primary);
   margin-top: 10px;
   font-size: 2.5rem;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 .landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks {
@@ -364,8 +364,7 @@
   .ltexts .lintrotxts {
     color: var(--text-primary);
     margin-top: 10px;
-    font-size: 2.5rem;
-    font-weight: normal;
+    font-size: 1.75rem !important;
   }
   .limages {
     display: none !important;
