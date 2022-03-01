@@ -71,6 +71,7 @@ a {
 //vertical scrollbar
 body::-webkit-scrollbar {
     width: 1em;
+    background-color: rgb(46, 46, 46);
 }
 
 body::-webkit-scrollbar-track {
@@ -79,7 +80,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
     background-color:#201c29;
-    outline: 1px solid slategrey;
+    outline: 1px solid rgb(82, 82, 82);
     border-radius: 30px;
     scrollbar-color: #666 #201c29;
 }

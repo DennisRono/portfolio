@@ -73,6 +73,7 @@ a {
 
 body::-webkit-scrollbar {
   width: 1em;
+  background-color: #2e2e2e;
 }
 
 body::-webkit-scrollbar-track {
@@ -82,7 +83,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: #201c29;
-  outline: 1px solid slategrey;
+  outline: 1px solid #525252;
   border-radius: 30px;
   scrollbar-color: #666 #201c29;
 }
