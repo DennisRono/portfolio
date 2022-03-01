@@ -258,7 +258,7 @@
 @media (max-width: 600px) {
   .ltexts {
     width: 100% !important;
-    font-family: Apercu-Light;
+    font-family: Apercu;
   }
   .ltexts .lcachy {
     margin-top: 50px;
