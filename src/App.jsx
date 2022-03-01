@@ -22,8 +22,10 @@ function App() {
             document.querySelector(".contents").style.visibility = "hidden";
             document.querySelector(".preloader").style.visibility = "visible";
         } else {
-            document.querySelector(".preloader").style.display = "none";
-            document.querySelector(".contents").style.visibility = "visible";
+            setTimeout(() => {
+                document.querySelector(".preloader").style.display = "none";
+                document.querySelector(".contents").style.visibility = "visible";
+            }, 5000);
         }
     };
     return ( 
