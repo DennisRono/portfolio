@@ -7,7 +7,9 @@ const Landing = () => {
       <div className="lcontainer">
         <div className="lwrapper">
           <div className="lflex">
-            <div className="ltexts"></div>
+            <div className="ltexts">
+              <p className="lcachy">Hi 👋</p>
+            </div>
             <div className="limages"></div>
           </div>
         </div>
