@@ -277,6 +277,7 @@
   .ltexts .lintrotxts {
     font-size: 1.75rem !important;
     margin-bottom: 100px;
+    font-weight: lighter;
   }
   .limages {
     display: none !important;
