@@ -164,4 +164,8 @@
     margin-bottom: 5px;
   }
 }
+
+.landing .hidecallToActionScroll {
+  display: none !important;
+}
 /*# sourceMappingURL=landing.css.map */
