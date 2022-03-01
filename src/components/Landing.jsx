@@ -9,9 +9,9 @@ const Landing = () => {
         <div className="lwrapper">
           <div className="lflex">
             <div className="ltexts">
-              <p className="lcachy">Hi, <img src={Wave} alt="👋"/> I am</p>
+              <p className="lcachy">Hi, <img className="wave" src={Wave} alt="👋"/> I am</p>
               <p>
-                
+
               </p>
             </div>
             <div className="limages"></div>
