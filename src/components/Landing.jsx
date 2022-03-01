@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/css/landing.css'
 import Wave from '../images/wave.png'
 import { ReactComponent as Scroll } from '../images/scroll.svg'
 
 const Landing = () => {
+  useEffect(() => {
+      window.addEventListener('scroll', hidecallToActionScroll);
+      return () => {
+          window.removeEventListener('scroll', hidecallToActionScroll);
+      };
+  });
+
+  const hidecallToActionScroll = (e) => {
+      const header = document.querySelector('.callToActionScroll');
+      const scrollTop = window.scrollY;
+      scrollTop >= 70 ? header.classList.add('hidecallToActionScroll') : header.classList.remove('hidecallToActionScroll');
+  };
   return (
     <div className="landing">
       <div className="lcontainer">
