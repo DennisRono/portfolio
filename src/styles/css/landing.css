@@ -1,4 +1,17 @@
 .landing {
   height: 100vh;
 }
+
+.landing .lcontainer {
+  margin: 0 5%;
+}
+
+.landing .lcontainer .lwrapper .lflex .ltexts .lchachy {
+  font-size: 1.5rem;
+}
+
+.landing .lcontainer .lwrapper .lflex .ltexts .lchachy img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
 /*# sourceMappingURL=landing.css.map */

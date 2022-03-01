@@ -1,11 +1,17 @@
 .landing{
     height: 100vh;
     .lcontainer{
+        margin: 0 5%;
         .lwrapper{
             .lflex{
+                display: flex;
                 .ltexts{
                     .lchachy{
                         font-size: 1.5rem;
+                        img{
+                            width: 1.5rem;
+                            height: 1.5rem;
+                        }
                     }
                 }
                 .limages{
