@@ -141,6 +141,10 @@
   stroke: red;
 }
 
+.landing .lcontainer .lwrapper .callToActionScroll .thescroll path {
+  width: 20px !important;
+}
+
 @-webkit-keyframes calltoaction {
   0% {
     color: red;
