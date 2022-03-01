@@ -6,11 +6,17 @@
   margin: 0 5%;
 }
 
-.landing .lcontainer .lwrapper .lflex .ltexts .lchachy {
+.landing .lcontainer .lwrapper .lflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landing .lcontainer .lwrapper .lflex .ltexts .lcachy {
   font-size: 1.5rem;
 }
 
-.landing .lcontainer .lwrapper .lflex .ltexts .lchachy img {
+.landing .lcontainer .lwrapper .lflex .ltexts .lcachy img {
   width: 1.5rem;
   height: 1.5rem;
 }
