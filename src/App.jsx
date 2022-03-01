@@ -15,25 +15,41 @@ function App() {
             setTheme('dark')
         }
     }
+    //page pre loader
+    document.onreadystatechange = function() {
+        if (document.readyState !== "complete") {
+            document.querySelector(
+              "body").style.visibility = "hidden";
+            document.querySelector(
+              "#loader").style.visibility = "visible";
+        } else {
+            document.querySelector(
+              "#loader").style.display = "none";
+            document.querySelector(
+              "body").style.visibility = "visible";
+        }
+    };
     return ( 
         <div className = "App" data-theme={theme}>
-            <div className="themeControls">
-                <Sun className="lightMode" />
-                <div onClick={()=>{toggleTheme('light'); window.scrollTo(0, 0);}} className="themeToggle"><span className="toggleButton"></span></div>
-                <Moon className="darkMode" />
+            <div className="contents">
+                <div className="themeControls">
+                    <Sun className="lightMode" />
+                    <div onClick={()=>{toggleTheme('light'); window.scrollTo(0, 0);}} className="themeToggle"><span className="toggleButton"></span></div>
+                    <Moon className="darkMode" />
+                </div>
+                <CookieConsent
+                disableStyles={true}
+                location="bottom"
+                buttonText="Okay"
+                cookieName="denniskibet"
+                buttonClasses="button"
+                containerClasses="cookieConsent"
+                expires={150}
+                >
+                    <p className="cookieText">We use cookies to improve your browsing experience.</p>
+                </CookieConsent>
+                <Landing />
             </div>
-            <CookieConsent
-            disableStyles={true}
-            location="bottom"
-            buttonText="Okay"
-            cookieName="denniskibet"
-            buttonClasses="button"
-            containerClasses="cookieConsent"
-            expires={150}
-            >
-                <p className="cookieText">We use cookies to improve your browsing experience.</p>
-            </CookieConsent>
-            <Landing />
         </div>
     );
 }
