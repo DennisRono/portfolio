@@ -46,20 +46,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-//vertical scrollbar
-body::-webkit-scrollbar {
-    width: 1em;
-}
-
-body::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: 1px solid slategrey;
-    border-radius: 30px;
-}
 
 :root {
     --background: #fff;
@@ -81,6 +67,20 @@ body::-webkit-scrollbar-thumb {
     --back-related: #98b2dd;
     --toggle-transform: translate(120%);
     transition: 0.5s;
+}
+//vertical scrollbar
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--background);
+    outline: 1px solid slategrey;
+    border-radius: 30px;
 }
 .App{
     background-color: var(--background);

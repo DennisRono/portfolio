@@ -46,21 +46,6 @@ a {
   color: inherit;
 }
 
-body::-webkit-scrollbar {
-  width: 1em;
-}
-
-body::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
-  border-radius: 30px;
-}
-
 :root {
   --background: #fff;
   --text-primary: #444452;
@@ -84,6 +69,21 @@ body::-webkit-scrollbar-thumb {
   --toggle-transform: translate(120%);
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--background);
+  outline: 1px solid slategrey;
+  border-radius: 30px;
 }
 
 .App {
