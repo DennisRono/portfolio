@@ -304,4 +304,22 @@
     display: none !important;
   }
 }
+
+@media (max-width: 420px) {
+  .pouterLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .pouterLinks .git {
+    margin-right: 0px !important;
+  }
+  .pouterLinks .dresume {
+    margin-top: 20px;
+  }
+}
 /*# sourceMappingURL=landing.css.map */

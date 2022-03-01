@@ -192,3 +192,15 @@
         display: none !important;
     }
 }
+@media(max-width: 420px){
+    .pouterLinks{
+        display: flex;
+        flex-direction: column !important;
+        .git{
+            margin-right: 0px !important;
+        }
+        .dresume{
+            margin-top: 20px;
+        }
+    }
+}
