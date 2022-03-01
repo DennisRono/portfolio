@@ -17,6 +17,10 @@
   display: flex;
 }
 
+.landing .lcontainer .lwrapper .lflex .ltexts {
+  width: 50%;
+}
+
 .landing .lcontainer .lwrapper .lflex .ltexts .lcachy {
   font-size: 1.75rem;
   color: var(--text-primary);
@@ -132,7 +136,7 @@
   font-weight: normal;
 }
 
-.landing .lcontainer .lwrapper .lflex .limages .limageWrapper {
+.landing .lcontainer .lwrapper .lflex .limages {
   width: 50%;
 }
 

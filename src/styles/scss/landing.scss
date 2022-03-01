@@ -8,6 +8,7 @@
             .lflex{
                 display: flex;
                 .ltexts{
+                    width: 50%;
                     .lcachy{
                         font-size: 1.75rem;
                         color: var(--text-primary);
@@ -49,8 +50,8 @@
                     }
                 }
                 .limages{
+                    width: 50%;
                     .limageWrapper{
-                        width: 50%;
                         .denoo{
                             width: 70%;
                             height: auto;
