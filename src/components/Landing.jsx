@@ -15,7 +15,7 @@ const Landing = () => {
             </div>
             <div className="limages"></div>
           </div>
-          <span class="callToActionScroll hidecallToActionScroll" style="bottom: 50px;">
+          <span className="callToActionScroll hidecallToActionScroll" style={{ bottom: "50px" }}>
             <callToActionScroll />
           </span>
         </div>
