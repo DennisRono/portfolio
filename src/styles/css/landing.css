@@ -253,15 +253,20 @@
     margin-top: 30px !important;
     padding-left: 70px;
   }
-  .limages .limageWrapper .denoo {
-    width: 100%;
-    height: auto;
-    -webkit-transition: .5s;
-    transition: .5s;
-    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0)));
-    -webkit-mask-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0));
-            mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0)));
-            mask-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0));
+}
+
+@media (max-width: 600px) {
+  .ltexts {
+    width: 100% !important;
+  }
+  .limages {
+    display: none !important;
+    width: 50%;
+  }
+  .limages .limageWrapper {
+    width: 70% !important;
+    margin-top: 30px !important;
+    padding-left: 70px;
   }
 }
 /*# sourceMappingURL=landing.css.map */
