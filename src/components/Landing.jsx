@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/css/landing.css'
 import Wave from '../images/wave.png'
-import { ReactComponent as callToActionScroll } from '../images/scroll.svg'
+import { ReactComponent as Scroll } from '../images/scroll.svg'
 
 const Landing = () => {
   return (
@@ -16,7 +16,7 @@ const Landing = () => {
             <div className="limages"></div>
           </div>
           <span className="callToActionScroll hidecallToActionScroll" style={{ bottom: "50px" }}>
-            <callToActionScroll />
+            <Scroll />
           </span>
         </div>
       </div>
