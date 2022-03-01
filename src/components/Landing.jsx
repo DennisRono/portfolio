@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/css/landing.css'
+import Wave from '../images/wave.png'
 
 const Landing = () => {
   return (
