@@ -25,5 +25,10 @@
   margin-left: 15px;
   width: 1.8rem;
   height: 1.8rem;
+  cursor: pointer;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 /*# sourceMappingURL=landing.css.map */
