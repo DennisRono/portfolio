@@ -1,5 +1,6 @@
 .landing{
     height: 100vh;
+    position: relative;
     .lcontainer{
         margin: 0 5%;
         .lwrapper{
@@ -48,47 +49,35 @@
 
                 }
             }
-            .callToActionScroll{
-                -webkit-animation: calltoaction 1s ease-out 0s infinite alternate none running;
-                animation: calltoaction 1s ease-out 0s infinite alternate none running;
-                bottom: 0;
-                fill: red;
-                font-size: 10px!important;
-                margin-bottom: 10px;
-                position: absolute;
-                text-align: center!important;
-                width: 90%;
-                z-index: 10;
-                .MuiSvgIcon-root{
-                    path{
-                        width: 20px !important;
-                    }
-                }
+        }
+    }
+    .callToActionScroll{
+        -webkit-animation: calltoaction 1s ease-out 0s infinite alternate none running;
+        animation: calltoaction 1s ease-out 0s infinite alternate none running;
+        fill: red;
+        font-size: 10px!important;
+        margin: 0 5%;
+        margin-bottom: 10px;
+        position: absolute;
+        bottom: 0;
+        text-align: center!important;
+        width: 90%;
+        z-index: 10;
+        .MuiSvgIcon-root{
+            path{
+                width: 20px !important;
             }
+        }
+    }
+    @keyframes calltoaction {
+        0% {
+            fill: red;
+            margin-bottom: 20px;
+        }
 
-            @-webkit-keyframes calltoaction {
-                0% {
-                    color: red;
-                    margin-bottom: 20px
-                }
-
-                to {
-                    color: #ff0!important;
-                    margin-bottom: 5px
-                }
-            }
-
-            @keyframes calltoaction {
-                0% {
-                    color: red;
-                    margin-bottom: 20px
-                }
-
-                to {
-                    color: #ff0!important;
-                    margin-bottom: 5px
-                }
-            }
+        to {
+            fill: #ff0;
+            margin-bottom: 5px;
         }
     }
 }

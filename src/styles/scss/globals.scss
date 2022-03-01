@@ -55,6 +55,7 @@ a {
     --background: #dee0ff;
     --text-primary: black;
     --back-related: #98b2dd;
+    --toggle-transform: translate(0);
     transition: 0.5s;
 }
 
@@ -62,6 +63,7 @@ a {
     --background: #171c28;
     --text-primary: rgb(230, 230, 230);
     --back-related: #98b2dd;
+    --toggle-transform: translate(120%);
     transition: 0.5s;
 }
 .App{
@@ -74,6 +76,7 @@ a {
 }
 .themeControls{
     position: absolute;
+    z-index: 999;
     top: 0;
     right: 0;
     margin-top: 30px;
@@ -97,7 +100,7 @@ a {
             position: absolute;
             top: 0;
             left: 0;
-            // transform: translateX(100%);
+            transform: var(--toggle-transform);
             transition: all 0.2s ease-in-out 0s;
         }
     }

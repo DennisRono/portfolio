@@ -5,7 +5,7 @@ import { ReactComponent as Scroll } from '../images/scroll.svg'
 
 const Landing = () => {
   return (
-    <div class="landing">
+    <div className="landing">
       <div className="lcontainer">
         <div className="lwrapper">
           <div className="lflex">
@@ -15,11 +15,11 @@ const Landing = () => {
             </div>
             <div className="limages"></div>
           </div>
-          <span className="callToActionScroll hidecallToActionScroll" style={{ bottom: "50px" }}>
-            <Scroll className="thescroll" />
-          </span>
         </div>
       </div>
+      <span className="callToActionScroll hidecallToActionScroll" style={{ paddingBottom: "15px"}}>
+        <Scroll className="thescroll" />
+      </span>
     </div>
   )
 }

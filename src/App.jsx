@@ -8,30 +8,19 @@ import { ReactComponent as Moon } from './images/moon.svg'
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
-
-    const switchTheme = (theme) => {
-        setTheme(theme)
-        if(theme === 'dark'){
-            document.querySelector('.toggleButton').style.transform="translateX(120%)";
-        } else {
-            document.querySelector('.toggleButton').style.transform="translateX(0)";
-        }
-    }
     const toggleTheme = () => {
         if(theme === 'dark'){
-            setTheme('white')
-            document.querySelector('.toggleButton').style.transform="translateX(120%)";
-        } else {
+            setTheme('light')
+        } else if(theme === 'light') {
             setTheme('dark')
-            document.querySelector('.toggleButton').style.transform="translateX(0)";
         }
     }
     return ( 
         <div className = "App" data-theme={theme}>
             <div className="themeControls">
-                <Sun onClick={()=>{switchTheme('light'); window.scrollTo(0, 0);}} className="lightMode" />
+                <Sun className="lightMode" />
                 <div onClick={()=>{toggleTheme('light'); window.scrollTo(0, 0);}} className="themeToggle"><span className="toggleButton"></span></div>
-                <Moon onClick={()=>{switchTheme('dark'); window.scrollTo(0, 0);}} className="darkMode" />
+                <Moon className="darkMode" />
             </div>
             <CookieConsent
             disableStyles={true}

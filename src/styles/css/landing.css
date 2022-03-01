@@ -1,5 +1,6 @@
 .landing {
   height: 100vh;
+  position: relative;
 }
 
 .landing .lcontainer {
@@ -124,41 +125,42 @@
   font-size: 50px;
 }
 
-.landing .lcontainer .lwrapper .callToActionScroll {
+.landing .callToActionScroll {
   -webkit-animation: calltoaction 1s ease-out 0s infinite alternate none running;
   animation: calltoaction 1s ease-out 0s infinite alternate none running;
-  bottom: 0;
   fill: red;
   font-size: 10px !important;
+  margin: 0 5%;
   margin-bottom: 10px;
   position: absolute;
+  bottom: 0;
   text-align: center !important;
   width: 90%;
   z-index: 10;
 }
 
-.landing .lcontainer .lwrapper .callToActionScroll .MuiSvgIcon-root path {
+.landing .callToActionScroll .MuiSvgIcon-root path {
   width: 20px !important;
 }
 
 @-webkit-keyframes calltoaction {
   0% {
-    color: red;
+    fill: red;
     margin-bottom: 20px;
   }
   to {
-    color: #ff0 !important;
+    fill: #ff0;
     margin-bottom: 5px;
   }
 }
 
 @keyframes calltoaction {
   0% {
-    color: red;
+    fill: red;
     margin-bottom: 20px;
   }
   to {
-    color: #ff0 !important;
+    fill: #ff0;
     margin-bottom: 5px;
   }
 }
