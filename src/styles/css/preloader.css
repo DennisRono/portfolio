@@ -1,1 +1,171 @@
-/* No CSS *//*# sourceMappingURL=preloader.css.map */
+.thepreloader {
+  padding: 0;
+  margin: 0;
+  width: 100% !important;
+  height: 100vh;
+  border-style: border-box;
+  overflow-x: hidden;
+  background-color: #09090c;
+}
+
+#introplayer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#innerfill {
+  -webkit-animation: filler 0.5s ease forwards 3.6s;
+          animation: filler 0.5s ease forwards 3.6s;
+}
+
+#introplayer path:nth-child(2) {
+  stroke-dasharray: 582;
+  stroke-dashoffset: 582;
+  -webkit-animation: line-anim 2s ease forwards 0.3s;
+          animation: line-anim 2s ease forwards 0.3s;
+}
+
+#introplayer path:nth-child(3) {
+  stroke-dasharray: 392;
+  stroke-dashoffset: 392;
+  -webkit-animation: line-anim 2s ease forwards 0.6s;
+          animation: line-anim 2s ease forwards 0.6s;
+}
+
+#introplayer path:nth-child(4) {
+  stroke-dasharray: 379;
+  stroke-dashoffset: 379;
+  -webkit-animation: line-anim 2s ease forwards 0.9s;
+          animation: line-anim 2s ease forwards 0.9s;
+}
+
+#introplayer path:nth-child(5) {
+  stroke-dasharray: 376;
+  stroke-dashoffset: 376;
+  -webkit-animation: line-anim 2s ease forwards 1.2s;
+          animation: line-anim 2s ease forwards 1.2s;
+}
+
+#introplayer path:nth-child(6) {
+  stroke-dasharray: 224;
+  stroke-dashoffset: 224;
+  -webkit-animation: line-anim 2s ease forwards 1.5s;
+          animation: line-anim 2s ease forwards 1.5s;
+}
+
+#introplayer path:nth-child(7) {
+  stroke-dasharray: 311;
+  stroke-dashoffset: 311;
+  -webkit-animation: line-anim 2s ease forwards 1.8s;
+          animation: line-anim 2s ease forwards 1.8s;
+}
+
+#introplayer path:nth-child(8) {
+  stroke-dasharray: 532;
+  stroke-dashoffset: 532;
+  -webkit-animation: line-anim 2s ease forwards 2.1s;
+          animation: line-anim 2s ease forwards 2.1s;
+}
+
+#introplayer path:nth-child(9) {
+  stroke-dasharray: 224;
+  stroke-dashoffset: 224;
+  -webkit-animation: line-anim 2s ease forwards 2.4s;
+          animation: line-anim 2s ease forwards 2.4s;
+}
+
+#introplayer path:nth-child(10) {
+  stroke-dasharray: 492;
+  stroke-dashoffset: 492;
+  -webkit-animation: line-anim 2s ease forwards 2.7s;
+          animation: line-anim 2s ease forwards 2.7s;
+}
+
+#introplayer path:nth-child(11) {
+  stroke-dasharray: 391;
+  stroke-dashoffset: 391;
+  -webkit-animation: line-anim 2s ease forwards 3.0s;
+          animation: line-anim 2s ease forwards 3.0s;
+}
+
+#introplayer path:nth-child(12) {
+  stroke-dasharray: 288;
+  stroke-dashoffset: 288;
+  -webkit-animation: line-anim 2s ease forwards 3.3s;
+          animation: line-anim 2s ease forwards 3.3s;
+}
+
+@-webkit-keyframes line-anim {
+  from {
+    stroke: transparent;
+  }
+  to {
+    stroke-dashoffset: 0;
+    stroke: white;
+  }
+}
+
+@keyframes line-anim {
+  from {
+    stroke: transparent;
+  }
+  to {
+    stroke-dashoffset: 0;
+    stroke: white;
+  }
+}
+
+@-webkit-keyframes filler {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white !important;
+  }
+}
+
+@keyframes filler {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white !important;
+  }
+}
+
+.informatics {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.informatics a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.informatics p {
+  font-size: 1.3rem !important;
+  line-height: 2.4rem !important;
+  font-family: "canada-type-gibson", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.logoimage {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=preloader.css.map */

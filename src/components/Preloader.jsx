@@ -3,7 +3,7 @@ import '../styles/css/preloader.css'
 
 const Preloader = () => {
   return (
-    <div>
+    <div className="thepreloader">
       <svg id="introplayer" width="780" height="122" viewBox="0 0 780 122" fill="white" xmlns="http://www.w3.org/2000/svg">
         <mask id="path-1-outside-1_3_2" maskUnits="userSpaceOnUse" x="0.368011" y="0.272003" width="780" height="122" fill="black">
             <rect id="innerfill" x="0.368011" y="0.272003" width="780" height="122"/>
