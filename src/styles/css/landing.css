@@ -137,6 +137,14 @@
   font-size: 2.5rem;
 }
 
+.landing .lcontainer .lwrapper .lflex .ltexts .lintrotxts::-moz-selection {
+  background: #ffdc00;
+}
+
+.landing .lcontainer .lwrapper .lflex .ltexts .lintrotxts::selection {
+  background: #ffdc00;
+}
+
 .landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks {
   margin-top: 40px;
   display: -webkit-box;
