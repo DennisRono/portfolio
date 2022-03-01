@@ -79,10 +79,9 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color:#201c29;
+    background-color:#666;
     outline: 1px solid rgb(82, 82, 82);
     border-radius: 30px;
-    scrollbar-color: #666 #201c29;
 }
 .App{
     background-color: var(--background);
