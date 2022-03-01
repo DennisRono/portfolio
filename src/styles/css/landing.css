@@ -243,4 +243,25 @@
 .landing .hidecallToActionScroll {
   display: none !important;
 }
+
+@media (max-width: 1000px) {
+  .limages {
+    width: 50%;
+  }
+  .limages .limageWrapper {
+    width: 60%;
+    margin-top: 0px;
+    padding-left: 70px;
+  }
+  .limages .limageWrapper .denoo {
+    width: 100%;
+    height: auto;
+    -webkit-transition: .5s;
+    transition: .5s;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0)));
+    -webkit-mask-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0));
+            mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0)));
+            mask-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0));
+  }
+}
 /*# sourceMappingURL=landing.css.map */
