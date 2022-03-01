@@ -249,8 +249,8 @@
     width: 50%;
   }
   .limages .limageWrapper {
-    width: 60%;
-    margin-top: 20px;
+    width: 70% !important;
+    margin-top: 40px !important;
     padding-left: 70px;
   }
   .limages .limageWrapper .denoo {
