@@ -141,8 +141,9 @@
 }
 
 .landing .lcontainer .lwrapper .lflex .limages .limageWrapper {
-  width: 70%;
-  margin-top: -100px;
+  width: 60%;
+  margin-top: -80px;
+  padding-left: 70px;
 }
 
 .landing .lcontainer .lwrapper .lflex .limages .limageWrapper .denoo {
