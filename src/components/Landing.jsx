@@ -6,7 +6,10 @@ const Landing = () => {
     <div class="landing">
       <div className="lcontainer">
         <div className="lwrapper">
-          <div className="lflex"></div>
+          <div className="lflex">
+            <div className="ltexts"></div>
+            <div className="limages"></div>
+          </div>
         </div>
       </div>
     </div>
