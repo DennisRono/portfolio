@@ -52,7 +52,7 @@
                 -webkit-animation: calltoaction 1s ease-out 0s infinite alternate none running;
                 animation: calltoaction 1s ease-out 0s infinite alternate none running;
                 bottom: 0;
-                color: red;
+                fill: red;
                 font-size: 100px!important;
                 margin-bottom: 10px;
                 position: absolute;
@@ -60,7 +60,7 @@
                 width: 90%!important;
                 z-index: 10;
                 .thescroll{
-                    color: red;
+                    stroke: red;
                 }
             }
 
