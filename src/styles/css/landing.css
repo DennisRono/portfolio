@@ -128,7 +128,8 @@
 .landing .lcontainer .lwrapper .lflex .ltexts .lintrotxts {
   color: var(--text-primary);
   margin-top: 10px;
-  font-size: 2.2rem;
+  font-size: 2.1rem;
+  font-weight: 100;
 }
 
 .landing .callToActionScroll {
