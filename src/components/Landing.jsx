@@ -10,6 +10,11 @@ const Landing = () => {
           <div className="lflex">
             <div className="ltexts">
               <p className="lcachy">Hi, <img src={Wave} alt="👋"/> I am</p>
+              <p>
+                <div className="ocean">
+                      <div className="wave"></div>
+                </div>
+              </p>
             </div>
             <div className="limages"></div>
           </div>
