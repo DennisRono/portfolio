@@ -28,6 +28,14 @@ const Landing = () => {
               <h2 className="lintrotxts">
                 a graphics designer and software engineer focused on creating impressive interfaces & experiences 
               </h2>
+              <div className="pouterLinks">
+                  <div className="git">
+                      <a className="draw" target="blank" href="https://github.com/DennisRono/"><FiGithub className="pIcons" /><span className="talign">&nbsp;&nbsp;Github</span></a>
+                  </div>
+                  <div className="dresume">
+                      <a className="dresumeLink" href="https://denniskibet.com/docs/resume.pdf" download><DownloadIcon className="pIcons"  /><span className="talign">&nbsp;&nbsp;Resume</span></a>
+                  </div>
+              </div>
             </div>
             <div className="limages">
               <div className="limageWrapper">
