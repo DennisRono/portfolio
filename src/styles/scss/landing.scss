@@ -151,28 +151,38 @@
         }
     }
 }
+@media(max-width: 768px){
+    .ltexts{
+        width: 100% !important;
+        .lcachy{
+            margin-top: 50px;
+            font-size: 1.5rem;
+        }
+        .myname{
+            margin-top: 40px !important;
+            font-size: 50px;
+        }
+        .lintrotxts{
+            font-size: 1.75rem !important;
+            margin-bottom: 100px;
+        }
+    }
+    .limages{
+        display: none !important;
+    }
+}
 @media(max-width: 600px){
     .ltexts{
         width: 100% !important;
         .lcachy{
             margin-top: 50px;
             font-size: 1.5rem;
-            color: var(--text-primary);
-            img{
-                margin: 0 15px;
-                width: 1.8rem;
-                height: 1.8rem;
-                cursor: pointer;
-            }
         }
         .myname{
-            color: var(--text-primary);
             margin-top: 40px !important;
             font-size: 50px;
         }
         .lintrotxts{
-            color: var(--text-primary);
-            margin-top: 10px;
             font-size: 1.75rem !important;
             margin-bottom: 100px;
         }
