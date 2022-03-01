@@ -19,10 +19,8 @@ function App() {
     //page pre loader
     document.onreadystatechange = function() {
         if (document.readyState !== "complete") {
-            setTimeout(() => {
-                document.querySelector(".contents").style.visibility = "hidden";
-                document.querySelector(".preloader").style.visibility = "visible";
-            }, 5000);
+            document.querySelector(".contents").style.visibility = "hidden";
+            document.querySelector(".preloader").style.visibility = "visible";
         } else {
             document.querySelector(".preloader").style.display = "none";
             document.querySelector(".contents").style.visibility = "visible";
