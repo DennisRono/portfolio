@@ -11,12 +11,8 @@ const Skills = () => {
     const randColor = () =>  {
         return "#" + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0').toUpperCase();
     }
-    const SuperStrong = async () => {
-        await setTimeout(() => {
-            return play();
-        }, 7000);
-    }
-    const play = () => {
+
+    const SuperStrong = () => {
         return (
             <div style={{ fontSize: "19px" }} className="playdivarea">
                 <span style={{ color: randColor() }}>{playcode[0]}</span><br/>
@@ -51,7 +47,7 @@ const Skills = () => {
                                     <div className="pb-mobi" style={{width: "100%", paddingBottom: "95.7916%"}}></div>
                                     <div className="codeplay-area">
                                             <TypeIt>
-                                                <SuperStrong>Super strong text.</SuperStrong>
+                                                <SuperStrong delay="900" >Super strong text.</SuperStrong>
                                             </TypeIt>
                                     </div>
                                 </div>
