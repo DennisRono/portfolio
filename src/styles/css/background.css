@@ -81,10 +81,10 @@
   content: "";
   display: block;
   height: 1px;
-  margin-bottom: 0px;
+  margin-bottom: -20px;
   margin-left: 20px;
   position: relative;
-  top: 0;
+  bottom: -15px;
   width: 300px;
 }
 
