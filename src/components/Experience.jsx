@@ -9,6 +9,9 @@ const Experience = () => {
                 <div className="eflex">
                     <div className="eTexts">
                         <h2 className="eTitle"><span className="eCounter">3. </span> &nbsp;&nbsp; Experience</h2>
+                        <div className="experiences">
+                            
+                        </div>
                     </div>
                 </div>
             </div>
