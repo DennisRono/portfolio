@@ -3,7 +3,9 @@ import '../styles/css/background.css'
 
 const background = () => {
   return (
-    <div>background</div>
+    <div className="background">
+        
+    </div>
   )
 }
 
