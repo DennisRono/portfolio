@@ -18,7 +18,9 @@ const background = () => {
                     <div className="bTexts">
                         <h2 className="btTitle"><span className="secCounter">1.</span> Background <span className="line"></span></h2>
                         <p className="backtexts">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ullam inventore quasi ex eius eaque cupiditate expedita velit officia ut, ab quo quibusdam eum esse ad dolores molestiae vitae tenetur, facilis voluptas magni nihil modi exercitationem. Consectetur reprehenderit soluta, tenetur dolorum officiis velit quis laboriosam magnam pariatur laudantium, mollitia atque?
+                        Hello, I am Dennis. I am currently a student at Machackos University Kenya. I love building things for the internet. My native home place is Kericho Kenya. My intrest in computers started back when I was in High School when I did a science fair project on web develpment. As simple as the project was it taught me alot on how the internet works and moreover gave me a little Experience on HTML & CSS.
+                        <br /><br />
+                        currently i focus on finding reliable solutions for software issues. I am fluent in English and accustomed to working with cross-cultural, global terms.
                         </p>
                     </div>
                 </div>
