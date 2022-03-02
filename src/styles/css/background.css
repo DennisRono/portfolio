@@ -87,6 +87,7 @@
 
 .background .bwrapper .bcontainer .bflex .bTexts .btTitle .secCounter {
   color: aqua;
+  font-size: 17px;
 }
 
 .background .bwrapper .bcontainer .bflex .bTexts .btTitle::after {
