@@ -135,7 +135,7 @@ a {
 //vertical scrollbar
 body::-webkit-scrollbar {
     width: 1em;
-    background-color: var(--background);
+    background-color: #171c28;
 }
 @media(max-width: 600px){
     *{
@@ -143,14 +143,13 @@ body::-webkit-scrollbar {
     }
     body::-webkit-scrollbar {
         width: 10px;
-        background-color: rgb(46, 46, 46);
         scrollbar-color: transparent transparent;
     }
 }
 
-body::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
+// body::-webkit-scrollbar-track {
+//     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+// }
 
 body::-webkit-scrollbar-thumb {
     width: 10px;
