@@ -58,12 +58,13 @@ const Skills = () => {
                                 <li>Next.js</li>
                                 <li>Vue.js</li>                                
                                 <li>Django</li>                               
+                                <li>Jekyll</li>                               
                             </ul>
                             <ul>
                                 <h2>Design</h2>
                                 <li>Adobe XD</li>
                                 <li>Figma</li>
-                                <li>Adobe illustrator</li>                                
+                                <li>Sketch</li>                                
                                 <li>Webflow</li>                              
                             </ul>
                         </nav>
