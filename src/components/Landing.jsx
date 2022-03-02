@@ -8,6 +8,7 @@ import DownloadIcon from '@mui/icons-material/Download'
 
 const Landing = () => {
   useEffect(() => {
+      console.log("running");
       window.addEventListener('scroll', hidecallToActionScroll);
       return () => {
           window.removeEventListener('scroll', hidecallToActionScroll);
@@ -15,9 +16,10 @@ const Landing = () => {
   });
 
   const hidecallToActionScroll = (e) => {
-      const header = document.querySelector('.callToActionScroll');
+      const act = document.querySelector('.callToActionScroll');
       const scrollTop = window.scrollY;
-      scrollTop >= 200 ? header.classList.add('hidecallToActionScroll') : header.classList.remove('hidecallToActionScroll');
+      console.log(scrollTop);
+      scrollTop >= 70 ? act.classList.add('hidecallToActionScroll') : act.classList.remove('hidecallToActionScroll');
   };
   return (
     <div className="landing">
@@ -47,7 +49,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <span className="callToActionScroll hidecallToActionScroll" style={{ paddingBottom: "15px"}}>
+      <span className="callToActionScroll" style={{ paddingBottom: "15px"}}>
         <Scroll className="thescroll" />
       </span>
       <div style={{ height: "700vh" }}></div>
