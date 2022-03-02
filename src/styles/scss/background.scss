@@ -53,9 +53,7 @@
                     }
                 }
                 .bTexts{
-                    position: relative;
                     .btTitle{
-                        position: relative;
                         color: var(--text-primary);
                         white-space: nowrap;
                         margin-bottom: 20px;
@@ -72,7 +70,6 @@
                         margin-left: 20px;
                         position: relative;
                         top: -5px;
-                        right: 0;
                         width: 300px;
                     }
                     .backtexts{
