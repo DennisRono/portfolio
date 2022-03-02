@@ -149,6 +149,12 @@ body::-webkit-scrollbar {
   }
 }
 
+body::-webkit-scrollbar-thumb {
+  background-color: #666;
+  outline: 1px solid #525252;
+  border-radius: 30px;
+}
+
 .App {
   background-color: var(--background);
   -webkit-transition: all 0.2s ease-in-out 0s;
