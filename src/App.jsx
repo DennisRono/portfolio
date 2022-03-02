@@ -5,6 +5,7 @@ import useLocalStorage from 'use-local-storage'
 import CookieConsent from "react-cookie-consent"
 import { ReactComponent as Sun } from './images/sun.svg'
 import { ReactComponent as Moon } from './images/moon.svg'
+import Background from './components/Background'
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -55,6 +56,7 @@ function App() {
                     <p className="cookieText">We use cookies to improve your browsing experience.</p>
                 </CookieConsent>
                 <Landing />
+                <Background />
             </div>
         </div>
     );
