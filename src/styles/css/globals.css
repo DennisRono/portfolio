@@ -147,6 +147,7 @@ body::-webkit-scrollbar {
   body::-webkit-scrollbar {
     width: 1em;
     background-color: #2e2e2e;
+    scrollbar-color: transparent transparent;
   }
 }
 
