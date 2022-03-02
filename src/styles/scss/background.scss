@@ -63,7 +63,11 @@
                         white-space: nowrap;
                         display: flex;
                         margin-bottom: 20px;
+                        position: relative;
                         .secCounter{
+                            position: absolute;
+                            bottom: 0;
+                            padding-bottom: 2px;
                             color: aqua;
                             font-size: 17px;
                         }

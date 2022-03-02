@@ -83,9 +83,13 @@
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .background .bwrapper .bcontainer .bflex .bTexts .btTitle .secCounter {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 2px;
   color: aqua;
   font-size: 17px;
 }
