@@ -8,6 +8,15 @@
                 width: 100%;
                 .sTexts{
                     width: 50%;
+                    .sTitle{
+                        color: var(--text-primary);
+                        .sCounter{
+
+                        }
+                    }
+                    .skillsTexts{
+                        color: var(--text-primary);
+                    }
                 }
                 .sImages{
                     width: 50%;

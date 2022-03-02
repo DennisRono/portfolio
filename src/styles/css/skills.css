@@ -17,6 +17,14 @@
   width: 50%;
 }
 
+.skills .swrapper .scontainer .sflex .sTexts .sTitle {
+  color: var(--text-primary);
+}
+
+.skills .swrapper .scontainer .sflex .sTexts .skillsTexts {
+  color: var(--text-primary);
+}
+
 .skills .swrapper .scontainer .sflex .sImages {
   width: 50%;
 }
