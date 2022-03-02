@@ -4,6 +4,53 @@
         .bcontainer{
             .bflex{
                 display: flex;
+                .dennisImage{
+                    .img-blk-wrapper{
+                        width: 270px;
+                        height: 270px;
+                        margin-right: 40px;
+                        padding: 18px;
+                        .img-blk{
+                            position: relative;
+                            width: 100%;
+                            height: 100%;
+                            background: linear-gradient(132deg,#ecc2e5,#edc4e6);
+                            img{
+                                margin: 0 auto;
+                                margin-left: 40px;
+                                margin-bottom: 40px;
+                                border-radius: 0;
+                                width: auto;
+                                max-width: 85%;
+                                height: auto;
+                                position: absolute;
+                                bottom: 0;
+                                object-fit: cover;
+                                z-index: 2;
+                            }
+                        }
+                        .img-blk::before{
+                            content: "";
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            left: -18px;
+                            top: -18px;
+                            background: #ffe0f9;
+                            z-index: -1;
+                        }
+                        .img-blk::after{
+                            content: "";
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            right: -18px;
+                            bottom: -18px;
+                            background: #ffe0f9;
+                            z-index: 1;
+                        }
+                    }
+                }
             }
         }
     }
