@@ -30,7 +30,7 @@ const Landing = () => {
               <p className="lcachy">Hi, <img className="wave" src={Wave} alt="👋"/> I am</p>
               <h1 className="myname">Dennis Kibet</h1>
               <h2 className="lintrotxts">
-                a graphics designer and software engineer focused on creating impressive interfaces & experiences 
+                a software developer focused on building immersive and beautiful web applications, with great functionality through carefully crafted code and user-centric design. 
               </h2>
               <div className="pouterLinks">
                   <div className="git">
