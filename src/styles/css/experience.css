@@ -10,6 +10,8 @@
   position: relative;
   text-align: center;
   color: var(--text-primary);
+  letter-spacing: 1.5px;
+  font-weight: 400;
 }
 
 .experience .ewrapper .econtainer .eflex .eTexts .eTitle .eCounter {
