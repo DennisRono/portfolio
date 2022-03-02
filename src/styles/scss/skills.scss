@@ -10,9 +10,29 @@
                     width: 50%;
                     .sTitle{
                         color: var(--text-primary);
+                        white-space: nowrap;
+                        display: flex;
+                        margin-bottom: 20px;
+                        position: relative;
                         .sCounter{
-
+                            position: absolute;
+                            bottom: 0;
+                            padding-bottom: 2px;
+                            padding-right: 20px;
+                            color: aqua;
+                            font-size: 17px;
                         }
+                    }
+                    .sTitle::after{
+                        background-color: var(--text-primary);
+                        content: "";
+                        display: block;
+                        height: 1px;
+                        margin-bottom: -20px;
+                        margin-left: 20px;
+                        position: relative;
+                        bottom: -20px;
+                        width: 50%;
                     }
                     .skillsTexts{
                         color: var(--text-primary);
