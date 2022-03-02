@@ -20,4 +20,121 @@
 .skills .swrapper .scontainer .sflex .sImages {
   width: 50%;
 }
+
+.skills .swrapper .scontainer .sflex .sImages .codeplay {
+  -webkit-transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+          transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+  width: 50%;
+  height: 500px;
+  margin-top: 50px;
+  background-color: transparent;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition-duration: .10s;
+          transition-duration: .10s;
+  margin-left: 40px;
+}
+
+.skills .swrapper .scontainer .sflex .sImages .codeplay .top-left-bg {
+  width: calc(100% - 80px);
+  height: calc(100% - 80px);
+  position: absolute;
+  background: #fff2d9 none repeat scroll 0% 0%;
+  top: 0px;
+  left: 0px;
+  z-index: -2;
+}
+
+.skills .swrapper .scontainer .sflex .sImages .codeplay .top-right-bg {
+  width: calc(100% - 80px);
+  height: calc(100% - 80px);
+  position: absolute;
+  background: #fff2d9 none repeat scroll 0% 0%;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.skills .swrapper .scontainer .sflex .sImages .codeplay .img-center-block {
+  width: calc(100% - 80px);
+  height: calc(100% - 80px);
+  background: rgba(0, 0, 0, 0) linear-gradient(312deg, #ffe3a9, #ffe5ae) repeat scroll 0% 0%;
+  position: relative;
+}
+
+.skills .swrapper .scontainer .sflex .sImages .codeplay .img-center-block .img-wrapper {
+  position: absolute !important;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: block;
+  overflow: hidden;
+  max-width: 499px;
+  margin: 0px auto;
+}
+
+.skills .swrapper .scontainer .sflex .sImages .codeplay .img-center-block .img-wrapper .codeplay-area {
+  background-color: #0b183a;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 86%;
+  height: 86%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  opacity: 1;
+  padding: 20px;
+  padding-top: 10px;
+  -webkit-transition: opacity 500ms ease 0s;
+  transition: opacity 500ms ease 0s;
+}
+
+.skills .swrapper .scontainer .sflex .sImages .codeplay .img-center-block .img-wrapper .codeplay-area .var-highlight {
+  color: #ff2969;
+}
+
+.skills .swrapper .scontainer .sflex .sImages .codeplay .img-center-block .img-wrapper .codeplay-area .string-highlight {
+  color: rgba(255, 238, 0, 0.8);
+}
+
+.skills .swrapper .scontainer .sflex .sImages .codeplay .img-center-block .img-wrapper .codeplay-area #typewriter {
+  font-size: 1.0em;
+  margin: 0;
+  font-family: "Courier New";
+  color: #fff;
+}
+
+.skills .swrapper .scontainer .sflex .sImages .codeplay .img-center-block .img-wrapper .codeplay-area #typewriter:after {
+  content: "|";
+  -webkit-animation: blink 500ms linear infinite alternate;
+  animation: blink 500ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=skills.css.map */

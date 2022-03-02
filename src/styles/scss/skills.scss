@@ -11,6 +11,106 @@
                 }
                 .sImages{
                     width: 50%;
+                    .codeplay{
+                        transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+                        width: 50%;
+                        height: 500px;
+                        margin-top: 50px;
+                        background-color: transparent;
+                        position: relative;
+                        display: flex;
+                        -moz-box-align: center;
+                        align-items: center;
+                        -moz-box-pack: center;
+                        justify-content: center;
+                        transition-duration: .10s;
+                        margin-left: 40px;
+                        .top-left-bg{
+                            width: calc(100% - 80px);
+                            height: calc(100% - 80px);
+                            position: absolute;
+                            background: rgb(255, 242, 217) none repeat scroll 0% 0%;
+                            top: 0px;
+                            left: 0px;
+                            z-index: -2;
+                        }
+                        .top-right-bg{
+                            width: calc(100% - 80px);
+                            height: calc(100% - 80px);
+                            position: absolute;
+                            background: rgb(255, 242, 217) none repeat scroll 0% 0%;
+                            bottom: 0px;
+                            right: 0px;
+                            z-index: -1;
+                        }
+                        .img-center-block{
+                            width: calc(100% - 80px);
+                            height: calc(100% - 80px);
+                            background: rgba(0, 0, 0, 0) linear-gradient(312deg, rgb(255, 227, 169), rgb(255, 229, 174)) repeat scroll 0% 0%;
+                            position: relative;
+                            .img-wrapper{
+                                position: absolute !important;
+                                bottom: 0px;
+                                left: 0px;
+                                right: 0px;
+                                display: block;
+                                overflow: hidden;
+                                max-width: 499px;
+                                margin: 0px auto;
+                                .codeplay-area{
+                                    background-color: rgb(11, 24, 58);
+                                    //background-color: #fff;
+                                    position: absolute;
+                                    top: 10px;
+                                    left: 10px;
+                                    width: 86%;
+                                    height: 86%;
+                                    object-fit: cover;
+                                    object-position: center center;
+                                    opacity: 1;
+                                    padding: 20px;
+                                    padding-top: 10px;
+                                    transition: opacity 500ms ease 0s;
+                                    .var-highlight {
+                                        color: #ff2969;
+                                      }
+                                      
+                                      .string-highlight {
+                                        color: rgba(255, 238, 0, 0.8);
+                                      }
+                                      
+                                      #typewriter {
+                                        font-size: 1.0em;
+                                        margin: 0;
+                                        font-family: "Courier New";
+                                        color: #fff;
+                                      }
+                                      #typewriter:after {
+                                        content: "|";
+                                        -webkit-animation: blink 500ms linear infinite alternate;
+                                                animation: blink 500ms linear infinite alternate;
+                                      }
+                                      
+                                      @-webkit-keyframes blink {
+                                        0% {
+                                          opacity: 0;
+                                        }
+                                        100% {
+                                          opacity: 1;
+                                        }
+                                      }
+                                      @keyframes blink {
+                                        0% {
+                                          opacity: 0;
+                                        }
+                                        100% {
+                                          opacity: 1;
+                                        }
+                                      }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
