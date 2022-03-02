@@ -37,7 +37,12 @@ const Skills = () => {
         <div className="swrapper">
             <div className="scontainer">
                 <div className="sflex">
-                    <div className="sTexts"></div>
+                    <div className="sTexts">
+                        <h2 className="sTitle"><span className="sCounter">2.</span>&nbsp;&nbsp;Technologies I use</h2>
+                        <p className="skillsTexts">
+                            Here are a few technologies I've been working with recently:
+                        </p>
+                    </div>
                     <div className="sImages">
                         <div className="codeplay" data-aos="flip-right">
                             <div className="top-left-bg"></div>
