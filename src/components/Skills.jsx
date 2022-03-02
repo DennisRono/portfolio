@@ -44,15 +44,26 @@ const Skills = () => {
                         </p>
                         <nav className="snav">
                             <ul>
+                                <li>Languages</li>
                                 <li>php</li>
                                 <li>Node.js</li>
                                 <li>Java</li>
                                 <li>HTML & CSS</li>
+                                <li>visual Basic</li>
+                                <li>Javascript (ES6+)</li>
                             </ul>
                             <ul>
-                                <li>C</li>
+                                <li>Frameworks & Libaries</li>
                                 <li>React.js</li>
-                                <li>Python</li>
+                                <li>Next.js</li>
+                                <li>Vue.js</li>                                
+                                <li>Javascript (ES6+)</li>                                
+                            </ul>
+                            <ul>
+                                <li>Design</li>
+                                <li>Adobe XD</li>
+                                <li>Figma</li>
+                                <li>Javascript (ES6+)</li>                                
                                 <li>Javascript (ES6+)</li>                                
                             </ul>
                         </nav>
