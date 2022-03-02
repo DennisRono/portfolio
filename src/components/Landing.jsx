@@ -8,7 +8,6 @@ import DownloadIcon from '@mui/icons-material/Download'
 
 const Landing = () => {
   useEffect(() => {
-      console.log("running");
       window.addEventListener('scroll', hidecallToActionScroll);
       return () => {
           window.removeEventListener('scroll', hidecallToActionScroll);
