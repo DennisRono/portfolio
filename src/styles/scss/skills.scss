@@ -50,19 +50,20 @@
                                 padding: 0;
                                 margin-bottom: -10px;
                                 margin-left: -10px;
+                                font-size: 22px;
                             }
                             li{
                                 position: relative;
                                 padding-top: 20px;
                                 display: block;
                                 color: var(--text-primary);
-                                font-size: 20px;
+                                font-size: 18px;
                             }
                             li:after{
                                 content: "▹";
                                 position: absolute;
                                 left: 0px;
-                                color: var(--text-primary);
+                                color: aqua;
                                 font-size: 20px;
                                 line-height: 12px;
                                 margin-left: -20px;
