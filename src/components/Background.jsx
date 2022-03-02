@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/css/background.css'
+import Dennis from '../images/about-image.png'
 
 const background = () => {
   return (
@@ -7,7 +8,13 @@ const background = () => {
         <div className="bwrapper">
             <div className="bcontainer">
                 <div className="bflex">
-                    <div className="dennisImage"></div>
+                    <div className="dennisImage">
+                        <div className="img-blk-wrapper">
+                            <div className="img-blk">
+                                <img src={Dennis} alt="" />     
+                            </div>
+                        </div>
+                    </div>
                     <div className="bTexts">
                         <h2><span className="secCounter">1.</span> Background <span className="line"></span></h2>
                         <p className="backtexts">
