@@ -13,7 +13,7 @@ const Skills = () => {
     }
     const SuperStrong = () => {
         setTimeout(() => {
-            play();
+            return play();
         }, 7000);
     }
     const play = () => {
