@@ -11,9 +11,10 @@ const Skills = () => {
     const randColor = () =>  {
         return "#" + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0').toUpperCase();
     }
-    const SuperStrong = () => {
+    const SuperStrong = async () => {
         setTimeout(() => {
-            return play();
+            const codetoplay = await play();
+            return codetoplay;
         }, 7000);
     }
     const play = () => {
