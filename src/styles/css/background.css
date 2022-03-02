@@ -32,7 +32,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  background: linear-gradient(132deg, #ecc2e5, #edc4e6);
+  background: linear-gradient(132deg, #6f66be, #6c4ea5);
 }
 
 .background .bwrapper .bcontainer .bflex .dennisImage .img-blk-wrapper .img-blk img {
@@ -57,7 +57,7 @@
   position: absolute;
   left: -18px;
   top: -18px;
-  background: #e0e0ff;
+  background: #a5a5ff;
   z-index: -1;
 }
 
@@ -68,7 +68,7 @@
   position: absolute;
   right: -18px;
   bottom: -18px;
-  background: #e0f4ff;
+  background: #a6e0ff;
   z-index: 1;
 }
 
