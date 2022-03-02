@@ -62,4 +62,12 @@
   background: #ffe0f9;
   z-index: 1;
 }
+
+.background .bwrapper .bcontainer .bflex .bTexts .btTitle {
+  color: var(--text-primary);
+}
+
+.background .bwrapper .bcontainer .bflex .bTexts .btTitle .secCounter {
+  color: aqua;
+}
 /*# sourceMappingURL=background.css.map */

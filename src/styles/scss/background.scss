@@ -52,6 +52,14 @@
                         }
                     }
                 }
+                .bTexts{
+                    .btTitle{
+                        color: var(--text-primary);
+                        .secCounter{
+                            color: aqua;
+                        }
+                    }
+                }
             }
         }
     }
