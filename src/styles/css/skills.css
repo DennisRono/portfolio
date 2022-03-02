@@ -1,4 +1,23 @@
 .skills {
   height: 100vh;
 }
+
+.skills .swrapper .scontainer {
+  margin: 0 5%;
+}
+
+.skills .swrapper .scontainer .sflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.skills .swrapper .scontainer .sflex .sTexts {
+  width: 50%;
+}
+
+.skills .swrapper .scontainer .sflex .sImages {
+  width: 50%;
+}
 /*# sourceMappingURL=skills.css.map */

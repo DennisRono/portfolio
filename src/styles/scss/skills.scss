@@ -1,3 +1,18 @@
 .skills{
     height: 100vh;
+    .swrapper{
+        .scontainer{
+            margin: 0 5%;
+            .sflex{
+                display: flex;
+                width: 100%;
+                .sTexts{
+                    width: 50%;
+                }
+                .sImages{
+                    width: 50%;
+                }
+            }
+        }
+    }
 }
