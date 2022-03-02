@@ -12,6 +12,11 @@ const Skills = () => {
         return "#" + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0').toUpperCase();
     }
     const SuperStrong = () => {
+        setTimeout(() => {
+            play();
+        }, 7000);
+    }
+    const play = () => {
         return (
             <div style={{ fontSize: "19px" }} className="playdivarea">
                 <span style={{ color: randColor() }}>{playcode[0]}</span><br/>
