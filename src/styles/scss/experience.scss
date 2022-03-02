@@ -8,11 +8,12 @@
                     .eTitle{
                         position: relative;
                         text-align: center;
+                        color: var(--text-primary);
                         .eCounter{
                             position: absolute;
                             bottom: 0;
                             padding-bottom: 2px;
-                            padding-right: 20px;
+                            margin-right: 20px;
                             color: aqua;
                             font-size: 17px;
                         }
