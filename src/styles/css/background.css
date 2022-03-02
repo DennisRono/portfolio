@@ -84,6 +84,7 @@
   display: flex;
   margin-bottom: 20px;
   position: relative;
+  padding-left: 20px;
 }
 
 .background .bwrapper .bcontainer .bflex .bTexts .btTitle .secCounter {
