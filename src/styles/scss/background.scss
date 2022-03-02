@@ -8,6 +8,7 @@
                 align-items: center;
                 .dennisImage{
                     width: 35%;
+                    padding-left: 5%;
                     .img-blk-wrapper{
                         width: 270px;
                         height: 270px;
@@ -55,7 +56,7 @@
                     }
                 }
                 .bTexts{
-                    width: 65%;
+                    width: 60%;
                     .btTitle{
                         color: var(--text-primary);
                         white-space: nowrap;

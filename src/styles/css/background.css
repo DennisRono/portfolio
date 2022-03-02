@@ -17,6 +17,7 @@
 
 .background .bwrapper .bcontainer .bflex .dennisImage {
   width: 35%;
+  padding-left: 5%;
 }
 
 .background .bwrapper .bcontainer .bflex .dennisImage .img-blk-wrapper {
@@ -71,7 +72,7 @@
 }
 
 .background .bwrapper .bcontainer .bflex .bTexts {
-  width: 65%;
+  width: 60%;
 }
 
 .background .bwrapper .bcontainer .bflex .bTexts .btTitle {
