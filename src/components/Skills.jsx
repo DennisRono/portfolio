@@ -42,6 +42,20 @@ const Skills = () => {
                         <p className="skillsTexts">
                             Here are a few technologies I've been working with recently:
                         </p>
+                        <nav className="snav">
+                            <ul>
+                                <li>php</li>
+                                <li>Node.js</li>
+                                <li>Java</li>
+                                <li>HTML & CSS</li>
+                            </ul>
+                            <ul>
+                                <li>C</li>
+                                <li>React.js</li>
+                                <li>Python</li>
+                                <li>Javascript (ES6+)</li>                                
+                            </ul>
+                        </nav>
                     </div>
                     <div className="sImages">
                         <div className="codeplay" data-aos="flip-right">
