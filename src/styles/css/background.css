@@ -70,6 +70,7 @@
 .background .bwrapper .bcontainer .bflex .bTexts .btTitle {
   position: relative;
   color: var(--text-primary);
+  white-space: nowrap;
   margin-bottom: 20px;
 }
 
