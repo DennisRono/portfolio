@@ -81,6 +81,7 @@
   display: block;
   color: var(--text-primary);
   font-size: 18px;
+  font-weight: 200;
 }
 
 .skills .swrapper .scontainer .sflex .sTexts .snav ul li:after {
