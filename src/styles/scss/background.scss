@@ -55,9 +55,14 @@
                 .bTexts{
                     .btTitle{
                         color: var(--text-primary);
+                        margin-bottom: 20px;
                         .secCounter{
                             color: aqua;
                         }
+                    }
+                    .backtexts{
+                        color: var(--text-primary);
+                        font-size: 1rem;
                     }
                 }
             }

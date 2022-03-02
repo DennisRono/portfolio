@@ -65,9 +65,15 @@
 
 .background .bwrapper .bcontainer .bflex .bTexts .btTitle {
   color: var(--text-primary);
+  margin-bottom: 20px;
 }
 
 .background .bwrapper .bcontainer .bflex .bTexts .btTitle .secCounter {
   color: aqua;
+}
+
+.background .bwrapper .bcontainer .bflex .bTexts .backtexts {
+  color: var(--text-primary);
+  font-size: 1rem;
 }
 /*# sourceMappingURL=background.css.map */
