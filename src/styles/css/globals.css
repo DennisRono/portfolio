@@ -136,7 +136,7 @@ a {
 }
 
 body::-webkit-scrollbar {
-  width: 1em;
+  width: 5px;
   background-color: #171c28;
 }
 
@@ -145,16 +145,8 @@ body::-webkit-scrollbar {
     -ms-overflow-style: none;
   }
   body::-webkit-scrollbar {
-    width: 10px;
     scrollbar-color: transparent transparent;
   }
-}
-
-body::-webkit-scrollbar-thumb {
-  width: 10px;
-  background-color: #666;
-  outline: 1px solid #525252;
-  border-radius: 30px;
 }
 
 .App {
