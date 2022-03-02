@@ -52,7 +52,6 @@ const Landing = () => {
       <span className="callToActionScroll" style={{ paddingBottom: "15px"}}>
         <Scroll className="thescroll" />
       </span>
-      <div style={{ height: "700vh" }}></div>
     </div>
   )
 }
