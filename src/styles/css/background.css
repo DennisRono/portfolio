@@ -66,6 +66,9 @@
 .background .bwrapper .bcontainer .bflex .bTexts .btTitle {
   color: var(--text-primary);
   white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-bottom: 20px;
 }
 
@@ -81,7 +84,7 @@
   margin-bottom: -15px;
   margin-left: 20px;
   position: relative;
-  top: -5px;
+  top: 0;
   width: 300px;
 }
 
