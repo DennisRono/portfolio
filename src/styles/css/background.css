@@ -2,6 +2,10 @@
   height: 100vh;
 }
 
+.background .bwrapper .bcontainer {
+  margin: 0 5%;
+}
+
 .background .bwrapper .bcontainer .bflex {
   display: -webkit-box;
   display: -ms-flexbox;
