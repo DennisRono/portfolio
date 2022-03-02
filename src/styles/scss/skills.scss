@@ -39,6 +39,29 @@
                         font-size: 1.4rem;
                         font-weight: 200;
                     }
+                    .snav{
+                        display: flex;
+                        ul{
+                            margin-right: 50px;
+                            li{
+                                position: relative;
+                                padding-top: 20px;
+                                display: block;
+                                color: var(--text-primary);
+                                font-size: 20px;
+                            }
+                            li:after{
+                                content: "▹";
+                                position: absolute;
+                                left: 0px;
+                                color: var(--text-primary);
+                                font-size: 20px;
+                                line-height: 12px;
+                                margin-left: -20px;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
                 }
                 .sImages{
                     width: 50%;

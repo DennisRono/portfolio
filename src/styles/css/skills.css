@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .skills {
   height: 100vh;
 }
@@ -52,6 +53,35 @@
   color: var(--text-primary);
   font-size: 1.4rem;
   font-weight: 200;
+}
+
+.skills .swrapper .scontainer .sflex .sTexts .snav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.skills .swrapper .scontainer .sflex .sTexts .snav ul {
+  margin-right: 50px;
+}
+
+.skills .swrapper .scontainer .sflex .sTexts .snav ul li {
+  position: relative;
+  padding-top: 20px;
+  display: block;
+  color: var(--text-primary);
+  font-size: 20px;
+}
+
+.skills .swrapper .scontainer .sflex .sTexts .snav ul li:after {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: var(--text-primary);
+  font-size: 20px;
+  line-height: 12px;
+  margin-left: -20px;
+  margin-top: 10px;
 }
 
 .skills .swrapper .scontainer .sflex .sImages {
