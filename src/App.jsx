@@ -6,6 +6,7 @@ import CookieConsent from "react-cookie-consent"
 import { ReactComponent as Sun } from './images/sun.svg'
 import { ReactComponent as Moon } from './images/moon.svg'
 import Background from './components/Background'
+import Skills from './components/Skills'
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -57,6 +58,7 @@ function App() {
                 </CookieConsent>
                 <Landing />
                 <Background />
+                <Skills />
             </div>
         </div>
     );
