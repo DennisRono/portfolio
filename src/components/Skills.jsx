@@ -44,7 +44,7 @@ const Skills = () => {
                         </p>
                         <nav className="snav">
                             <ul>
-                                <h3>Languages</h3>
+                                <h2>Languages</h2>
                                 <li>php</li>
                                 <li>Node.js</li>
                                 <li>Java</li>

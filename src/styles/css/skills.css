@@ -66,6 +66,10 @@
   margin-right: 50px;
 }
 
+.skills .swrapper .scontainer .sflex .sTexts .snav ul h3 {
+  color: var(--text-primary);
+}
+
 .skills .swrapper .scontainer .sflex .sTexts .snav ul li {
   position: relative;
   padding-top: 20px;
