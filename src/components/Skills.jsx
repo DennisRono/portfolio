@@ -46,13 +46,9 @@ const Skills = () => {
                                 <div className="img-wrapper">
                                     <div className="pb-mobi" style={{width: "100%", paddingBottom: "95.7916%"}}></div>
                                     <div className="codeplay-area">
-                                            <TypeIt
-                                            options={{
-                                                startDelay: 900
-                                            }}
-                                            >
-                                                <SuperStrong>Super strong text.</SuperStrong>
-                                            </TypeIt>
+                                        <TypeIt options={{ startDelay: 900 }}>
+                                            <SuperStrong>Super strong text.</SuperStrong>
+                                        </TypeIt>
                                     </div>
                                 </div>
                             </div>
