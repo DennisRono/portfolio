@@ -53,14 +53,14 @@ const Skills = () => {
                                 <li>Javascript (ES6+)</li>
                             </ul>
                             <ul>
-                                <li>Frameworks</li>
+                                <h2>Frameworks</h2>
                                 <li>React.js</li>
                                 <li>Next.js</li>
                                 <li>Vue.js</li>                                
                                 <li>Django</li>                               
                             </ul>
                             <ul>
-                                <li>Design</li>
+                                <h2>Design</h2>
                                 <li>Adobe XD</li>
                                 <li>Figma</li>
                                 <li>Adobe illustrator</li>                                
