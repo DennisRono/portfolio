@@ -50,6 +50,8 @@
 
 .skills .swrapper .scontainer .sflex .sTexts .skillsTexts {
   color: var(--text-primary);
+  font-size: 1.4rem;
+  font-weight: 200;
 }
 
 .skills .swrapper .scontainer .sflex .sImages {
