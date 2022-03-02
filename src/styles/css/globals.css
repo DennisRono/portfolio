@@ -137,7 +137,7 @@ a {
 
 body::-webkit-scrollbar {
   width: 1em;
-  background-color: transparent;
+  background-color: var(--background);
 }
 
 @media (max-width: 600px) {
@@ -157,6 +157,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
+  width: 10px;
   background-color: #666;
   outline: 1px solid #525252;
   border-radius: 30px;
