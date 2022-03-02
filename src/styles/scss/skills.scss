@@ -71,42 +71,42 @@
                                     padding: 20px;
                                     padding-top: 10px;
                                     transition: opacity 500ms ease 0s;
-                                    .var-highlight {
-                                        color: #ff2969;
-                                      }
+                                    // .var-highlight {
+                                    //     color: #ff2969;
+                                    //   }
                                       
-                                      .string-highlight {
-                                        color: rgba(255, 238, 0, 0.8);
-                                      }
+                                    //   .string-highlight {
+                                    //     color: rgba(255, 238, 0, 0.8);
+                                    //   }
                                       
-                                      #typewriter {
-                                        font-size: 1.0em;
-                                        margin: 0;
-                                        font-family: "Courier New";
-                                        color: #fff;
-                                      }
-                                      #typewriter:after {
-                                        content: "|";
-                                        -webkit-animation: blink 500ms linear infinite alternate;
-                                                animation: blink 500ms linear infinite alternate;
-                                      }
+                                    //   #typewriter {
+                                    //     font-size: 1.0em;
+                                    //     margin: 0;
+                                    //     font-family: "Courier New";
+                                    //     color: #fff;
+                                    //   }
+                                    //   #typewriter:after {
+                                    //     content: "|";
+                                    //     -webkit-animation: blink 500ms linear infinite alternate;
+                                    //             animation: blink 500ms linear infinite alternate;
+                                    //   }
                                       
-                                      @-webkit-keyframes blink {
-                                        0% {
-                                          opacity: 0;
-                                        }
-                                        100% {
-                                          opacity: 1;
-                                        }
-                                      }
-                                      @keyframes blink {
-                                        0% {
-                                          opacity: 0;
-                                        }
-                                        100% {
-                                          opacity: 1;
-                                        }
-                                      }
+                                    //   @-webkit-keyframes blink {
+                                    //     0% {
+                                    //       opacity: 0;
+                                    //     }
+                                    //     100% {
+                                    //       opacity: 1;
+                                    //     }
+                                    //   }
+                                    //   @keyframes blink {
+                                    //     0% {
+                                    //       opacity: 0;
+                                    //     }
+                                    //     100% {
+                                    //       opacity: 1;
+                                    //     }
+                                    //   }
                                 }
                             }
                         }
