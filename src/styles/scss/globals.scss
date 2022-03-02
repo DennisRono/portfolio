@@ -135,14 +135,14 @@ a {
 //vertical scrollbar
 body::-webkit-scrollbar {
     width: 1em;
-    background-color: rgb(46, 46, 46);
+    background-color: transparent;
 }
 @media(max-width: 600px){
     *{
         -ms-overflow-style: none;
     }
     body::-webkit-scrollbar {
-        width: 1em;
+        width: 10px;
         background-color: rgb(46, 46, 46);
         scrollbar-color: transparent transparent;
     }

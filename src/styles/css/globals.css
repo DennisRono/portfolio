@@ -137,7 +137,7 @@ a {
 
 body::-webkit-scrollbar {
   width: 1em;
-  background-color: #2e2e2e;
+  background-color: transparent;
 }
 
 @media (max-width: 600px) {
@@ -145,7 +145,7 @@ body::-webkit-scrollbar {
     -ms-overflow-style: none;
   }
   body::-webkit-scrollbar {
-    width: 1em;
+    width: 10px;
     background-color: #2e2e2e;
     scrollbar-color: transparent transparent;
   }
