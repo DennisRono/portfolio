@@ -64,15 +64,15 @@
                         }
                     }
                     .btTitle::after{
+                        background-color: var(--text-primary);
                         content: "";
                         display: block;
+                        height: 1px;
+                        margin-bottom: -15px;
+                        margin-left: 20px;
                         position: relative;
                         top: -5px;
                         width: 300px;
-                        height: 1px;
-                        margin-left: 20px;
-                        background-color: var(--text-primary);
-                        margin-bottom: -15px;
                     }
                     .backtexts{
                         color: var(--text-primary);
