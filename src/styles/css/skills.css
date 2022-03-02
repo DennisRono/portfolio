@@ -68,6 +68,8 @@
 
 .skills .swrapper .scontainer .sflex .sTexts .snav ul h3 {
   color: var(--text-primary);
+  padding: 0;
+  margin: 0;
 }
 
 .skills .swrapper .scontainer .sflex .sTexts .snav ul li {
