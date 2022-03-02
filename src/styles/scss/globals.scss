@@ -138,6 +138,9 @@ body::-webkit-scrollbar {
     background-color: rgb(46, 46, 46);
 }
 @media(max-width: 600px){
+    *{
+        -ms-overflow-style: none;
+    }
     body::-webkit-scrollbar {
         width: 1em;
         background-color: rgb(46, 46, 46);
