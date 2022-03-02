@@ -1,4 +1,10 @@
 .background {
   height: 100vh;
 }
+
+.background .bwrapper .bcontainer .bflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=background.css.map */
