@@ -66,10 +66,10 @@
   margin-right: 50px;
 }
 
-.skills .swrapper .scontainer .sflex .sTexts .snav ul h3 {
+.skills .swrapper .scontainer .sflex .sTexts .snav ul h2 {
   color: var(--text-primary);
   padding: 0;
-  margin: 0;
+  margin-bottom: -20px;
 }
 
 .skills .swrapper .scontainer .sflex .sTexts .snav ul li {
