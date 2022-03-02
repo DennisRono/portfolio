@@ -1,4 +1,22 @@
 .experience {
   height: 100vh;
 }
+
+.experience .ewrapper .econtainer {
+  margin: 0 5%;
+}
+
+.experience .ewrapper .econtainer .eflex .eTexts .eTitle {
+  position: relative;
+  text-align: center;
+}
+
+.experience .ewrapper .econtainer .eflex .eTexts .eTitle .eCounter {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 2px;
+  padding-right: 20px;
+  color: aqua;
+  font-size: 17px;
+}
 /*# sourceMappingURL=experience.css.map */
