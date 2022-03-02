@@ -10,6 +10,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.background .bwrapper .bcontainer .bflex .dennisImage {
+  width: 35%;
 }
 
 .background .bwrapper .bcontainer .bflex .dennisImage .img-blk-wrapper {
@@ -61,6 +68,10 @@
   bottom: -18px;
   background: #ffe0f9;
   z-index: 1;
+}
+
+.background .bwrapper .bcontainer .bflex .bTexts {
+  width: 55%;
 }
 
 .background .bwrapper .bcontainer .bflex .bTexts .btTitle {

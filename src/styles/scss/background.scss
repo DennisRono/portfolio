@@ -5,7 +5,9 @@
             margin: 0 5%;
             .bflex{
                 display: flex;
+                align-items: center;
                 .dennisImage{
+                    width: 35%;
                     .img-blk-wrapper{
                         width: 270px;
                         height: 270px;
@@ -53,6 +55,7 @@
                     }
                 }
                 .bTexts{
+                    width: 55%;
                     .btTitle{
                         color: var(--text-primary);
                         white-space: nowrap;
