@@ -53,7 +53,9 @@
                     }
                 }
                 .bTexts{
+                    position: relative;
                     .btTitle{
+                        position: relative;
                         color: var(--text-primary);
                         margin-bottom: 20px;
                         .secCounter{

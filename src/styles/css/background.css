@@ -63,7 +63,12 @@
   z-index: 1;
 }
 
+.background .bwrapper .bcontainer .bflex .bTexts {
+  position: relative;
+}
+
 .background .bwrapper .bcontainer .bflex .bTexts .btTitle {
+  position: relative;
   color: var(--text-primary);
   margin-bottom: 20px;
 }
