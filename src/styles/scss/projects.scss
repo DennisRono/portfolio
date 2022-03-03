@@ -22,12 +22,16 @@
                 margin: 5% 0;
                 .pflex{
                     display: flex;
+                    justify-content: space-between;
+                    width: 100%;
                     .projImage{
+                        width: 40%;
                         img{
 
                         }
                     }
                     .projTexts{
+                        width: 40%;
                         .projTitle{
                             color: var(--text-primary);
                             margin-bottom: 20px;

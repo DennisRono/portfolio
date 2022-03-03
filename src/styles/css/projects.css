@@ -31,6 +31,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.projects .pwrapper .pcontainer .proj .pflex .projImage {
+  width: 40%;
+}
+
+.projects .pwrapper .pcontainer .proj .pflex .projTexts {
+  width: 40%;
 }
 
 .projects .pwrapper .pcontainer .proj .pflex .projTexts .projTitle {
