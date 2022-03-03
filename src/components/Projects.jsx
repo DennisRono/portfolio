@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/css/projects.css'
+import LinkedIn from '../images/Linkedin.png'
 
 const Projects = () => {
     return (
@@ -10,7 +11,9 @@ const Projects = () => {
                     <div className="proj">
                         <h2 className="projTitle">LinkedIn clone</h2>
                         <div className="pflex">
-                            <div className="projImage"></div>
+                            <div className="projImage">
+                                <img src={LinkedIn} alt="" />
+                            </div>
                             <div className="projTexts"></div>
                         </div>
                     </div>
