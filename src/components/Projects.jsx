@@ -14,7 +14,12 @@ const Projects = () => {
                             <div className="projImage">
                                 <img src={LinkedIn} alt="" />
                             </div>
-                            <div className="projTexts"></div>
+                            <div className="projTexts">
+                                <p></p>
+                                <div className="pstack">
+                                    
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
