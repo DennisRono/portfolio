@@ -24,7 +24,7 @@ const Projects = () => {
                                     <span>scss</span>
                                 </div>
                                 <div className="getCode">
-                                    <span><FiGithub /></span>
+                                    <span><FiGithub title="Github"/></span>
                                 </div>
                             </div>
                         </div>
