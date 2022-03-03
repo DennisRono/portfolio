@@ -62,6 +62,7 @@
   letter-spacing: 1.2px;
   font-weight: 100;
   background-color: var(--back-related);
-  padding: 15px 30px;
+  padding: 15px 15px;
+  padding-right: 50px;
 }
 /*# sourceMappingURL=projects.css.map */
