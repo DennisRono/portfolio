@@ -75,6 +75,7 @@
   margin-right: 20px;
   color: var(--text-primary);
   font-size: 13px;
+  font-weight: 100;
 }
 
 .projects .pwrapper .pcontainer .proj .pflex .projTexts .getCode {
@@ -84,5 +85,7 @@
 .projects .pwrapper .pcontainer .proj .pflex .projTexts .getCode span {
   margin-right: 20px;
   color: var(--text-primary);
+  font-size: 1.5rem;
+  font-weight: 100;
 }
 /*# sourceMappingURL=projects.css.map */
