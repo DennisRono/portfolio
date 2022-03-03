@@ -2,6 +2,10 @@
   height: 100vh;
 }
 
+.projects .pwrapper .pcontainer {
+  margin: 5% 5%;
+}
+
 .projects .pwrapper .pcontainer .pTitle {
   position: relative;
   text-align: center;
@@ -17,5 +21,15 @@
   margin-right: 20px;
   color: aqua;
   font-size: 17px;
+}
+
+.projects .pwrapper .pcontainer .proj .projTitle {
+  color: var(--text-primary);
+}
+
+.projects .pwrapper .pcontainer .proj .pflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=projects.css.map */

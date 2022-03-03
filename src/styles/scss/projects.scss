@@ -2,6 +2,7 @@
     height: 100vh;
     .pwrapper{
         .pcontainer{
+            margin: 5% 5%;
             .pTitle{
                 position: relative;
                 text-align: center;
@@ -17,8 +18,13 @@
                     font-size: 17px;
                 }
             }
-            .pflex{
-
+            .proj{
+                .projTitle{
+                    color: var(--text-primary);
+                }
+                .pflex{
+                    display: flex;
+                }
             }
         }
     }
