@@ -97,7 +97,7 @@
   font-size: 17px;
 }
 
-.background .bwrapper .bcontainer .bflex .bTexts .btTitle::after {
+.background .bwrapper .bcontainer .bflex .bTexts .btTitle::before {
   background-color: var(--text-primary);
   content: "";
   display: block;
