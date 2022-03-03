@@ -23,6 +23,11 @@
   font-size: 17px;
 }
 
+.experience .ewrapper .econtainer .eflex .eTexts .experiences .exp {
+  margin: 5% 0;
+  margin-left: 10%;
+}
+
 .experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTitle {
   color: var(--text-primary);
 }
@@ -35,7 +40,6 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 80%;
-  margin-left: 10%;
 }
 
 .experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTexts p {
