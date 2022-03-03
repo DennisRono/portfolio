@@ -33,6 +33,9 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
 }
 
@@ -47,16 +50,6 @@
 
 .projects .pwrapper .pcontainer .proj .pflex .projTexts {
   width: 40%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .projects .pwrapper .pcontainer .proj .pflex .projTexts .projTitle {
@@ -66,7 +59,7 @@
 
 .projects .pwrapper .pcontainer .proj .pflex .projTexts p {
   color: var(--text-primary);
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
   font-weight: 100;
 }
 /*# sourceMappingURL=projects.css.map */
