@@ -33,6 +33,9 @@
                     }
                     .projTexts{
                         width: 40%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
                         .projTitle{
                             color: var(--text-primary);
                             margin-bottom: 20px;
@@ -40,6 +43,7 @@
                         p{
                             color: var(--text-primary);
                             letter-spacing: 1.5px;
+                            font-weight: 100;
                         }
                         .pstack{
 
