@@ -13,7 +13,7 @@ const Experience = () => {
                             <div className="expOne">
                                 <h2 className="eOneTitle">Samoei Boys Secondary School</h2>
                                 <p className="eOneTexts">
-                                    
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum velit commodi possimus hic cum inventore labore sed doloremque impedit, distinctio tempora mollitia voluptatem vitae, excepturi reiciendis. Dolor reiciendis laudantium vero?
                                 </p>
                             </div>
                         </div>
