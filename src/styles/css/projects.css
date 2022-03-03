@@ -38,7 +38,12 @@
 }
 
 .projects .pwrapper .pcontainer .proj .pflex .projImage {
-  width: 40%;
+  width: 50%;
+}
+
+.projects .pwrapper .pcontainer .proj .pflex .projImage img {
+  width: 100%;
+  height: auto;
 }
 
 .projects .pwrapper .pcontainer .proj .pflex .projTexts {
