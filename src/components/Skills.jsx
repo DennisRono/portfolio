@@ -39,6 +39,7 @@ const Skills = () => {
                 <div className="sflex">
                     <div className="sTexts">
                         <h2 className="sTitle"><span className="sCounter">02.</span> &nbsp;&nbsp;&nbsp;&nbsp; Technologies I use</h2>
+                        <br/>
                         <p className="skillsTexts">
                             Here are a few technologies I've been working with recently:
                         </p>
@@ -57,6 +58,7 @@ const Skills = () => {
                                 <li>React.js</li>
                                 <li>Next.js</li>
                                 <li>Vue.js</li>                                
+                                <li>Electron</li>                                
                                 <li>Django</li>                               
                                 <li>Jekyll</li>                               
                             </ul>
