@@ -31,7 +31,7 @@
                             width: 100%;
                             height: auto;
                             filter: brightness(85%);
-                            transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+                            transition: 0.3s;
                         }
                         img:hover{
                             filter: brightness(100%);

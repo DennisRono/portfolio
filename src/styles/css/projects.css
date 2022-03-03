@@ -48,8 +48,8 @@
   height: auto;
   -webkit-filter: brightness(85%);
           filter: brightness(85%);
-  -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .projects .pwrapper .pcontainer .proj .pflex .projImage img:hover {
