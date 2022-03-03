@@ -101,10 +101,9 @@
   content: "";
   display: block;
   height: 1px;
-  margin-bottom: -20px;
   margin-left: 20px;
   position: relative;
-  bottom: -20px;
+  bottom: -80px;
   width: 50%;
   right: -150px;
 }
