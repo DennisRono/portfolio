@@ -27,6 +27,9 @@
                             }
                             .eOneTexts{
                                 display: flex;
+                                justify-content: space-between;
+                                width: 80%;
+                                margin-left: 10%;
                                 p{
                                     color: var(--text-primary);
                                     width: 70%;
