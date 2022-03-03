@@ -8,6 +8,7 @@ import { ReactComponent as Moon } from './images/moon.svg'
 import Background from './components/Background'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
+import Projects from './components/Projects'
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -61,6 +62,7 @@ function App() {
                 <Background />
                 <Skills />
                 <Experience />
+                <Projects />
             </div>
         </div>
     );
