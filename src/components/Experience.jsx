@@ -8,7 +8,7 @@ const Experience = () => {
             <div className="econtainer">
                 <div className="eflex">
                     <div className="eTexts">
-                        <h2 className="eTitle"><span className="eCounter">03. </span> &nbsp;&nbsp; Experience & Schooling</h2>
+                        <h2 className="eTitle"><span className="eCounter">03. </span> &nbsp;&nbsp;&nbsp;&nbsp; Experience & Schooling</h2>
                         <div className="experiences">
                             <div className="exp">
                                 <h2 className="eOneTitle">Samoei Boys Secondary School</h2>
