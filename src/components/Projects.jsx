@@ -12,7 +12,9 @@ const Projects = () => {
                     <div className="proj">
                         <div className="pflex">
                             <div className="projImage">
-                                <img src={LinkedIn} alt="" />
+                                <a href="https://github.com/DennisRono/linkedin-clone">
+                                    <img src={LinkedIn} alt="" />
+                                </a>
                             </div>
                             <div className="projTexts">
                                 <h2 className="projTitle">LinkedIn clone</h2>

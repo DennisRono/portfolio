@@ -43,7 +43,7 @@
   width: 50%;
 }
 
-.projects .pwrapper .pcontainer .proj .pflex .projImage img {
+.projects .pwrapper .pcontainer .proj .pflex .projImage a img {
   width: 100%;
   height: auto;
   -webkit-filter: brightness(85%);
@@ -52,7 +52,7 @@
   transition: 0.3s;
 }
 
-.projects .pwrapper .pcontainer .proj .pflex .projImage img:hover {
+.projects .pwrapper .pcontainer .proj .pflex .projImage a img:hover {
   -webkit-filter: brightness(100%);
           filter: brightness(100%);
 }

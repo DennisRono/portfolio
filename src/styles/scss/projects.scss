@@ -27,14 +27,16 @@
                     width: 100%;
                     .projImage{
                         width: 50%;
-                        img{
-                            width: 100%;
-                            height: auto;
-                            filter: brightness(85%);
-                            transition: 0.3s;
-                        }
-                        img:hover{
-                            filter: brightness(100%);
+                        a{
+                            img{
+                                width: 100%;
+                                height: auto;
+                                filter: brightness(85%);
+                                transition: 0.3s;
+                            }
+                            img:hover{
+                                filter: brightness(100%);
+                            }
                         }
                     }
                     .projTexts{
