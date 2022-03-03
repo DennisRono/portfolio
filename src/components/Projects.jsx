@@ -8,7 +8,8 @@ const Projects = () => {
                 <div className="pcontainer">
                     <h2 className="pTitle"><span className="pCounter">04. </span> &nbsp;&nbsp;&nbsp;&nbsp; Featured Projects</h2>
                     <div className="pflex">
-
+                        <div className="projImage"></div>
+                        <div className="projTexts"></div>
                     </div>
                 </div>
             </div>
