@@ -23,8 +23,13 @@
   font-size: 17px;
 }
 
+.projects .pwrapper .pcontainer .proj {
+  margin: 5% 0;
+}
+
 .projects .pwrapper .pcontainer .proj .projTitle {
   color: var(--text-primary);
+  margin-bottom: 20px;
 }
 
 .projects .pwrapper .pcontainer .proj .pflex {

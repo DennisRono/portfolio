@@ -19,8 +19,10 @@
                 }
             }
             .proj{
+                margin: 5% 0;
                 .projTitle{
                     color: var(--text-primary);
+                    margin-bottom: 20px;
                 }
                 .pflex{
                     display: flex;
