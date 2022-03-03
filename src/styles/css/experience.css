@@ -45,6 +45,7 @@
 .experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTexts p {
   color: var(--text-primary);
   width: 70%;
+  font-weight: 100;
 }
 
 .experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTexts .eduration {
