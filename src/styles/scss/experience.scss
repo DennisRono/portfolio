@@ -26,11 +26,14 @@
                                 color: var(--text-primary);
                             }
                             .eOneTexts{
+                                display: flex;
                                 p{
                                     color: var(--text-primary);
+                                    width: 70%;
                                 }
                                 .eduration{
                                     color: var(--text-primary);
+                                    width: 20%;
                                 }
                             }
                         }

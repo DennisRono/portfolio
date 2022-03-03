@@ -27,11 +27,19 @@
   color: var(--text-primary);
 }
 
+.experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTexts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTexts p {
   color: var(--text-primary);
+  width: 70%;
 }
 
 .experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTexts .eduration {
   color: var(--text-primary);
+  width: 20%;
 }
 /*# sourceMappingURL=experience.css.map */
