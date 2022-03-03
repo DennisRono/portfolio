@@ -17,6 +17,13 @@ const Experience = () => {
                                     <span className="eduration">2016 Jan - 2019 Dec</span>
                                 </div>
                             </div>
+                            <div className="exp">
+                                <h2 className="eOneTitle">Machackos University</h2>
+                                <div className="eOneTexts">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum velit commodi possimus hic cum inventore labore sed doloremque impedit, distinctio tempora mollitia voluptatem vitae, excepturi reiciendis. Dolor reiciendis laudantium vero?</p>
+                                    <span className="eduration">2020 Jan - current</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
