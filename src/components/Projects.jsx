@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/css/projects.css'
 import LinkedIn from '../images/Linkedin.png'
+import { FiGithub } from 'react-icons/fi'
 
 const Projects = () => {
     return (
@@ -21,6 +22,9 @@ const Projects = () => {
                                 <div className="pstack">
                                     <span>React</span>
                                     <span>scss</span>
+                                </div>
+                                <div className="getCode">
+                                    <span><FiGithub /></span>
                                 </div>
                             </div>
                         </div>

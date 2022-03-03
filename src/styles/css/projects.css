@@ -76,4 +76,13 @@
   color: var(--text-primary);
   font-size: 13px;
 }
+
+.projects .pwrapper .pcontainer .proj .pflex .projTexts .getCode {
+  margin-top: 10px;
+}
+
+.projects .pwrapper .pcontainer .proj .pflex .projTexts .getCode span {
+  margin-right: 20px;
+  color: var(--text-primary);
+}
 /*# sourceMappingURL=projects.css.map */
