@@ -53,5 +53,6 @@
 .experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTexts .eduration {
   color: var(--text-primary);
   width: 20%;
+  font-family: Inconsolata,monospace;
 }
 /*# sourceMappingURL=experience.css.map */
