@@ -4,7 +4,14 @@ import '../styles/css/projects.css'
 const Projects = () => {
     return (
         <div className="projects">
-            <h1>Projects</h1>
+            <div className="pwrapper">
+                <div className="pcontainer">
+                    <h2 className="eTitle"><span className="eCounter">3. </span> &nbsp;&nbsp; Featured Projects</h2>
+                    <div className="pflex">
+
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
