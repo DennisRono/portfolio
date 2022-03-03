@@ -27,14 +27,18 @@
   margin: 5% 0;
 }
 
-.projects .pwrapper .pcontainer .proj .projTitle {
-  color: var(--text-primary);
-  margin-bottom: 20px;
-}
-
 .projects .pwrapper .pcontainer .proj .pflex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.projects .pwrapper .pcontainer .proj .pflex .projTexts .projTitle {
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+
+.projects .pwrapper .pcontainer .proj .pflex .projTexts p {
+  color: var(--text-primary);
 }
 /*# sourceMappingURL=projects.css.map */

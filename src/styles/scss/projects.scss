@@ -20,12 +20,25 @@
             }
             .proj{
                 margin: 5% 0;
-                .projTitle{
-                    color: var(--text-primary);
-                    margin-bottom: 20px;
-                }
                 .pflex{
                     display: flex;
+                    .projImage{
+                        img{
+
+                        }
+                    }
+                    .projTexts{
+                        .projTitle{
+                            color: var(--text-primary);
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            color: var(--text-primary);
+                        }
+                        .pstack{
+
+                        }
+                    }
                 }
             }
         }
