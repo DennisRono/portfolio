@@ -15,7 +15,8 @@
 }
 
 .skills .swrapper .scontainer .sflex .sTexts {
-  width: 48%;
+  width: 50%;
+  margin-left: 20%;
 }
 
 .skills .swrapper .scontainer .sflex .sTexts .sTitle {
@@ -98,7 +99,7 @@
 }
 
 .skills .swrapper .scontainer .sflex .sImages {
-  width: 52%;
+  width: 50%;
 }
 
 .skills .swrapper .scontainer .sflex .sImages .codeplay {

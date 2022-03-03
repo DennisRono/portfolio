@@ -7,7 +7,8 @@
                 display: flex;
                 width: 100%;
                 .sTexts{
-                    width: 48%;
+                    width: 50%;
+                    margin-left: 20%;
                     .sTitle{
                         color: var(--text-primary);
                         white-space: nowrap;
@@ -76,7 +77,7 @@
                     }
                 }
                 .sImages{
-                    width: 52%;
+                    width: 50%;
                     .codeplay{
                         transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
                         width: 80%;
