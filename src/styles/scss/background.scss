@@ -75,7 +75,7 @@
                             font-size: 17px;
                         }
                     }
-                    .btTitle::after{
+                    .btTitle::before{
                         background-color: var(--text-primary);
                         content: "";
                         display: block;
