@@ -30,6 +30,8 @@
 
 .experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTitle {
   color: var(--text-primary);
+  letter-spacing: 1.2px;
+  font-weight: 400;
 }
 
 .experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTexts {
