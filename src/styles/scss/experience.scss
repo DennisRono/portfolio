@@ -21,7 +21,19 @@
                         }
                     }
                     .experiences{
-                        
+                        .exp{
+                            .eOneTitle{
+                                color: var(--text-primary);
+                            }
+                            .eOneTexts{
+                                p{
+                                    color: var(--text-primary);
+                                }
+                                .eduration{
+                                    color: var(--text-primary);
+                                }
+                            }
+                        }
                     }
                 }
             }

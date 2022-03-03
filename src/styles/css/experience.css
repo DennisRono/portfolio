@@ -22,4 +22,16 @@
   color: aqua;
   font-size: 17px;
 }
+
+.experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTitle {
+  color: var(--text-primary);
+}
+
+.experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTexts p {
+  color: var(--text-primary);
+}
+
+.experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTexts .eduration {
+  color: var(--text-primary);
+}
 /*# sourceMappingURL=experience.css.map */
