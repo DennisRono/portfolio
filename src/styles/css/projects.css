@@ -66,4 +66,9 @@
   padding-right: 50px;
   border-radius: 5px;
 }
+
+.projects .pwrapper .pcontainer .proj .pflex .projTexts .pstack span {
+  margin-right: 20px;
+  color: var(--text-primary);
+}
 /*# sourceMappingURL=projects.css.map */

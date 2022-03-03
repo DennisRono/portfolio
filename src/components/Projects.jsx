@@ -19,7 +19,8 @@ const Projects = () => {
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ipsa maxime esse laudantium omnis dolores aliquam consectetur odio reiciendis ratione in. Odit reiciendis facere voluptates saepe voluptate. Autem, sed esse.
                                 </p>
                                 <div className="pstack">
-
+                                    <span>React</span>
+                                    <span>scss</span>
                                 </div>
                             </div>
                         </div>
