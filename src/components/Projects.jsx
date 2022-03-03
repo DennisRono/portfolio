@@ -9,15 +9,15 @@ const Projects = () => {
                 <div className="pcontainer">
                     <h2 className="pTitle"><span className="pCounter">04. </span> &nbsp;&nbsp;&nbsp;&nbsp; Featured Projects</h2>
                     <div className="proj">
-                        <h2 className="projTitle">LinkedIn clone</h2>
                         <div className="pflex">
                             <div className="projImage">
                                 <img src={LinkedIn} alt="" />
                             </div>
                             <div className="projTexts">
+                                <h2 className="projTitle">LinkedIn clone</h2>
                                 <p></p>
                                 <div className="pstack">
-                                    
+
                                 </div>
                             </div>
                         </div>
