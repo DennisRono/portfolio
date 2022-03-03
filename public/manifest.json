@@ -3,6 +3,14 @@
     "name": "Dennis Kibet",
     "icons": [
       {
+          "src":"icons/android-chrome-192x192.png",
+          "sizes":"192x192","type":"image/png"
+      },
+      {
+          "src":"icons/android-chrome-512x512.png",
+          "sizes":"512x512","type":"image/png"
+      },
+      {
         "src": "icons/windows11/SmallTile.scale-100.png",
         "sizes": "71x71"
       },
