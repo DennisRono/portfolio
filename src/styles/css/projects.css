@@ -56,5 +56,6 @@
 
 .projects .pwrapper .pcontainer .proj .pflex .projTexts p {
   color: var(--text-primary);
+  letter-spacing: 1.5px;
 }
 /*# sourceMappingURL=projects.css.map */
