@@ -46,6 +46,8 @@
 .projects .pwrapper .pcontainer .proj .pflex .projImage img {
   width: 100%;
   height: auto;
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
 }
 
 .projects .pwrapper .pcontainer .proj .pflex .projTexts {
