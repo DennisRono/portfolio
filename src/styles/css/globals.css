@@ -211,4 +211,8 @@ body::-webkit-scrollbar-thumb {
   -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
 }
+
+.sCounter, .secCounter, .pCounter, .eCounter {
+  font-family: Inconsolata,monospace !important;
+}
 /*# sourceMappingURL=globals.css.map */
