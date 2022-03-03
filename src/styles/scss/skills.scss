@@ -8,7 +8,7 @@
                 width: 100%;
                 .sTexts{
                     width: 50%;
-                    margin-left: 20%;
+                    padding-left: 5%;
                     .sTitle{
                         color: var(--text-primary);
                         white-space: nowrap;
@@ -91,7 +91,7 @@
                         -moz-box-pack: center;
                         justify-content: center;
                         transition-duration: .10s;
-                        margin-left: 20%;
+                        margin-left: 40px;
                         .top-left-bg{
                             width: calc(100% - 80px);
                             height: calc(100% - 80px);
