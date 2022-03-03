@@ -50,6 +50,7 @@
           filter: brightness(85%);
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .projects .pwrapper .pcontainer .proj .pflex .projImage a img:hover {
