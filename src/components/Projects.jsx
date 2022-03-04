@@ -57,6 +57,12 @@ const Projects = () => {
                     </div>
                     <div className="otherProjects">
                         <h2 className="oTitle">Other Noteworthy Projects</h2>
+                        <div className="oproj">
+                            <h2 className="otproj">Codewars</h2>
+                            <p className="optexts">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rerum nihil porro magnam accusantium! Quia!
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
