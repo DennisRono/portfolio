@@ -118,7 +118,7 @@ a {
 }
 
 [data-theme='light'] {
-  --background: #dee0ff;
+  --background: #ffffff;
   --text-primary: #444452;
   --back-related: #98b2dd;
   --toggle-transform: translate(0);
