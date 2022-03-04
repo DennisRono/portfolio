@@ -60,7 +60,7 @@ const Projects = () => {
                         <div className="oproj">
                             <h2 className="otproj">Codewars</h2>
                             <p className="optexts">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rerum nihil porro magnam accusantium! Quia!
+                                I have been practicing alot on code wars. i have managed to complete alot of the challenges presented which is major achievement to me.
                             </p>
                             <div className="ostack">
                                 <span>python</span>
