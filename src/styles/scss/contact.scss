@@ -33,12 +33,15 @@
                     font-size: 1.3rem;
                 }
                 .contactb{
-                    width: auto;
+                    width: 100%;
                     margin: 0 auto;
                     color: var(--text-primary);
                     padding: 10px 30px;
                     border-radius: 5px;
                     border: 1px solid aqua;
+                    transition: .2s;
+                    line-height: 1;
+                    cursor: pointer;
                 }
             }
         }
