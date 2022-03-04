@@ -155,7 +155,7 @@
 }
 
 .projects .pwrapper .pcontainer .otherProjects .oproj .otproj:hover::after {
-  margin-right: 80px;
+  margin-left: 25px;
 }
 
 .projects .pwrapper .pcontainer .otherProjects .oproj .optexts {
