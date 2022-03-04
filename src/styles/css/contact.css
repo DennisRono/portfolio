@@ -1,5 +1,5 @@
 .contact {
-  height: auto;
+  min-height: 50vh;
 }
 
 .contact .conwrapper .concontainer {
