@@ -62,6 +62,13 @@ const Projects = () => {
                             <p className="optexts">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rerum nihil porro magnam accusantium! Quia!
                             </p>
+                            <div className="ostack">
+                                <span>python</span>
+                                <span>javascript</span>
+                                <span>go</span>
+                                <span>php</span>
+                                <span>dart</span>
+                            </div>
                         </div>
                     </div>
                 </div>
