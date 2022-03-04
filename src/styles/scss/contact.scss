@@ -5,6 +5,7 @@
             margin: 0 5%;
             .conflex{
                 width: 100%;
+                position: relative;
                 .conTitle{
                     position: relative;
                     text-align: center;
@@ -35,13 +36,16 @@
                     font-size: 1.3rem;
                 }
                 .contactb{
-                    margin: 0 auto;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
                     color: var(--text-primary);
                     padding: 10px 30px;
                     border-radius: 5px;
                     border: 1px solid aqua;
                     transition: .2s;
                     line-height: 1;
+                    margin-top: 50px;
                     cursor: pointer;
                 }
             }
