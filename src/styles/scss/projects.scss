@@ -86,18 +86,21 @@
                     color: var(--text-primary);
                     text-align: center;
                     letter-spacing: 1.5px;
-                    font-weight: 400;
+                    font-weight: 500;
                 }
                 .oproj{
                     .otproj{
-
+                        color: var(--text-primary);
+                        font-weight: 400;
                     }
                     .optexts{
-
+                        color: var(--text-primary);
+                        font-weight: 100;
                     }
                     .ostack{
                         span{
-                            
+                            color: var(--text-primary);
+                            margin-right: 30px;
                         }
                     }
                 }

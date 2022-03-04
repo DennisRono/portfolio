@@ -114,6 +114,21 @@
   color: var(--text-primary);
   text-align: center;
   letter-spacing: 1.5px;
+  font-weight: 500;
+}
+
+.projects .pwrapper .pcontainer .otherProjects .oproj .otproj {
+  color: var(--text-primary);
   font-weight: 400;
+}
+
+.projects .pwrapper .pcontainer .otherProjects .oproj .optexts {
+  color: var(--text-primary);
+  font-weight: 100;
+}
+
+.projects .pwrapper .pcontainer .otherProjects .oproj .ostack span {
+  color: var(--text-primary);
+  margin-right: 30px;
 }
 /*# sourceMappingURL=projects.css.map */
