@@ -127,10 +127,15 @@
   font-weight: 100;
 }
 
+.projects .pwrapper .pcontainer .otherProjects .oproj .ostack {
+  margin-top: 20px;
+}
+
 .projects .pwrapper .pcontainer .otherProjects .oproj .ostack span {
   color: var(--text-primary);
   margin-right: 30px;
   padding: 3px 7px;
   border: 1px solid aqua;
+  border-radius: 3px;
 }
 /*# sourceMappingURL=projects.css.map */
