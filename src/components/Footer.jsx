@@ -10,7 +10,8 @@ const Footer = () => {
                 <div className="fflex">
                     <div className="fcopy">
                         <p>
-                            &copy; denniskibet {(new Date().getFullYear())} | <span><a href="https://github.com/DennisRono/portfolio"><FiGithub title="Github"/></a></span>
+                            &copy; denniskibet {(new Date().getFullYear())} <br />
+                            <span><a href="https://github.com/DennisRono/portfolio"><FiGithub title="Github"/></a></span>
                         </p>
                     </div>
                 </div>
