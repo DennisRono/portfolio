@@ -91,33 +91,35 @@
                 .oproj{
                     margin-left: 10%;
                     padding: 4% 0;
-                    .otproj{
-                        width: fit-content;
-                        color: var(--text-primary);
-                        font-weight: 400;
-                        cursor: pointer;
-                        transition: 0.3s;
-                    }
-                    .otproj::after{
-                        -webkit-transition: all .2s ease-in-out;
-                        transition: all .2s ease-in-out;
-                        position: relative;
-                        bottom: 2px;
-                        margin-left: 15px;
-                        content: '';
-                        background: url(../../images/arrow.png) no-repeat center;
-                        background-size: 100%;
-                        width: 15px;
-                        height: 15px;
-                        display: inline-block;
-                        vertical-align: middle;
-                        transition: 0.3s;
-                    }
-                    .otproj:hover{
-                        color: aqua;
-                    }
-                    .otproj:hover::after{
-                        margin-left: 25px;
+                    a{
+                        .otproj{
+                            width: fit-content;
+                            color: var(--text-primary);
+                            font-weight: 400;
+                            cursor: pointer;
+                            transition: 0.3s;
+                        }
+                        .otproj::after{
+                            -webkit-transition: all .2s ease-in-out;
+                            transition: all .2s ease-in-out;
+                            position: relative;
+                            bottom: 2px;
+                            margin-left: 15px;
+                            content: '';
+                            background: url(../../images/arrow.png) no-repeat center;
+                            background-size: 100%;
+                            width: 15px;
+                            height: 15px;
+                            display: inline-block;
+                            vertical-align: middle;
+                            transition: 0.3s;
+                        }
+                        .otproj:hover{
+                            color: aqua;
+                        }
+                        .otproj:hover::after{
+                            margin-left: 25px;
+                        }
                     }
                     .optexts{
                         color: var(--text-primary);

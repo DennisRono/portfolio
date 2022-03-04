@@ -122,7 +122,7 @@
   padding: 4% 0;
 }
 
-.projects .pwrapper .pcontainer .otherProjects .oproj .otproj {
+.projects .pwrapper .pcontainer .otherProjects .oproj a .otproj {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -133,7 +133,7 @@
   transition: 0.3s;
 }
 
-.projects .pwrapper .pcontainer .otherProjects .oproj .otproj::after {
+.projects .pwrapper .pcontainer .otherProjects .oproj a .otproj::after {
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
   position: relative;
@@ -150,11 +150,11 @@
   transition: 0.3s;
 }
 
-.projects .pwrapper .pcontainer .otherProjects .oproj .otproj:hover {
+.projects .pwrapper .pcontainer .otherProjects .oproj a .otproj:hover {
   color: aqua;
 }
 
-.projects .pwrapper .pcontainer .otherProjects .oproj .otproj:hover::after {
+.projects .pwrapper .pcontainer .otherProjects .oproj a .otproj:hover::after {
   margin-left: 25px;
 }
 
