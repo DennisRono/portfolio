@@ -70,6 +70,8 @@ const Projects = () => {
                                 <span>go</span>
                                 <span>php</span>
                                 <span>dart</span>
+                                <span>Kotlin</span>
+                                <span> ... </span>
                             </div>
                         </div>
                     </div>
