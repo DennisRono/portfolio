@@ -6,6 +6,10 @@
   margin: 0 5%;
 }
 
+.contact .conwrapper .concontainer .conflex {
+  width: 100%;
+}
+
 .contact .conwrapper .concontainer .conflex .conTitle {
   position: relative;
   text-align: center;
@@ -40,6 +44,7 @@
 }
 
 .contact .conwrapper .concontainer .conflex .contactb {
+  margin: 0 auto;
   color: var(--text-primary);
   padding: 10px 30px;
   border-radius: 5px;
