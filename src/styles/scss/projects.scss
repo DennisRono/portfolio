@@ -94,6 +94,11 @@
                     .otproj{
                         color: var(--text-primary);
                         font-weight: 400;
+                        cursor: pointer;
+                        transition: 0.3s;
+                    }
+                    .otproj:hover{
+                        color: aqua;
                     }
                     .optexts{
                         color: var(--text-primary);

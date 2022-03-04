@@ -125,6 +125,13 @@
 .projects .pwrapper .pcontainer .otherProjects .oproj .otproj {
   color: var(--text-primary);
   font-weight: 400;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.projects .pwrapper .pcontainer .otherProjects .oproj .otproj:hover {
+  color: aqua;
 }
 
 .projects .pwrapper .pcontainer .otherProjects .oproj .optexts {
