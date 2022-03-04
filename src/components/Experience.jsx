@@ -13,21 +13,21 @@ const Experience = () => {
                             <div className="exp">
                                 <h2 className="eOneTitle">Samoei Boys Secondary School, Nandi Hills</h2>
                                 <div className="eOneTexts">
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum velit commodi possimus hic cum inventore labore sed doloremque impedit, distinctio tempora mollitia voluptatem vitae, excepturi reiciendis. Dolor reiciendis laudantium vero?</p>
+                                    <p>at samoei i learned alot of life skills and career developing skills through my four years there, This is where i had my first intrest in computers</p>
                                     <span className="eduration">2016 Jan - 2019 Dec</span>
                                 </div>
                             </div>
                             <div className="exp">
                                 <h2 className="eOneTitle">Alphax College, Eldoret</h2>
                                 <div className="eOneTexts">
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum velit commodi possimus hic cum inventore labore sed doloremque impedit, distinctio tempora mollitia voluptatem vitae, excepturi reiciendis. Dolor reiciendis laudantium vero?</p>
+                                    <p>here i took a practical course on web development where i gained skills in HTML, css, javascript and php. I also got certified in web development</p>
                                     <span className="eduration">2020 Jan - 2020 April</span>
                                 </div>
                             </div>
                             <div className="exp">
                                 <h2 className="eOneTitle">Machackos University, Machackos</h2>
                                 <div className="eOneTexts">
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum velit commodi possimus hic cum inventore labore sed doloremque impedit, distinctio tempora mollitia voluptatem vitae, excepturi reiciendis. Dolor reiciendis laudantium vero?</p>
+                                    <p>I am currently at Machackos University persuing a course in computer science. So far so good here</p>
                                     <span className="eduration">2020 Sept - current</span>
                                 </div>
                             </div>

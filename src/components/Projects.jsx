@@ -1,7 +1,9 @@
 import React from 'react'
 import '../styles/css/projects.css'
 import LinkedIn from '../images/Linkedin.png'
+import NullChemy from '../images/nullchemy.png'
 import { FiGithub } from 'react-icons/fi'
+import { FiExternalLink } from 'react-icons/fi'
 
 const Projects = () => {
     return (
@@ -19,7 +21,7 @@ const Projects = () => {
                             <div className="projTexts">
                                 <h2 className="projTitle">LinkedIn clone</h2>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ipsa maxime esse laudantium omnis dolores aliquam consectetur odio reiciendis ratione in. Odit reiciendis facere voluptates saepe voluptate. Autem, sed esse.
+                                    This is a simple LinkedIn clone project. Users are able to create posts, like posts, comment on posts and share posts. I did this project to further improve my skills in CRUD as this encompases all these aspects of development. It was fun and i hope you like it as well
                                 </p>
                                 <div className="pstack">
                                     <span>React</span>
@@ -28,6 +30,7 @@ const Projects = () => {
                                 </div>
                                 <div className="getCode">
                                     <span><a href="https://github.com/DennisRono/linkedin-clone"><FiGithub title="Github"/></a></span>
+                                    <span><a href="https://github.com/DennisRono/linkedin-clone"><FiExternalLink title="View live site"/></a></span>
                                 </div>
                             </div>
                         </div>
@@ -35,14 +38,14 @@ const Projects = () => {
                     <div className="proj">
                         <div className="pflex pfreverse">
                             <div className="projImage">
-                                <a href="https://github.com/DennisRono/linkedin-clone">
-                                    <img src={LinkedIn} alt="" />
+                                <a href="https://nullchemy.com">
+                                    <img src={NullChemy} alt="" />
                                 </a>
                             </div>
                             <div className="projTexts">
-                                <h2 className="projTitle">LinkedIn clone</h2>
+                                <h2 className="projTitle">nullChemy</h2>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ipsa maxime esse laudantium omnis dolores aliquam consectetur odio reiciendis ratione in. Odit reiciendis facere voluptates saepe voluptate. Autem, sed esse.
+                                    a fun company site, designed for marketting a company's products and services and to also bring in customers 
                                 </p>
                                 <div className="pstack">
                                     <span>React</span>
@@ -51,6 +54,7 @@ const Projects = () => {
                                 </div>
                                 <div className="getCode">
                                     <span><a href="https://github.com/DennisRono/linkedin-clone"><FiGithub title="Github"/></a></span>
+                                    <span><a href="https://nullchemy.com"><FiExternalLink title="View live site"/></a></span>
                                 </div>
                             </div>
                         </div>

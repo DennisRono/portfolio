@@ -202,3 +202,47 @@ body::-webkit-scrollbar-thumb {
 .sCounter, .secCounter, .pCounter, .eCounter{
     font-family: Inconsolata,monospace !important;
 }
+
+//cookie notification
+.cookieConsent{
+    width: 190px;
+    background: url('../../images/cookie-bg.png') center center / 100% 100% no-repeat;
+    position: fixed;
+    right: 0px;
+    padding: 14px 64px 20px 20px;
+    z-index: 98;
+    left: 16px;
+    bottom: 16px !important;
+}
+.cookieText{
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: rgb(61, 61, 61);
+    letter-spacing: 0.1px;
+}
+.cookiehiglight{
+    font-style: italic;
+    font-weight: 700;
+}
+.privacyPolicy{
+    text-decoration: underline;
+}
+
+.button{
+    font-size: 14px;
+    line-height: 15px;
+    padding: 9px 22px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+    background: transparent;
+    transition: color 0.15s ease-in-out 0s;
+    display: inline-block;
+}
