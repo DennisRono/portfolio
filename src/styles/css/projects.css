@@ -1,9 +1,10 @@
 .projects {
-  height: 100vh;
+  height: auto;
 }
 
 .projects .pwrapper .pcontainer {
-  margin: 5% 5%;
+  margin: 0 5%;
+  padding: 5% 0;
 }
 
 .projects .pwrapper .pcontainer .pTitle {
@@ -24,7 +25,7 @@
 }
 
 .projects .pwrapper .pcontainer .proj {
-  margin: 5% 0;
+  padding: 5% 0;
 }
 
 .projects .pwrapper .pcontainer .proj .pflex {
@@ -97,5 +98,22 @@
   color: var(--text-primary);
   font-size: 1.5rem;
   font-weight: 100;
+}
+
+.projects .pwrapper .pcontainer .proj .pfreverse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: reverse !important;
+      -ms-flex-direction: row-reverse !important;
+          flex-direction: row-reverse !important;
+}
+
+.projects .pwrapper .pcontainer .otherProjects .oTitle {
+  color: var(--text-primary);
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-weight: 400;
 }
 /*# sourceMappingURL=projects.css.map */

@@ -1,8 +1,9 @@
 .projects{
-    height: 100vh;
+    height: auto;
     .pwrapper{
         .pcontainer{
-            margin: 5% 5%;
+            margin: 0 5%;
+            padding: 5% 0;
             .pTitle{
                 position: relative;
                 text-align: center;
@@ -19,7 +20,7 @@
                 }
             }
             .proj{
-                margin: 5% 0;
+                padding: 5% 0;
                 .pflex{
                     display: flex;
                     justify-content: space-around;
@@ -74,6 +75,18 @@
                             }
                         }
                     }
+                }
+                .pfreverse{
+                    display: flex;
+                    flex-direction: row-reverse !important;
+                }
+            }
+            .otherProjects{
+                .oTitle{
+                    color: var(--text-primary);
+                    text-align: center;
+                    letter-spacing: 1.5px;
+                    font-weight: 400;
                 }
             }
         }
