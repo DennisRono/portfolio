@@ -58,7 +58,9 @@ const Projects = () => {
                     <div className="otherProjects">
                         <h2 className="oTitle">Other Noteworthy Projects</h2>
                         <div className="oproj">
-                            <h2 className="otproj">Codewars</h2>
+                            <a href="https://github.com/DennisRono/codewars">
+                                <h2 className="otproj">Codewars</h2>
+                            </a>
                             <p className="optexts">
                                 I have been practicing alot on code wars. i have managed to complete alot of the challenges presented which is major achievement to me.
                             </p>
