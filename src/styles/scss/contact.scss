@@ -2,6 +2,7 @@
     height: 100vh;
     .conwrapper{
         .concontainer{
+            margin: 0 5%;
             .conflex{
                 .conTitle{
                     position: relative;
@@ -33,7 +34,7 @@
                     font-size: 1.3rem;
                 }
                 .contactb{
-                    width: 100%;
+                    width: 20%;
                     margin: 0 auto;
                     color: var(--text-primary);
                     padding: 10px 30px;
