@@ -3,7 +3,6 @@ import '../styles/css/footer.css'
 import { FiGithub } from 'react-icons/fi'
 
 const Footer = () => {
-    let getCurrentYear = new Date().getFullYear;
   return (
     <div className="footer">
         <div className="fwrapper">
@@ -11,7 +10,7 @@ const Footer = () => {
                 <div className="fflex">
                     <div className="fcopy">
                         <p>
-                            &copy; denniskibet {getCurrentYear} | <span><a href="https://github.com/DennisRono/portfolio"><FiGithub title="Github"/></a></span>
+                            &copy; denniskibet {(new Date().getFullYear())} | <span><a href="https://github.com/DennisRono/portfolio"><FiGithub title="Github"/></a></span>
                         </p>
                     </div>
                 </div>
