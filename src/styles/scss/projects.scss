@@ -111,9 +111,13 @@
                         height: 15px;
                         display: inline-block;
                         vertical-align: middle;
+                        transition: 0.3s;
                     }
                     .otproj:hover{
                         color: aqua;
+                    }
+                    .otproj:hover::after{
+                        padding-left: 10px;
                     }
                     .optexts{
                         color: var(--text-primary);

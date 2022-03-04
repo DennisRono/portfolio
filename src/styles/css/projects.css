@@ -146,10 +146,16 @@
   height: 15px;
   display: inline-block;
   vertical-align: middle;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .projects .pwrapper .pcontainer .otherProjects .oproj .otproj:hover {
   color: aqua;
+}
+
+.projects .pwrapper .pcontainer .otherProjects .oproj .otproj:hover::after {
+  padding-left: 10px;
 }
 
 .projects .pwrapper .pcontainer .otherProjects .oproj .optexts {
