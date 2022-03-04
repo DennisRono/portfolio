@@ -130,5 +130,7 @@
 .projects .pwrapper .pcontainer .otherProjects .oproj .ostack span {
   color: var(--text-primary);
   margin-right: 30px;
+  padding: 3px 7px;
+  border: 1px solid aqua;
 }
 /*# sourceMappingURL=projects.css.map */
