@@ -8,6 +8,7 @@ const Contact = () => {
             <div className="concontainer">
                 <div className="conflex">
                     <h2 className="conTitle"><span className="conCounter">03. </span> &nbsp;&nbsp;&nbsp;&nbsp; what are you upto?</h2>
+                    <h2 className="constitle">Let's talk</h2>
                 </div>
             </div>
         </div>

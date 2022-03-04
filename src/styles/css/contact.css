@@ -18,4 +18,11 @@
   color: aqua;
   font-size: 17px;
 }
+
+.contact .conwrapper .concontainer .conflex .constitle {
+  text-align: center;
+  color: var(--text-primary);
+  font-size: 5rem;
+  font-weight: 600;
+}
 /*# sourceMappingURL=contact.css.map */
