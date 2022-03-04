@@ -123,6 +123,9 @@
 }
 
 .projects .pwrapper .pcontainer .otherProjects .oproj .otproj {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   color: var(--text-primary);
   font-weight: 400;
   cursor: pointer;
