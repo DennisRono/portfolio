@@ -3,6 +3,7 @@ import '../styles/css/footer.css'
 import { FiGithub } from 'react-icons/fi'
 
 const Footer = () => {
+    let getCurrentYear = new Date().getFullYear;
   return (
     <div className="footer">
         <div className="fwrapper">
