@@ -1,4 +1,11 @@
+.footer .fwrapper .fcontainer .fflex .fcopy {
+  padding-bottom: 30px;
+}
+
 .footer .fwrapper .fcontainer .fflex .fcopy p {
   text-align: center;
+  color: var(--text-primary);
+  font-weight: 100;
+  font-size: 0.9rem;
 }
 /*# sourceMappingURL=footer.css.map */

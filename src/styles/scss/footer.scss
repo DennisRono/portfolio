@@ -3,8 +3,12 @@
         .fcontainer{
             .fflex{
                 .fcopy{
+                    padding-bottom: 30px;
                     p{
                         text-align: center;
+                        color: var(--text-primary);
+                        font-weight: 100;
+                        font-size: 0.9rem;
                     }
                 }
             }
