@@ -12,7 +12,7 @@ const Contact = () => {
                     <p className="contexts">
                         let's chat on opportunities, new technologies, ideas or even say hi
                     </p>
-                    <a href="https://denniskibet.com/contact" className="contactb">say hi</a>
+                    <a href="https://denniskibet.com/contact" className="contactb">Say Hi</a>
                 </div>
             </div>
         </div>
