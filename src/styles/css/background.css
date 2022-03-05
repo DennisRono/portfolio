@@ -122,4 +122,22 @@
 .background .bwrapper .bcontainer .bflex .bTexts .backtexts::selection {
   background: #221427;
 }
+
+@media (max-width: 768px) {
+  .bflex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bflex .dennisImage {
+    width: 100%;
+  }
+  .bflex .bTexts {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=background.css.map */

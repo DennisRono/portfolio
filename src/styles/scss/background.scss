@@ -107,5 +107,11 @@
     .bflex{
         display: flex;
         flex-direction: column;
+        .dennisImage{
+            width: 100%;
+        }
+        .bTexts{
+            width: 100%;
+        }
     }
 }
