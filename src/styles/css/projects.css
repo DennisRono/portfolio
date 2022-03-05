@@ -200,5 +200,8 @@
   .otherProjects .oproj {
     margin-left: 0px !important;
   }
+  .otherProjects .oproj .ostack span {
+    margin-right: 5px;
+  }
 }
 /*# sourceMappingURL=projects.css.map */
