@@ -124,6 +124,11 @@
 }
 
 @media (max-width: 768px) {
+  .background {
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+  }
   .bflex {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -148,7 +153,6 @@
   }
   .bflex .bTexts {
     width: 100% !important;
-    height: 520px !important;
   }
   .bflex .bTexts .btTitle::before {
     display: none !important;

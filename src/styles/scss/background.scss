@@ -104,6 +104,9 @@
 
 //responsiveness
 @media(max-width: 768px){
+    .background{
+        height: min-content;
+    }
     .bflex{
         display: flex;
         flex-direction: column;
@@ -121,7 +124,6 @@
         }
         .bTexts{
             width: 100% !important;
-            height: 520px !important;
             .btTitle::before{
                 display: none !important;
             }
