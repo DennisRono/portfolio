@@ -104,5 +104,8 @@
 
 //responsiveness
 @media(max-width: 768px){
-    
+    .bflex{
+        display: flex;
+        flex-direction: column;
+    }
 }
