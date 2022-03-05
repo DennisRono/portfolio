@@ -202,7 +202,8 @@
     margin-left: 20px !important;
   }
   .sflex .sImages {
-    width: 100% !important;
+    width: 110% !important;
+    margin: 0px -5%;
   }
   .sflex .sImages .codeplay {
     margin-left: 0px !important;
