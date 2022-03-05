@@ -58,4 +58,10 @@
   width: 20%;
   font-family: Inconsolata,monospace;
 }
+
+@media (max-width: 480px) {
+  .exp {
+    margin-left: 0px !important;
+  }
+}
 /*# sourceMappingURL=experience.css.map */
