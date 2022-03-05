@@ -147,6 +147,9 @@
     }
 }
 @media(max-width: 768px){
+    .scontainer{
+        margin: 0px 5% !important;
+    }
     .sflex{
         flex-direction: column;
         .sTexts{

@@ -181,6 +181,9 @@
 }
 
 @media (max-width: 768px) {
+  .scontainer {
+    margin: 0px 5% !important;
+  }
   .sflex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
