@@ -142,5 +142,10 @@
     }
 }
 @media(max-width: 768px){
-    
+    .pflex{
+        flex-direction: column;
+        .projImage{
+            width: 100% !important;
+        }
+    }
 }
