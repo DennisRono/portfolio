@@ -199,13 +199,19 @@
     display: none !important;
   }
   .sflex .sTexts .snav {
-    margin-left: 10px !important;
-  }
-  .sflex .sTexts .snav ul {
-    margin-right: 30px !important;
+    margin-left: 20px !important;
   }
   .sflex .sImages {
     width: 100% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .sTexts .snav {
+    margin-left: 10px !important;
+  }
+  .sTexts .snav ul {
+    margin-right: 30px !important;
   }
 }
 /*# sourceMappingURL=skills.css.map */

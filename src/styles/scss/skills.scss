@@ -158,14 +158,21 @@
                 display: none !important;
             }
             .snav{
-                margin-left: 10px !important;
-                ul{
-                    margin-right: 30px !important;
-                }
+                margin-left: 20px !important;
             }
         }
         .sImages{
             width: 100% !important;
+        }
+    }
+}
+@media(max-width: 480px){
+    .sTexts{
+        .snav{
+            margin-left: 10px !important;
+            ul{
+                margin-right: 30px !important;
+            }
         }
     }
 }
