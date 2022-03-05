@@ -179,4 +179,16 @@
   -webkit-transition: opacity 500ms ease 0s;
   transition: opacity 500ms ease 0s;
 }
+
+@media (max-width: 768px) {
+  .sflex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sflex .sTexts {
+    width: 100% !important;
+  }
+}
 /*# sourceMappingURL=skills.css.map */

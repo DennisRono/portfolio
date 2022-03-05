@@ -146,3 +146,11 @@
         }
     }
 }
+@media(max-width: 768px){
+    .sflex{
+        flex-direction: column;
+        .sTexts{
+            width: 100% !important;
+        }
+    }
+}
