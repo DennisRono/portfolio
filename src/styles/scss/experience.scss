@@ -61,8 +61,12 @@
         .eOneTexts{
             width: 100% !important;
             flex-direction: column;
+            p{
+                width: 100% !important;
+            }
             .eduration{
-                width: 30% !important;
+                width: 100% !important;
+                margin-top: 10px;
             }
         }
     }

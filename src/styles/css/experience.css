@@ -70,8 +70,12 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .exp .eOneTexts p {
+    width: 100% !important;
+  }
   .exp .eOneTexts .eduration {
-    width: 30% !important;
+    width: 100% !important;
+    margin-top: 10px;
   }
 }
 /*# sourceMappingURL=experience.css.map */
