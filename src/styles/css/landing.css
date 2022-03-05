@@ -1,5 +1,7 @@
 .landing {
-  height: 100vh;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
   position: relative;
 }
 
