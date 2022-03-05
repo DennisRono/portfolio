@@ -149,5 +149,9 @@
   .bflex .bTexts {
     width: 100% !important;
   }
+  .bflex .bTexts .btTitle::before {
+    width: 60% !important;
+    right: unset !important;
+  }
 }
 /*# sourceMappingURL=background.css.map */
