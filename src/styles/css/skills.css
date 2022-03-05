@@ -208,6 +208,9 @@
   .sflex .sImages .codeplay {
     margin-left: 0px !important;
   }
+  .sflex .sImages .codeplay .top-left-bg {
+    display: none !important;
+  }
 }
 
 @media (max-width: 480px) {
