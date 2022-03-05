@@ -66,5 +66,8 @@
   .exp .eOneTexts {
     width: 100% !important;
   }
+  .exp .eOneTexts .eduration {
+    width: 30% !important;
+  }
 }
 /*# sourceMappingURL=experience.css.map */
