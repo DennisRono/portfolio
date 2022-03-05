@@ -110,6 +110,13 @@
         .dennisImage{
             width: 100% !important;
             margin-bottom: 30px;
+            position: relative;
+            .img-blk-wrapper{
+                margin-right: 0px !important;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+            }
         }
         .bTexts{
             width: 100% !important;
