@@ -198,6 +198,9 @@
   .sflex .sTexts .sTitle::after {
     display: none !important;
   }
+  .sflex .sTexts .snav {
+    margin-left: 10px !important;
+  }
   .sflex .sImages {
     width: 100% !important;
   }
