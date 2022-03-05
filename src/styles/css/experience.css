@@ -63,6 +63,9 @@
   .exp {
     margin-left: 0px !important;
   }
+  .exp .eOneTitle {
+    font-size: 20px;
+  }
   .exp .eOneTexts {
     width: 100% !important;
     -webkit-box-orient: vertical;

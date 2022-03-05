@@ -58,6 +58,9 @@
 @media(max-width: 480px){
     .exp{
         margin-left: 0px !important;
+        .eOneTitle{
+            font-size: 20px;
+        }
         .eOneTexts{
             width: 100% !important;
             flex-direction: column;
