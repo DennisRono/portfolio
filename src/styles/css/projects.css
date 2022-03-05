@@ -191,5 +191,11 @@
   .pflex .projTexts {
     width: 100% !important;
   }
+  .pfreverse {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
 }
 /*# sourceMappingURL=projects.css.map */
