@@ -1,5 +1,5 @@
 .projects{
-    height: auto;
+    height: min-content;
     .pwrapper{
         .pcontainer{
             margin: 0 5%;
@@ -140,4 +140,7 @@
             }
         }
     }
+}
+@media(max-width: 768px){
+    
 }

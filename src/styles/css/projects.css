@@ -1,5 +1,7 @@
 .projects {
-  height: auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
 }
 
 .projects .pwrapper .pcontainer {
