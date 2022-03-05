@@ -190,6 +190,9 @@
   .sflex .sTexts {
     width: 100% !important;
   }
+  .sflex .sTexts .sTitle::after {
+    display: none !important;
+  }
   .sflex .sImages {
     width: 100% !important;
   }

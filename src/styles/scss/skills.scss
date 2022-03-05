@@ -151,6 +151,9 @@
         flex-direction: column;
         .sTexts{
             width: 100% !important;
+            .sTitle::after{
+                display: none !important;
+            }
         }
         .sImages{
             width: 100% !important;
