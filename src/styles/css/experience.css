@@ -63,5 +63,8 @@
   .exp {
     margin-left: 0px !important;
   }
+  .exp .eOneTexts {
+    width: 100% !important;
+  }
 }
 /*# sourceMappingURL=experience.css.map */
