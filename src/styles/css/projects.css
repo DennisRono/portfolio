@@ -197,5 +197,8 @@
         -ms-flex-direction: column !important;
             flex-direction: column !important;
   }
+  .otherProjects .oproj {
+    margin-left: 0px !important;
+  }
 }
 /*# sourceMappingURL=projects.css.map */
