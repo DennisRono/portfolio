@@ -204,6 +204,9 @@
   .sflex .sImages {
     width: 100% !important;
   }
+  .sflex .sImages .codeplay {
+    margin-left: 0px !important;
+  }
 }
 
 @media (max-width: 480px) {
