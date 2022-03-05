@@ -150,8 +150,7 @@
     width: 100% !important;
   }
   .bflex .bTexts .btTitle::before {
-    width: 60% !important;
-    right: unset !important;
+    display: none !important;
   }
 }
 /*# sourceMappingURL=background.css.map */

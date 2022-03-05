@@ -122,8 +122,7 @@
         .bTexts{
             width: 100% !important;
             .btTitle::before{
-                width: 60% !important;
-                right: unset !important;
+                display: none !important;
             }
         }
     }
