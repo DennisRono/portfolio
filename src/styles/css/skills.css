@@ -214,6 +214,10 @@
   .sflex .sImages .codeplay .img-center-block {
     position: unset !important;
   }
+  .sflex .sImages .codeplay .img-center-block .img-wrapper .codeplay-area {
+    top: 5px !important;
+    left: 5px !important;
+  }
 }
 
 @media (max-width: 480px) {

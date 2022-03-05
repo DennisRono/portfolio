@@ -171,6 +171,12 @@
                 }
                 .img-center-block{
                     position: unset !important;
+                    .img-wrapper{
+                        .codeplay-area{
+                            top: 5px !important;
+                            left: 5px !important;
+                        }
+                    }
                 }
             }
         }
