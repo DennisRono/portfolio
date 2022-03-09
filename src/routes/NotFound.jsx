@@ -9,7 +9,7 @@ const NotFound = () => {
             if (seconds > 0) {
                 setSeconds(seconds - 1);
             } else {
-                window.location.href = "/"
+                // window.location.href = "/"
             }
         }, 1000)
         return ()=> {
