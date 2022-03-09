@@ -52,6 +52,10 @@
     font-size: 14rem !important;
     font-weight: 600;
   }
+  .notfoundWrapper .notFound .notFoundTexts {
+    font-size: 0.8rem !important;
+    line-height: 2rem !important;
+  }
 }
 
 @media (max-width: 320px) {
