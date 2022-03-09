@@ -1,24 +1,31 @@
 .notfoundWrapper{
     min-height: 100vh;
     text-align: center;
-    .notFoundTexts{
-        font-size: 1.3rem !important;
-        line-height: 2.4rem !important;
-        font-weight: 300;
-        font-style: normal;
-        color: var(--text-primary);
-    }
-    .notFoundLink{
-        margin-top: 30px;
-        font-size: 1.3rem !important;
-        line-height: 2.4rem !important;
-        font-weight: 300;
-        font-style: normal;
-        color: #ffffff !important;
-        cursor: pointer !important;
-        padding: 10px 40px;
-        border-radius: 23px;
-        background-color: #4C60F6;
+    position: relative;
+    .notFound{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .notFoundTexts{
+            font-size: 1.3rem !important;
+            line-height: 2.4rem !important;
+            font-weight: 300;
+            font-style: normal;
+            color: var(--text-primary);
+        }
+        .notFoundLink{
+            margin-top: 30px;
+            font-size: 1.3rem !important;
+            line-height: 2.4rem !important;
+            font-weight: 300;
+            font-style: normal;
+            color: #ffffff !important;
+            cursor: pointer !important;
+            padding: 10px 40px;
+            border-radius: 23px;
+            background-color: #4C60F6;
+        }
     }
 }
 @media(max-width: 320px){

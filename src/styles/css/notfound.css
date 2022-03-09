@@ -1,9 +1,18 @@
 .notfoundWrapper {
   min-height: 100vh;
   text-align: center;
+  position: relative;
 }
 
-.notfoundWrapper .notFoundTexts {
+.notfoundWrapper .notFound {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfoundWrapper .notFound .notFoundTexts {
   font-size: 1.3rem !important;
   line-height: 2.4rem !important;
   font-weight: 300;
@@ -11,7 +20,7 @@
   color: var(--text-primary);
 }
 
-.notfoundWrapper .notFoundLink {
+.notfoundWrapper .notFound .notFoundLink {
   margin-top: 30px;
   font-size: 1.3rem !important;
   line-height: 2.4rem !important;
