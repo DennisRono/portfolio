@@ -25,6 +25,8 @@
   font-weight: 200;
   font-style: normal;
   color: var(--text-primary);
+  margin-top: -50px;
+  margin-bottom: 20px;
 }
 
 .notfoundWrapper .notFound .notFoundLink {
