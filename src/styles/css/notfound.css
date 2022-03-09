@@ -43,14 +43,18 @@
   background: linear-gradient(to bottom right, #14a9ff, #0088f0) !important;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 430px) {
   .notfoundWrapper {
     text-align: center;
     margin: 0 10px;
   }
+  .notfoundWrapper .notFound .fourNotFound {
+    font-size: 14rem !important;
+    font-weight: 600;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .notfoundWrapper {
     text-align: center;
     margin: 0 10px;

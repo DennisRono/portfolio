@@ -36,20 +36,27 @@
         }
     }
 }
+@media(max-width: 430px){
+    .notfoundWrapper{
+        text-align: center;
+        margin: 0 10px;
+        .notFound{
+            .fourNotFound{
+                font-size: 14rem !important;
+                font-weight: 600;
+            }
+            .notFoundTexts{
+                
+            }
+            .notFoundLink{
+            }
+        }
+    }
+}
+
 @media(max-width: 320px){
     .notfoundWrapper{
         text-align: center;
         margin: 0 10px;
-    }
-}
-@media(max-width: 768px){
-    .notfoundWrapper{
-        text-align: center;
-        margin: 0 10px;
-        .notFoundTexts{
-
-        }
-        .notFoundLink{
-        }
     }
 }
