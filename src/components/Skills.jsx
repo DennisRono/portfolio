@@ -79,7 +79,7 @@ const Skills = () => {
                                 <div className="img-wrapper">
                                     <div className="pb-mobi" style={{width: "100%", paddingBottom: "95.7916%"}}></div>
                                     <div className="codeplay-area">
-                                        <TypeIt options={{ startDelay: 900 }}>
+                                        <TypeIt options={{ startDelay: 900,   afterComplete: function (instance) {instance.destroy();} }}>
                                             <SuperStrong>Super strong text.</SuperStrong>
                                         </TypeIt>
                                     </div>

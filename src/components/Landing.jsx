@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react'
 import '../styles/css/landing.css'
+import Downloadbtn from './Downloadb'
 import Wave from '../images/wave.png'
 import Kibet from '../images/jumb_kibet.png'
 import { ReactComponent as Scroll } from '../images/scroll.svg'
 import { FiGithub } from 'react-icons/fi'
-import DownloadIcon from '@mui/icons-material/Download'
+// import DownloadIcon from '@mui/icons-material/Download'
 
 const Landing = () => {
   useEffect(() => {
@@ -17,7 +18,6 @@ const Landing = () => {
   const hidecallToActionScroll = (e) => {
       const act = document.querySelector('.callToActionScroll');
       const scrollTop = window.scrollY;
-      console.log(scrollTop);
       scrollTop >= 70 ? act.classList.add('hidecallToActionScroll') : act.classList.remove('hidecallToActionScroll');
   };
   return (
@@ -35,9 +35,12 @@ const Landing = () => {
                   <div className="git">
                       <a className="draw" target="blank" href="https://github.com/DennisRono/"><FiGithub className="pIcons" /><span className="talign">&nbsp;&nbsp;Github</span></a>
                   </div>
-                  <div className="dresume">
+                  {/* <div className="dresume">
                       <a className="dresumeLink" href="https://denniskibet.com/docs/resume.pdf" download><DownloadIcon className="pIcons"  /><span className="talign">&nbsp;&nbsp;Resume</span></a>
-                  </div>
+                  </div> */}
+                  <a href="https://denniskibet.com/docs/resume.pdf" download>
+                    <Downloadbtn />
+                  </a>
               </div>
             </div>
             <div className="limages">

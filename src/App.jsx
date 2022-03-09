@@ -1,4 +1,7 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import Home from './routes/Home'
+import Stats from './routes/Stats'
 import Landing from './components/Landing'
 import Preloader from './components/Preloader'
 import useLocalStorage from 'use-local-storage'
@@ -60,6 +63,14 @@ function App() {
                 >
                     <p className="cookieText">We use cookies to improve your browsing experience.</p>
                 </CookieConsent>
+                <Router>
+                    <Navbar/>
+                    <Routes>
+                    <Route path="/" element={<Home />}></Route>
+                    <Route path="/stats" element={<Stats />}></Route>
+                    <Route path="*" element={<NotFound />}></Route>
+                    </Routes>
+                </Router>
                 <Landing />
                 <Background />
                 <Skills />
