@@ -14,18 +14,21 @@ function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
     const toggleTheme = () => {
-        let location = useLocation();
-        //location.pathname will give you current route path 
-        console.log(location.pathname);
         if(theme === 'dark'){
             setTheme('light')
         } else if(theme === 'light') {
             setTheme('dark')
         }
     }
+
+    const yourFunction = () => {
+        let location = useLocation();
+         //location.pathname will give you current route path 
+        console.log(location.pathname);
+    }
+
     //page pre loader
     document.onreadystatechange = function() {
-
         if (document.readyState !== "complete") {
             document.querySelector(".contents").style.visibility = "hidden";
             document.querySelector(".preloader").style.visibility = "visible";
