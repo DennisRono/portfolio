@@ -23,17 +23,18 @@ function App() {
 
     //page pre loader
     document.onreadystatechange = function() {
-        console.log(window.location.pathname == "/")
-        if (document.readyState !== "complete") {
-            document.querySelector(".contents").style.visibility = "hidden";
-            document.querySelector(".preloader").style.visibility = "visible";
-        } else {
-            document.querySelector(".contents").style.display = "none";
-            setTimeout(() => {
-                document.querySelector(".preloader").style.display = "none";
-                document.querySelector(".contents").style.visibility = "visible";
-                document.querySelector(".contents").style.display = "unset";
-            }, 6000);
+        if (window.location.pathname == "/"){
+            if (document.readyState !== "complete") {
+                document.querySelector(".contents").style.visibility = "hidden";
+                document.querySelector(".preloader").style.visibility = "visible";
+            } else {
+                document.querySelector(".contents").style.display = "none";
+                setTimeout(() => {
+                    document.querySelector(".preloader").style.display = "none";
+                    document.querySelector(".contents").style.visibility = "visible";
+                    document.querySelector(".contents").style.display = "unset";
+                }, 6000);
+            }
         }
     };
     return ( 
