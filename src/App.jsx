@@ -25,11 +25,11 @@ function App() {
 
     //page pre loader
     document.onreadystatechange = function() {
-        if (window.location.pathname == "/" && isFirst){
+        if (window.location.pathname === "/" && isFirst === 'yes'){
+            setIsfirst('no')
             if (document.readyState !== "complete") {
                 document.querySelector(".contents").style.visibility = "hidden";
                 document.querySelector(".preloader").style.display = "unset";
-                setIsfirst('no')
             } else {
                 document.querySelector(".contents").style.display = "none";
                 setTimeout(() => {
