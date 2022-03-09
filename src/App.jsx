@@ -20,6 +20,8 @@ function App() {
             setTheme('dark')
         }
     }
+    //is First Load
+    const [isFirst, setIsfirst] = useLocalStorage('loaded', 'no');
 
     //page pre loader
     document.onreadystatechange = function() {
