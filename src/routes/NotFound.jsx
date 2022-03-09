@@ -19,10 +19,12 @@ const NotFound = () => {
   return (
     <div>
         <div className="notfoundWrapper">
-            <p>404</p>
-            <br/>
-            <p className="notFoundTexts">We can't seem to find the page you are looking for.<br /> We will try to redirect you automatically in { seconds } seconds.</p>
-            <Link className="notFoundLink" to="/">back home</Link>             
+            <div className="notFound">
+                <p>404</p>
+                <br/>
+                <p className="notFoundTexts">We can't seem to find the page you are looking for.<br /> We will try to redirect you automatically in { seconds } seconds.</p>
+                <Link className="notFoundLink" to="/">back home</Link>
+            </div>           
         </div>
     </div>
   )

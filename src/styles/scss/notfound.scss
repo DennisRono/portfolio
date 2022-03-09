@@ -26,12 +26,6 @@
         text-align: center;
         padding-bottom: 150px;
         margin: 0 10px;
-        .notFound{
-            width: 200px !important;
-            height: auto;
-            margin-top: 100px;
-            margin-bottom: 40px;
-        }
     }
 }
 @media(max-width: 768px){
@@ -39,32 +33,10 @@
         text-align: center;
         padding-bottom: 150px;
         margin: 0 10px;
-        .notFound{
-            width: 300px;
-            height: auto;
-            margin-top: 100px;
-            margin-bottom: 40px;
-        }
         .notFoundTexts{
-            font-size: 1.0rem !important;
-            line-height: 2.0rem !important;
-            font-family: "canada-type-gibson", sans-serif;
-            font-weight: 300;
-            font-style: normal;
-            color: #2F3744;
+
         }
         .notFoundLink{
-            margin-top: 30px;
-            font-size: 1.3rem !important;
-            line-height: 2.4rem !important;
-            font-family: "canada-type-gibson", sans-serif;
-            font-weight: 300;
-            font-style: normal;
-            color: #ffffff !important;
-            cursor: pointer !important;
-            padding: 10px 40px;
-            border-radius: 23px;
-            background-color: #4C60F6;
         }
     }
 }
