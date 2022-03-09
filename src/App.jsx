@@ -23,7 +23,7 @@ function App() {
 
     //page pre loader
     document.onreadystatechange = function() {
-        console.log(location.pathname == "/")
+        console.log(window.location.pathname == "/")
         if (document.readyState !== "complete") {
             document.querySelector(".contents").style.visibility = "hidden";
             document.querySelector(".preloader").style.visibility = "visible";
