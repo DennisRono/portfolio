@@ -1,12 +1,8 @@
 .notfoundWrapper{
     min-height: 100vh;
     text-align: center;
-    padding-bottom: 150px;
     .notFound{
-        width: 400px;
-        height: auto;
-        margin-top: 100px;
-        margin-bottom: 40px;
+
     }
     .notFoundTexts{
         font-size: 1.3rem !important;
@@ -14,7 +10,7 @@
         font-family: "canada-type-gibson", sans-serif;
         font-weight: 300;
         font-style: normal;
-        color: #2F3744;
+        color: var(--text-primary);
     }
     .notFoundLink{
         margin-top: 30px;
