@@ -6,7 +6,6 @@
 .notfoundWrapper .notFoundTexts {
   font-size: 1.3rem !important;
   line-height: 2.4rem !important;
-  font-family: "canada-type-gibson", sans-serif;
   font-weight: 300;
   font-style: normal;
   color: var(--text-primary);
@@ -16,7 +15,6 @@
   margin-top: 30px;
   font-size: 1.3rem !important;
   line-height: 2.4rem !important;
-  font-family: "canada-type-gibson", sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #ffffff !important;
