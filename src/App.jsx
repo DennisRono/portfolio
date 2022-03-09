@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import Home from './routes/Home'
 import Stats from './routes/Stats'
 import NotFound from './routes/NotFound'
@@ -14,6 +14,9 @@ function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
     const toggleTheme = () => {
+        let location = useLocation();
+        //location.pathname will give you current route path 
+        console.log(location.pathname);
         if(theme === 'dark'){
             setTheme('light')
         } else if(theme === 'light') {
@@ -22,7 +25,7 @@ function App() {
     }
     //page pre loader
     document.onreadystatechange = function() {
-        console.log(window.location.href);
+
         if (document.readyState !== "complete") {
             document.querySelector(".contents").style.visibility = "hidden";
             document.querySelector(".preloader").style.visibility = "visible";
