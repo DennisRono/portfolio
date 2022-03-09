@@ -15,7 +15,7 @@ const Downloadb = () => {
     <div className="thedownloadbutton">
         <div className='dbutton'>
         <input id='dbutton' type='checkbox' />
-        <label  for='dbutton' style={{ position: "relative" }}>
+        <label  htmlFor='dbutton' style={{ position: "relative" }}>
             <div  onClick={()=>{initiateDownload()}} className='dbutton_inner q'>
             <DownloadIcon className="l pIcons" />
             <span className='t'>Resume</span>
