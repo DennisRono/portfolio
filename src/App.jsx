@@ -1,19 +1,13 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './routes/Home'
 import Stats from './routes/Stats'
-import Landing from './components/Landing'
 import Preloader from './components/Preloader'
 import useLocalStorage from 'use-local-storage'
 import CookieConsent from "react-cookie-consent"
 import { ReactComponent as Sun } from './images/sun.svg'
 import { ReactComponent as Moon } from './images/moon.svg'
-import Background from './components/Background'
-import Skills from './components/Skills'
-import Experience from './components/Experience'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -71,13 +65,6 @@ function App() {
                     <Route path="*" element={<NotFound />}></Route>
                     </Routes>
                 </Router>
-                <Landing />
-                <Background />
-                <Skills />
-                <Experience />
-                <Projects />
-                <Contact />
-                <Footer />
             </div>
         </div>
     );
