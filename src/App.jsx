@@ -22,6 +22,7 @@ function App() {
     }
     //is First Load
     const [isFirst, setIsfirst] = useLocalStorage('isFirst', 'yes');
+    console.log(isFirst);
 
     //page pre loader
     document.onreadystatechange = function() {
