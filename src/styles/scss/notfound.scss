@@ -8,14 +8,14 @@
         left: 50%;
         transform: translate(-50%, -50%);
         .fourNotFound{
-            font-size: 16rem !important;
+            font-size: 16rem;
             font-weight: 900;
             font-family: Inconsolata,monospace;
             color: aqua;
         }
         .notFoundTexts{
-            font-size: 1rem !important;
-            line-height: 2.2rem !important;
+            font-size: 1rem;
+            line-height: 2.2rem;
             font-weight: 200;
             font-style: normal;
             color: var(--text-primary);
@@ -24,28 +24,28 @@
         }
         .notFoundLink{
             margin-top: 30px;
-            font-size: 1.3rem !important;
-            line-height: 2.4rem !important;
+            font-size: 1.3rem;
+            line-height: 2.4rem;
             font-weight: 300;
             font-style: normal;
-            color: #ffffff !important;
-            cursor: pointer !important;
+            color: #ffffff;
+            cursor: pointer;
             padding: 10px 40px;
             border-radius: 23px;
             background: linear-gradient(to bottom right,#14a9ff,#0088f0)!important;
         }
     }
 }
-@media(max-width: 430px){
+@media(max-width: 450px){
     .notfoundWrapper{
         .notFound{
             .fourNotFound{
-                font-size: 14rem !important;
+                font-size: 14rem;
                 font-weight: 600;
             }
             .notFoundTexts{
-                font-size: 0.8rem !important;
-                line-height: 2rem !important;
+                font-size: 0.8rem;
+                line-height: 2rem;
             }
         }
     }
@@ -54,12 +54,12 @@
 @media(max-width: 320px){
     .notfoundWrapper{
         .fourNotFound{
-            font-size: 10rem !important;
+            font-size: 10rem;
             font-weight: 600;
         }
         .notFoundTexts{
-            font-size: 0.8rem !important;
-            line-height: 2rem !important;
+            font-size: 0.8rem;
+            line-height: 2rem;
         }
     }
 }
