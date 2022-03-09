@@ -22,6 +22,7 @@ function App() {
     }
     //page pre loader
     document.onreadystatechange = function() {
+        console.log(window.location.href);
         if (document.readyState !== "complete") {
             document.querySelector(".contents").style.visibility = "hidden";
             document.querySelector(".preloader").style.visibility = "visible";
