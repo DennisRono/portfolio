@@ -3,8 +3,7 @@ import '../styles/css/notfound.css'
 import { Link } from "react-router-dom"
 
 const NotFound = () => {
-    const {initialSeconds = 10} = props;
-    const [seconds, setSeconds ] =  useState(initialSeconds);
+    const [seconds, setSeconds ] =  useState(10);
     useEffect(()=>{
         let myInterval = setInterval(() => {
             if (seconds > 0) {
