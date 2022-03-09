@@ -39,7 +39,8 @@
   cursor: pointer !important;
   padding: 10px 40px;
   border-radius: 23px;
-  background-color: #4C60F6;
+  background: -webkit-gradient(linear, left top, right bottom, from(#14a9ff), to(#0088f0)) !important;
+  background: linear-gradient(to bottom right, #14a9ff, #0088f0) !important;
 }
 
 @media (max-width: 320px) {
