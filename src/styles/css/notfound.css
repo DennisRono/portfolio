@@ -15,6 +15,7 @@
 .notfoundWrapper .notFound .fourNotFound {
   font-size: 5rem !important;
   font-weight: 600;
+  font-family: Inconsolata,monospace;
 }
 
 .notfoundWrapper .notFound .notFoundTexts {
