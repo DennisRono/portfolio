@@ -54,12 +54,8 @@
 @media(max-width: 320px){
     .notfoundWrapper{
         .fourNotFound{
-            font-size: 10rem;
-            font-weight: 600;
-        }
-        .notFoundTexts{
-            font-size: 0.8rem;
-            line-height: 2rem;
+            font-size: 10rem !important;
+            font-weight: 500 !important;
         }
     }
 }
