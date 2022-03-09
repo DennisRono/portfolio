@@ -7,10 +7,14 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        .fourNotFound{
+            font-size: 5rem !important;
+            font-weight: 600;
+        }
         .notFoundTexts{
-            font-size: 1.3rem !important;
-            line-height: 2.4rem !important;
-            font-weight: 300;
+            font-size: 1rem !important;
+            line-height: 2.2rem !important;
+            font-weight: 200;
             font-style: normal;
             color: var(--text-primary);
         }
