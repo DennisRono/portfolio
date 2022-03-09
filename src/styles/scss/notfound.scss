@@ -38,8 +38,6 @@
 }
 @media(max-width: 430px){
     .notfoundWrapper{
-        text-align: center;
-        margin: 0 10px;
         .notFound{
             .fourNotFound{
                 font-size: 14rem !important;
@@ -49,15 +47,19 @@
                 font-size: 0.8rem !important;
                 line-height: 2rem !important;
             }
-            .notFoundLink{
-            }
         }
     }
 }
 
 @media(max-width: 320px){
     .notfoundWrapper{
-        text-align: center;
-        margin: 0 10px;
+        .fourNotFound{
+            font-size: 10rem !important;
+            font-weight: 600;
+        }
+        .notFoundTexts{
+            font-size: 0.8rem !important;
+            line-height: 2rem !important;
+        }
     }
 }

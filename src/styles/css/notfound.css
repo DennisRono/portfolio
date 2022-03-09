@@ -44,10 +44,6 @@
 }
 
 @media (max-width: 430px) {
-  .notfoundWrapper {
-    text-align: center;
-    margin: 0 10px;
-  }
   .notfoundWrapper .notFound .fourNotFound {
     font-size: 14rem !important;
     font-weight: 600;
@@ -59,9 +55,13 @@
 }
 
 @media (max-width: 320px) {
-  .notfoundWrapper {
-    text-align: center;
-    margin: 0 10px;
+  .notfoundWrapper .fourNotFound {
+    font-size: 10rem !important;
+    font-weight: 600;
+  }
+  .notfoundWrapper .notFoundTexts {
+    font-size: 0.8rem !important;
+    line-height: 2rem !important;
   }
 }
 /*# sourceMappingURL=notfound.css.map */
