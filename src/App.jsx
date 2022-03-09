@@ -21,11 +21,11 @@ function App() {
         }
     }
     //is First Load
-    const [isFirst, setIsfirst] = useLocalStorage('isFirst', 'no');
+    const [isFirst, setIsfirst] = useLocalStorage('isFirst', 'yes');
 
     //page pre loader
     document.onreadystatechange = function() {
-        if (window.location.pathname == "/"){
+        if (window.location.pathname == "/" && isFirst){
             if (document.readyState !== "complete") {
                 document.querySelector(".contents").style.visibility = "hidden";
                 document.querySelector(".preloader").style.display = "unset";
