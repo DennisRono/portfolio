@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './routes/Home'
 import Stats from './routes/Stats'
 import NotFound from './routes/NotFound'
@@ -19,12 +19,6 @@ function App() {
         } else if(theme === 'light') {
             setTheme('dark')
         }
-    }
-
-    const yourFunction = () => {
-        let location = useLocation();
-         //location.pathname will give you current route path 
-        console.log(location.pathname);
     }
 
     //page pre loader
