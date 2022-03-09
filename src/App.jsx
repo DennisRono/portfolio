@@ -21,7 +21,7 @@ function App() {
         }
     }
     //is First Load
-    const [isFirst, setIsfirst] = useLocalStorage('loaded', 'no');
+    const [isFirst, setIsfirst] = useLocalStorage('isFirst', 'no');
 
     //page pre loader
     document.onreadystatechange = function() {
@@ -29,6 +29,7 @@ function App() {
             if (document.readyState !== "complete") {
                 document.querySelector(".contents").style.visibility = "hidden";
                 document.querySelector(".preloader").style.display = "unset";
+                setIsfirst('no')
             } else {
                 document.querySelector(".contents").style.display = "none";
                 setTimeout(() => {
