@@ -1,1 +1,6 @@
-/* No CSS *//*# sourceMappingURL=stats.css.map */
+.stats {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+/*# sourceMappingURL=stats.css.map */
