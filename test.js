@@ -1,15 +1,24 @@
-// Dependencies
-var GhPolyglot = require("gh-polyglot");
+import { Chart, LineController, LineElement, PointElement, LinearScale, Title } from `chart.js`
 
-// Stats about git-stats
-var me = new GhPolyglot("DennisRono");
+Chart.register(LineController, LineElement, PointElement, LinearScale, Title);
 
-// Repository stats
-// me.repoStats(function (err, stats) {
-//     console.log(err || stats);
-// });
-
-// User stats
-me.userStats(function (err, stats) {
-    console.log(err || stats);
-});
+const chart = new Chart(ctx, {
+    type: 'line',
+    // data: ...
+    options: {
+        plugins: {
+            title: {
+                display: true,
+                text: 'Chart Title'
+            }
+        },
+        scales: {
+            x: {
+                type: 'linear'
+            },
+            y: {
+                type: 'linear'
+            }
+        }
+    }
+})
