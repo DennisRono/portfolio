@@ -13,6 +13,7 @@ const Stats = () => {
       console.error(error);
     }
   }
+  getUser()
   return (
     <div>
       <div className="stats">
