@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/css/stats.css'
 import axios from 'axios'
+import BackImage from '../images/Linkedin.png'
 
 const Stats = () => {
   return (
@@ -10,7 +11,9 @@ const Stats = () => {
           <div className="statsContainer">
             <div className="statsFlex">
               <div className="sprofile">
-
+                <div className="backImage">
+                  <img src={BackImage} alt="" />
+                </div>
               </div>
               <div className="dennisGraph">
               <a align ="center" href="https://denniskibet.com">
