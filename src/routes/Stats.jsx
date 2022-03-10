@@ -2,8 +2,17 @@ import React from 'react'
 import '../styles/css/stats.css'
 import axios from 'axios'
 import BackImage from '../images/Linkedin.png'
+import { Chart, LineController, LineElement, PointElement, LinearScale, Title } from `chart.js`
+import options from '../includes/chart'
+
+
 
 const Stats = () => {
+  Chart.register(LineController, LineElement, PointElement, LinearScale, Title);
+  const chart = new Chart(ctx, {
+    type: 'line',
+    options: options
+  })
   return (
     <div>
       <div className="stats">
