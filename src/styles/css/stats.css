@@ -19,7 +19,7 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: 10px solid aqua;
+  border: 10px solid #32ff9f;
 }
 
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .sImage img {
