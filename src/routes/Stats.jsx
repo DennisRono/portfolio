@@ -28,7 +28,7 @@ const Stats = () => {
             <div className="statsFlex">
               <div className="sprofile">
                 <div className="sImage">
-                  <img src={BackImage} alt="" />
+                  <img src={userdata.avatar_url} alt="" />
                 </div>
                 <div className="snameTexts">
                   <h2 className="suserTitle">{userdata.name}</h2>
