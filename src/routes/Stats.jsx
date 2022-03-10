@@ -5,6 +5,14 @@ import BackImage from '../images/Linkedin.png'
 
 
 const Stats = () => {
+  async function getUser() {
+    try {
+      const response = await axios.get('https://api.github.com/users/DennisRono');
+      console.log(response);
+    } catch (error) {
+      console.error(error);
+    }
+  }
   return (
     <div>
       <div className="stats">
