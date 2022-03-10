@@ -23,9 +23,18 @@ const Stats = () => {
                     <h2 className="infotxts">Joined September 30, 2020</h2>
                   </div>
                   <div className="saccInfo">
-                    <div className="srepo"></div>
-                    <div className="sfollowers"></div>
-                    <div className="sfollowing"></div>
+                    <div className="srepo">
+                      <h2>47</h2>
+                      <span>repositories</span>
+                    </div>
+                    <div className="sfollowers">
+                      <h2>42</h2>
+                      <span>followers</span>
+                    </div>
+                    <div className="sfollowing">
+                      <h2>258</h2>
+                      <span>following</span>
+                    </div>
                   </div>
                 </div>
               </div>
