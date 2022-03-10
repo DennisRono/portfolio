@@ -15,7 +15,8 @@ const Stats = () => {
                   <img src={BackImage} alt="" />
                 </div>
                 <div className="snameTexts">
-                  <h2 className="susername">Dennis Rono</h2>
+                  <h2 className="suserTitle">Finn Neron</h2>
+                  <h3 className="suserName">@DennisRono</h3>
                 </div>
               </div>
               <div className="dennisGraph">
