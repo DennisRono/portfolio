@@ -3,8 +3,7 @@ import '../styles/css/stats.css'
 import axios from 'axios'
 import BackImage from '../images/Linkedin.png'
 import Chart from 'chart.js/auto';
-import { getRelativePosition } from 'chart.js/helpers';
-import {actions, config} from '../includes/chart'
+// import {actions, config} from '../includes/chart'
 
 
 
