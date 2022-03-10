@@ -31,7 +31,7 @@ const Stats = () => {
                 </div>
                 <div className="snameTexts">
                   <h2 className="suserTitle">{userdata.name}</h2>
-                  <h3 className="suserName">@DennisRono</h3>
+                  <h3 className="suserName">@{userdata.login}</h3>
                   <div className="suinfo">
                     <h2 className="infotxts">nullexpo</h2>
                     <h2 className="infotxts">Kenya</h2>
