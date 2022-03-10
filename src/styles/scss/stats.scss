@@ -57,7 +57,7 @@
                                 margin: 10px 20px;
                                 padding: 20px;
                                 border-radius: 5px;
-                                background-color: rgb(43, 43, 43);
+                                background-color: rgba(36, 36, 36, 0.61);
                                 h2{
                                     color: var(--text-primary);
                                     font-size: 1rem;
@@ -67,6 +67,7 @@
                                     color: var(--text-primary);
                                     font-size: 1rem;
                                     text-align: center;
+                                    text-transform: uppercase;
                                 }
                             }
                         }
