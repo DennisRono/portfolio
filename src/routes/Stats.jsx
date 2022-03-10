@@ -36,7 +36,7 @@ const Stats = () => {
                   <div className="suinfo">
                     <h2 className="infotxts">{userdata.company}</h2>
                     <h2 className="infotxts">{userdata.location}</h2>
-                    <h2 className="infotxts">{dateFormat(userdata.created_at, "dddd, mmmm dS, yyyy")}</h2>
+                    <h2 className="infotxts">Joined on {dateFormat(userdata.created_at, "mmmm dS, yyyy")}</h2>
                   </div>
                   <div className="saccInfo">
                     <div className="sintx">
