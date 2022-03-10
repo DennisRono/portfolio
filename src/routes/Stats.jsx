@@ -40,15 +40,15 @@ const Stats = () => {
                   </div>
                   <div className="saccInfo">
                     <div className="sintx">
-                      <h2>47</h2>
+                      <h2>{userdata.public_repos}</h2>
                       <span>repositories</span>
                     </div>
                     <div className="sintx">
-                      <h2>42</h2>
+                      <h2>{userdata.followers}</h2>
                       <span>followers</span>
                     </div>
                     <div className="sintx">
-                      <h2>258</h2>
+                      <h2>{userdata.following}</h2>
                       <span>following</span>
                     </div>
                   </div>
