@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import '../styles/css/stats.css'
 import axios from 'axios'
+import dateFormat from 'dateformat'
 import BackImage from '../images/Linkedin.png'
 
 
@@ -35,7 +36,7 @@ const Stats = () => {
                   <div className="suinfo">
                     <h2 className="infotxts">{userdata.company}</h2>
                     <h2 className="infotxts">{userdata.location}</h2>
-                    <h2 className="infotxts">{userdata.created_at}</h2>
+                    <h2 className="infotxts">{dateFormat(userdata.created_at, "dddd, mmmm dS, yyyy")}</h2>
                   </div>
                   <div className="saccInfo">
                     <div className="sintx">
