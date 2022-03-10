@@ -12,5 +12,13 @@
   height: 200px;
   width: 200px;
   border-radius: 50%;
+  overflow: hidden;
+}
+
+.stats .statsWrapper .statsContainer .statsFlex .sprofile .sImage img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=stats.css.map */
