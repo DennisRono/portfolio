@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/css/stats.css'
 import axios from 'axios'
 import BackImage from '../images/Linkedin.png'
-import { Line } from 'chart.js'
+import { Chart, ArcElement, LineElement, BarElement, PointElement, BarController, BubbleController, DoughnutController, LineController, PieController, PolarAreaController, RadarController, ScatterController, CategoryScale, LinearScale, LogarithmicScale, RadialLinearScale, TimeScale, TimeSeriesScale, Decimation, Filler, Legend, Title, Tooltip, SubTitle} from 'chart.js'
 import {actions, config} from '../includes/chart'
 
 
@@ -44,7 +44,7 @@ const Stats = () => {
                 </div>
               </div>
               <div className="contributionGraph">
-                <Line />
+                <Line data={contrData} options={config} />
               </div>
               <div className="dennisGraph">
               <a align ="center" href="https://denniskibet.com">
