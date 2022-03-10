@@ -1,20 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/css/stats.css'
 import axios from 'axios'
 import BackImage from '../images/Linkedin.png'
 
 
 const Stats = () => {
+  const [userdata, setUserdata] = useState({})
   const getUser = async () => {
     try {
       const response = await axios.get('https://api.github.com/users/DennisRono');
       //console.log(response.data.name);
-      return response.data
+      setUserdata(response.data)
     } catch (error) {
       console.error(error);
     }
   }
-  const userdata = getUser()
+  getUser()
   console.log(userdata);
   return (
     <div>
