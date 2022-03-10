@@ -23,15 +23,15 @@ const Stats = () => {
                     <h2 className="infotxts">Joined September 30, 2020</h2>
                   </div>
                   <div className="saccInfo">
-                    <div className="srepo">
+                    <div className="sintx">
                       <h2>47</h2>
                       <span>repositories</span>
                     </div>
-                    <div className="sfollowers">
+                    <div className="sintx">
                       <h2>42</h2>
                       <span>followers</span>
                     </div>
-                    <div className="sfollowing">
+                    <div className="sintx">
                       <h2>258</h2>
                       <span>following</span>
                     </div>

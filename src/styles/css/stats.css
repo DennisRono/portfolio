@@ -67,4 +67,15 @@
   font-weight: 300;
   margin: 10px 20px;
 }
+
+.stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .saccInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .saccInfo .sintx {
+  margin: 10px 20px;
+  padding: 20px;
+}
 /*# sourceMappingURL=stats.css.map */
