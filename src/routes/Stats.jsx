@@ -33,9 +33,9 @@ const Stats = () => {
                   <h2 className="suserTitle">{userdata.name}</h2>
                   <h3 className="suserName">@{userdata.login}</h3>
                   <div className="suinfo">
-                    <h2 className="infotxts">nullexpo</h2>
-                    <h2 className="infotxts">Kenya</h2>
-                    <h2 className="infotxts">Joined September 30, 2020</h2>
+                    <h2 className="infotxts">{userdata.company}</h2>
+                    <h2 className="infotxts">{userdata.location}</h2>
+                    <h2 className="infotxts">{userdata.created_at}</h2>
                   </div>
                   <div className="saccInfo">
                     <div className="sintx">
