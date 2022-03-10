@@ -54,4 +54,10 @@
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .suserName:hover {
   text-decoration: underline;
 }
+
+.stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .suinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=stats.css.map */

@@ -17,6 +17,11 @@ const Stats = () => {
                 <div className="snameTexts">
                   <h2 className="suserTitle">Finn Neron</h2>
                   <h3 className="suserName">@DennisRono</h3>
+                  <div className="suinfo">
+                    <h2 className="infotxts">nullexpo</h2>
+                    <h2 className="infotxts">Kenya</h2>
+                    <h2 className="infotxts">Joined September 30, 2020</h2>
+                  </div>
                 </div>
               </div>
               <div className="dennisGraph">
