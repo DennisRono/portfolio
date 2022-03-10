@@ -3,4 +3,8 @@
   height: -moz-min-content;
   height: min-content;
 }
+
+.stats .statsWrapper .statsContainer .statsFlex .sprofile {
+  height: 100vh;
+}
 /*# sourceMappingURL=stats.css.map */
