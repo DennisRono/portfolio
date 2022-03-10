@@ -9,6 +9,7 @@ const Stats = () => {
     try {
       const response = await axios.get('https://api.github.com/users/DennisRono');
       console.log(response.data);
+      return response.data
     } catch (error) {
       console.error(error);
     }
@@ -25,7 +26,7 @@ const Stats = () => {
                   <img src={BackImage} alt="" />
                 </div>
                 <div className="snameTexts">
-                  <h2 className="suserTitle">{userdata.data}</h2>
+                  <h2 className="suserTitle">{userdata.name}</h2>
                   <h3 className="suserName">@DennisRono</h3>
                   <div className="suinfo">
                     <h2 className="infotxts">nullexpo</h2>
