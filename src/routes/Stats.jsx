@@ -9,6 +9,7 @@ import options from '../includes/chart'
 
 const Stats = () => {
   Chart.register(LineController, LineElement, PointElement, LinearScale, Title);
+  const ctx = document.getElementById('contribution').getContext('2d');
   const chart = new Chart(ctx, {
     type: 'line',
     options: options
@@ -46,6 +47,9 @@ const Stats = () => {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="contributionGraph">
+                <div id="contribution"></div>
               </div>
               <div className="dennisGraph">
               <a align ="center" href="https://denniskibet.com">
