@@ -6,19 +6,36 @@ const chart = new Chart(ctx, {
     type: 'line',
     // data: ...
     options: {
-        plugins: {
-            title: {
-                display: true,
-                text: 'Chart Title'
-            }
-        },
         scales: {
             x: {
-                type: 'linear'
+            type: 'time',
+            display: true,
+            title: {
+                display: true,
+                text: 'Date'
+            },
+            ticks: {
+                major: {
+                enabled: true
+                },
+                color: (context) => context.tick && context.tick.major && '#FF0000',
+                font: function(context) {
+                if (context.tick && context.tick.major) {
+                    return {
+                    weight: 'bold'
+                    };
+                }
+                }
+            }
             },
             y: {
-                type: 'linear'
+            display: true,
+            title: {
+                display: true,
+                text: 'value'
+            }
             }
         }
     }
+      
 })
