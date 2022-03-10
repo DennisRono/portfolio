@@ -28,11 +28,13 @@
      object-fit: cover;
 }
 
-.stats .statsWrapper .statsContainer .statsFlex .sprofile .sImage h2 {
+.stats .statsWrapper .statsContainer .statsFlex .sprofile .susername {
   text-align: center;
   color: var(--text-primary);
   font-size: 2rem;
-  position: relative;
-  z-index: 10;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=stats.css.map */
