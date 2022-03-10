@@ -9,7 +9,7 @@ import options from '../includes/chart'
 
 const Stats = () => {
   Chart.register(LineController, LineElement, PointElement, LinearScale, Title);
-  const ctx = document.getElementById('contribution').getContext('2d');
+  const ctx = document.getElementById('contribution');
   const chart = new Chart(ctx, {
     type: 'line',
     options: options
