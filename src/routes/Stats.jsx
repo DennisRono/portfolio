@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../styles/css/stats.css'
 import axios from 'axios'
 import BackImage from '../images/Linkedin.png'
@@ -9,13 +9,15 @@ const Stats = () => {
   const getUser = async () => {
     try {
       const response = await axios.get('https://api.github.com/users/DennisRono');
-      //console.log(response.data.name);
       setUserdata(response.data)
     } catch (error) {
       console.error(error);
     }
   }
-  getUser()
+  useEffect(()=>{
+    getUser()
+  },[])
+  
   console.log(userdata);
   return (
     <div>
