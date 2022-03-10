@@ -8,13 +8,14 @@ const Stats = () => {
   const getUser = async () => {
     try {
       const response = await axios.get('https://api.github.com/users/DennisRono');
-      console.log(response.data);
+      //console.log(response.data.name);
       return response.data
     } catch (error) {
       console.error(error);
     }
   }
   const userdata = getUser()
+  console.log(userdata);
   return (
     <div>
       <div className="stats">
