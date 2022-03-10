@@ -22,6 +22,11 @@ const Stats = () => {
                     <h2 className="infotxts">Kenya</h2>
                     <h2 className="infotxts">Joined September 30, 2020</h2>
                   </div>
+                  <div className="saccInfo">
+                    <div className="srepo"></div>
+                    <div className="sfollowers"></div>
+                    <div className="sfollowing"></div>
+                  </div>
                 </div>
               </div>
               <div className="dennisGraph">
