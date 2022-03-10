@@ -35,9 +35,12 @@
                         }
                         .suserName{
                             text-align: center;
-                            color: var(--text-primary);
+                            color: rgb(47, 47, 255);
                             font-size: 1.1rem;
                             font-weight: 200;
+                        }
+                        .suserName:hover{
+                            text-decoration: underline;
                         }
                     }
                 }

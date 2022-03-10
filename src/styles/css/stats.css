@@ -46,8 +46,12 @@
 
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .suserName {
   text-align: center;
-  color: var(--text-primary);
+  color: #2f2fff;
   font-size: 1.1rem;
   font-weight: 200;
+}
+
+.stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .suserName:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=stats.css.map */
