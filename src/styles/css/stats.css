@@ -29,14 +29,25 @@
      object-fit: cover;
 }
 
-.stats .statsWrapper .statsContainer .statsFlex .sprofile .susername {
-  text-align: center;
-  color: var(--text-primary);
-  font-size: 2rem;
+.stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts {
   position: absolute;
   top: 40%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .suserTitle {
+  text-align: center;
+  color: var(--text-primary);
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .suserName {
+  text-align: center;
+  color: var(--text-primary);
+  font-size: 1.5rem;
+  font-weight: 200;
 }
 /*# sourceMappingURL=stats.css.map */
