@@ -12,7 +12,7 @@ const Stats = () => {
             <div className="statsFlex">
               <div className="sprofile">
                 <div className="sImage">
-                  <img src={BackImage} alt="" />
+                  <img src={BackImage} alt="" /><br/>
                   <h2>Dennis Rono</h2>
                 </div>
               </div>

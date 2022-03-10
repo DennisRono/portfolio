@@ -19,8 +19,6 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  text-align: center;
-  color: var(--text-primary);
 }
 
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .sImage img {
@@ -28,5 +26,11 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.stats .statsWrapper .statsContainer .statsFlex .sprofile .sImage h2 {
+  text-align: center;
+  color: var(--text-primary);
+  font-size: 2rem;
 }
 /*# sourceMappingURL=stats.css.map */

@@ -15,12 +15,15 @@
                         top: 30%;
                         left: 50%;
                         transform: translate(-50%, -50%);
-                        text-align: center;
-                        color: var(--text-primary);
                         img{
                             height: 100%;
                             width: 100%;
                             object-fit: cover;
+                        }
+                        h2{
+                            text-align: center;
+                            color: var(--text-primary);
+                            font-size: 2rem;
                         }
                     }
                 }
