@@ -1,5 +1,4 @@
 // <block:actions:2>
-import 'utils.js'
 const actions = [
     {
       name: 'Randomize',
