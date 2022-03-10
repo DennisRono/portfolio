@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/css/stats.css'
 import axios from 'axios'
 import BackImage from '../images/Linkedin.png'
-import { Chart, LineController, LineElement, PointElement, LinearScale, Title } from `chart.js`
+import { Chart, LineController, LineElement, PointElement, LinearScale, Title } from 'chart.js'
 import options from '../includes/chart'
 
 
