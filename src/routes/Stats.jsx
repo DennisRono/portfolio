@@ -13,6 +13,7 @@ const Stats = () => {
               <div className="sprofile">
                 <div className="sImage">
                   <img src={BackImage} alt="" />
+                  <h2>Dennis Rono</h2>
                 </div>
               </div>
               <div className="dennisGraph">

@@ -6,6 +6,7 @@
 
 .stats .statsWrapper .statsContainer .statsFlex .sprofile {
   height: 100vh;
+  position: relative;
 }
 
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .sImage {
@@ -13,6 +14,11 @@
   width: 200px;
   border-radius: 50%;
   overflow: hidden;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .sImage img {
