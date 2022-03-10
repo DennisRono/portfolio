@@ -9,6 +9,7 @@ const Stats = () => {
         <div className="statsWrapper">
           <div className="statsContainer">
             <div className="statsFlex">
+              
             </div>
           </div>
         </div>
