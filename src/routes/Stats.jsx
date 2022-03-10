@@ -12,9 +12,9 @@ const Stats = () => {
             <div className="statsFlex">
               <div className="sprofile">
                 <div className="sImage">
-                  <img src={BackImage} alt="" /><br/>
-                  <h2>Dennis Rono</h2>
+                  <img src={BackImage} alt="" />
                 </div>
+                <h2>Dennis Rono</h2>
               </div>
               <div className="dennisGraph">
               <a align ="center" href="https://denniskibet.com">
