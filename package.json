@@ -13,6 +13,7 @@
     "animate.css": "^4.1.1",
     "axios": "^0.26.1",
     "chart.js": "^3.7.1",
+    "dateformat": "^5.0.3",
     "file-saver": "^2.0.5",
     "gh-polyglot": "^2.3.3",
     "json-format": "^1.0.1",
