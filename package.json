@@ -13,6 +13,7 @@
     "animate.css": "^4.1.1",
     "axios": "^0.26.1",
     "file-saver": "^2.0.5",
+    "gh-polyglot": "^2.3.3",
     "json-format": "^1.0.1",
     "node-cron": "^3.0.0",
     "random-words": "^1.1.2",
