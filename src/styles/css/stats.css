@@ -10,5 +10,11 @@
 
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .backImage {
   width: 100%;
+  height: 250px;
+}
+
+.stats .statsWrapper .statsContainer .statsFlex .sprofile .backImage img {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=stats.css.map */
