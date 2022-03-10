@@ -60,4 +60,11 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+.stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .suinfo .infotxts {
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 10px 20px;
+}
 /*# sourceMappingURL=stats.css.map */
