@@ -2,18 +2,13 @@ import React from 'react'
 import '../styles/css/stats.css'
 import axios from 'axios'
 import BackImage from '../images/Linkedin.png'
-import { Chart, LineController, LineElement, PointElement, LinearScale, Title } from 'chart.js'
+import { Line } from 'chart.js'
 import {actions, config} from '../includes/chart'
 
 
 
 const Stats = () => {
-  Chart.register(LineController, LineElement, PointElement, LinearScale, Title);
-  const ctx = document.getElementById('contribution');
-  const chart = new Chart(ctx, {
-    type: 'line',
-    options: config
-  })
+  
   return (
     <div>
       <div className="stats">
@@ -49,7 +44,7 @@ const Stats = () => {
                 </div>
               </div>
               <div className="contributionGraph">
-                <div id="contribution"></div>
+                <Line />
               </div>
               <div className="dennisGraph">
               <a align ="center" href="https://denniskibet.com">
