@@ -77,5 +77,19 @@
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .saccInfo .sintx {
   margin: 10px 20px;
   padding: 20px;
+  border-radius: 5px;
+  background-color: #2b2b2b;
+}
+
+.stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .saccInfo .sintx h2 {
+  color: var(--text-primary);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .saccInfo .sintx span {
+  color: var(--text-primary);
+  font-size: 1rem;
+  text-align: center;
 }
 /*# sourceMappingURL=stats.css.map */
