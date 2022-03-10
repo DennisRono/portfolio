@@ -24,6 +24,8 @@
                             text-align: center;
                             color: var(--text-primary);
                             font-size: 2rem;
+                            position: relative;
+                            z-index: 10;
                         }
                     }
                 }
