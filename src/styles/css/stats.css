@@ -4,6 +4,10 @@
   height: min-content;
 }
 
+.stats .statsWrapper .statsContainer {
+  margin: 0 5%;
+}
+
 .stats .statsWrapper .statsContainer .statsFlex .sprofile {
   height: 100vh;
   position: relative;
