@@ -1,0 +1,17 @@
+.stats{
+    height: min-content;
+    .statsWrapper{
+        .statsContainer{
+            .statsFlex{
+                .sprofile{
+                    height: 100vh;
+                    .sImage{
+                        height: 200px;
+                        width: 200px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

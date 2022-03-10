@@ -11,7 +11,7 @@ const Stats = () => {
           <div className="statsContainer">
             <div className="statsFlex">
               <div className="sprofile">
-                <div className="backImage">
+                <div className="sImage">
                   <img src={BackImage} alt="" />
                 </div>
               </div>
