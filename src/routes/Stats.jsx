@@ -6,7 +6,12 @@ const Stats = () => {
   return (
     <div>
       <div className="stats">
-        
+        <div className="statsWrapper">
+          <div className="statsContainer">
+            <div className="statsFlex">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
