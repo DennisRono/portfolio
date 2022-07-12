@@ -30,18 +30,15 @@ function App() {
         if (window.location.pathname === "/" && isFirst === 'yes'){
             setIsfirst('no')
             if (document.readyState !== "complete") {
-                document.querySelector(".contents").style.visibility = "hidden";
-                document.querySelector(".preloader").style.display = "unset";
+                setPreloader(true)
             } else {
-                document.querySelector(".contents").style.display = "none";
+                setPreloader(true)
                 setTimeout(() => {
-                    document.querySelector(".preloader").style.display = "none";
-                    document.querySelector(".contents").style.visibility = "visible";
-                    document.querySelector(".contents").style.display = "unset";
+                    setPreloader(false)
                 }, 6000);
             }
         } else {
-            document.querySelector(".preloader").style.display = "none !important";
+            setPreloader(false)
         }
     };
     return ( 
@@ -51,7 +48,7 @@ function App() {
                 <Preloader />
             </div>
             {/* contents */}
-            <div className="contents">
+            <div className={(preloader)?"hidecontents":"contents"}>
                 <div className="themeControls">
                     <Sun className="lightMode" />
                     <div onClick={()=>{toggleTheme('light'); window.scrollTo(0, 0);}} className="themeToggle"><span className="toggleButton"></span></div>

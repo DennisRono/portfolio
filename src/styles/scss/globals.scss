@@ -198,6 +198,9 @@ body::-webkit-scrollbar-thumb {
         }
     }
 }
+.hidecontents{
+    display: none !important;
+}
 
 .sCounter, .secCounter, .pCounter, .eCounter{
     font-family: Inconsolata,monospace !important;
