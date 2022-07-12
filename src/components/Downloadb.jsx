@@ -1,86 +1,29 @@
-import React from 'react'
+import React, { useState, Fragment } from 'react'
 import '../styles/css/downloadbtn.css'
-import DownloadIcon from '@mui/icons-material/Download'
-import DownloadDoneIcon from '@mui/icons-material/DownloadDone';
 import { saveAs } from "file-saver";
 
 const Downloadb = () => {
-    const initiateDownload = () => {
-        saveAs(
-            "https://denniskibet.com/docs/resume.pdf",
-            "dennis resume.pdf"
-        );
+    const[animate, setAnimate] = useState(false)
+    const initiateDownload = (e) => {
+        setTimeout(function(){  
+            saveAs(
+                "https://denniskibet.com/docs/resume.pdf",
+                "dennis-resume.pdf"
+            );
+        },3000);
     };
-  return (
-    <div className="thedownloadbutton">
-        <div className='dbutton'>
-        <input id='dbutton' type='checkbox' />
-        <label  htmlFor='dbutton' style={{ position: "relative" }}>
-            <div  onClick={()=>{initiateDownload()}} className='dbutton_inner q'>
-            <DownloadIcon className="l pIcons" />
-            <span className='t'>Resume</span>
-            <span>
-                <DownloadDoneIcon className='tick ion-checkmark-round' />
-            </span>
-            <div className='b_l_quad'>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-                <div className='dbutton_spots'></div>
-            </div>
-            </div>
-        </label>
-        </div>
-    </div>
-  )
+    return (
+        <Fragment>
+            <button
+                className={(animate)?"resumedownloadbtn animate success":"resumedownloadbtn"}
+                onClick={()=>{
+                        setAnimate(true)
+                        initiateDownload()
+                    }
+                }
+            >Resume</button>
+        </Fragment>
+    )
 }
 
 export default Downloadb

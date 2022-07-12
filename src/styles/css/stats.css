@@ -3,16 +3,13 @@
   height: -moz-min-content;
   height: min-content;
 }
-
 .stats .statsWrapper .statsContainer {
   margin: 0 5%;
 }
-
 .stats .statsWrapper .statsContainer .statsFlex .sprofile {
   height: 100vh;
   position: relative;
 }
-
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .sImage {
   height: 150px;
   width: 150px;
@@ -21,70 +18,54 @@
   position: absolute;
   top: 20%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  border: 5px solid #4ea9ff;
+  transform: translate(-50%, -50%);
+  border: 5px solid rgb(78, 169, 255);
 }
-
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .sImage img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts {
   position: absolute;
   top: 53%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .suserTitle {
   text-align: center;
   color: var(--text-primary);
   font-size: 2rem;
   font-weight: 300;
 }
-
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .suserName {
   text-align: center;
-  color: #2f2fff;
+  color: rgb(47, 47, 255);
   font-size: 1.1rem;
   font-weight: 200;
 }
-
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .suserName:hover {
   text-decoration: underline;
 }
-
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .suinfo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .suinfo .infotxts {
   color: var(--text-primary);
   font-size: 1.3rem;
   font-weight: 300;
   margin: 10px 20px;
 }
-
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .saccInfo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .saccInfo .sintx {
   margin: 10px 20px;
   padding: 10px 30px;
   border-radius: 5px;
   background-color: rgba(36, 36, 36, 0.61);
 }
-
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .saccInfo .sintx h2 {
   color: var(--text-primary);
   font-size: 2rem;
@@ -92,12 +73,10 @@
   margin-bottom: -5px;
   font-weight: 300;
 }
-
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .saccInfo .sintx span {
   color: var(--text-primary);
   font-size: 0.8rem;
   text-align: center;
   text-transform: uppercase;
   font-weight: 200;
-}
-/*# sourceMappingURL=stats.css.map */
+}/*# sourceMappingURL=stats.css.map */

@@ -4,39 +4,30 @@
   height: min-content;
   position: relative;
 }
-
 .landing .lcontainer {
   margin: 0 5%;
 }
-
 .landing .lcontainer .lwrapper {
   padding-top: 100px;
 }
-
 .landing .lcontainer .lwrapper .lflex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .landing .lcontainer .lwrapper .lflex .ltexts {
   width: 45%;
   margin-left: 5%;
   margin-top: 2%;
 }
-
 .landing .lcontainer .lwrapper .lflex .ltexts .lcachy {
   font-size: 1.75rem;
   color: var(--text-primary);
 }
-
 .landing .lcontainer .lwrapper .lflex .ltexts .lcachy img {
   margin: 0 15px;
   width: 1.8rem;
   height: 1.8rem;
   cursor: pointer;
 }
-
 .landing .lcontainer .lwrapper .lflex .ltexts .lcachy .wave {
   -webkit-animation-name: wave-animation;
           animation-name: wave-animation;
@@ -47,92 +38,71 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   /* Never stop waving :) */
-  -webkit-transform-origin: 70% 70%;
-          transform-origin: 70% 70%;
+  transform-origin: 70% 70%;
   /* Pivot around the bottom-left palm */
   display: inline-block;
 }
-
 @-webkit-keyframes wave-animation {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   10% {
-    -webkit-transform: rotate(14deg);
-            transform: rotate(14deg);
+    transform: rotate(14deg);
   }
   /* The following five values can be played with to make the waving more or less extreme */
   20% {
-    -webkit-transform: rotate(-8deg);
-            transform: rotate(-8deg);
+    transform: rotate(-8deg);
   }
   30% {
-    -webkit-transform: rotate(14deg);
-            transform: rotate(14deg);
+    transform: rotate(14deg);
   }
   40% {
-    -webkit-transform: rotate(-4deg);
-            transform: rotate(-4deg);
+    transform: rotate(-4deg);
   }
   50% {
-    -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
+    transform: rotate(10deg);
   }
   60% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   /* Reset for the last half to pause */
   100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
-
 @keyframes wave-animation {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   10% {
-    -webkit-transform: rotate(14deg);
-            transform: rotate(14deg);
+    transform: rotate(14deg);
   }
   /* The following five values can be played with to make the waving more or less extreme */
   20% {
-    -webkit-transform: rotate(-8deg);
-            transform: rotate(-8deg);
+    transform: rotate(-8deg);
   }
   30% {
-    -webkit-transform: rotate(14deg);
-            transform: rotate(14deg);
+    transform: rotate(14deg);
   }
   40% {
-    -webkit-transform: rotate(-4deg);
-            transform: rotate(-4deg);
+    transform: rotate(-4deg);
   }
   50% {
-    -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
+    transform: rotate(10deg);
   }
   60% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   /* Reset for the last half to pause */
   100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
-
 .landing .lcontainer .lwrapper .lflex .ltexts .myname {
   color: var(--text-primary);
   margin-top: 20px;
   font-size: 50px;
 }
-
 .landing .lcontainer .lwrapper .lflex .ltexts .lintrotxts {
   color: var(--text-primary);
   margin-top: 10px;
@@ -140,77 +110,62 @@
   margin-bottom: 50px;
   font-weight: lighter;
 }
-
 .landing .lcontainer .lwrapper .lflex .ltexts .lintrotxts::-moz-selection {
   background: #221427;
 }
-
 .landing .lcontainer .lwrapper .lflex .ltexts .lintrotxts::selection {
   background: #221427;
 }
-
 .landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks {
   margin-top: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+  align-content: center;
+  align-items: center;
 }
-
 .landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks .git {
   margin-right: 15px;
 }
-
 .landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks .git a {
   border: 0;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   padding: 15px 40px;
   border-radius: 5px;
   position: relative;
   color: #fff !important;
   text-decoration: none;
 }
-
 .landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks .git a .pIcons {
   font-size: 20px;
   margin-bottom: -5px !important;
 }
-
 .landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks .dresume .dresumeLink {
   border: 0;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   padding: 15px 40px;
   border-radius: 5px;
   position: relative;
   color: #fff !important;
   text-decoration: none;
 }
-
 .landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks .dresume .dresumeLink .pIcons {
   font-size: 20px;
   margin-bottom: -5px !important;
 }
-
 .landing .lcontainer .lwrapper .lflex .limages {
   width: 50%;
 }
-
 .landing .lcontainer .lwrapper .lflex .limages .limageWrapper {
   width: 60%;
   margin-top: -80px;
   padding-left: 70px;
 }
-
 .landing .lcontainer .lwrapper .lflex .limages .limageWrapper .denoo {
   width: 100%;
   height: auto;
-  -webkit-transition: .5s;
-  transition: .5s;
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0)));
-  -webkit-mask-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0));
-          mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0)));
-          mask-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0));
+  transition: 0.5s;
+  -webkit-mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+          mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0));
 }
-
 .landing .callToActionScroll {
   -webkit-animation: calltoaction 1s ease-out 0s infinite alternate none running;
   animation: calltoaction 1s ease-out 0s infinite alternate none running;
@@ -224,11 +179,9 @@
   width: 90%;
   z-index: 10;
 }
-
 .landing .callToActionScroll .MuiSvgIcon-root path {
   width: 20px !important;
 }
-
 @-webkit-keyframes calltoaction {
   0% {
     fill: red;
@@ -239,7 +192,6 @@
     margin-bottom: 5px;
   }
 }
-
 @keyframes calltoaction {
   0% {
     fill: red;
@@ -250,7 +202,6 @@
     margin-bottom: 5px;
   }
 }
-
 .landing .hidecallToActionScroll {
   display: none !important;
 }
@@ -265,7 +216,6 @@
     padding-left: 70px;
   }
 }
-
 @media (max-width: 768px) {
   .ltexts {
     width: 100% !important;
@@ -283,11 +233,11 @@
     margin-bottom: 100px;
     font-weight: lighter;
   }
+
   .limages {
     display: none !important;
   }
 }
-
 @media (max-width: 600px) {
   .ltexts {
     width: 100% !important;
@@ -304,23 +254,19 @@
     font-size: 1.75rem !important;
     margin-bottom: 100px;
   }
+
   .limages {
     display: none !important;
   }
 }
-
 @media (max-width: 420px) {
   .lintrotxts {
     margin-bottom: 60px !important;
   }
+
   .pouterLinks {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
+    flex-direction: column !important;
   }
   .pouterLinks .git {
     margin-right: 0px !important;
@@ -334,5 +280,4 @@
   .pouterLinks .dresume a {
     padding: 15px 33.5% !important;
   }
-}
-/*# sourceMappingURL=landing.css.map */
+}/*# sourceMappingURL=landing.css.map */

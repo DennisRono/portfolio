@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/css/projects.css'
 import LinkedIn from '../images/Linkedin.png'
 import NullChemy from '../images/nullchemy.png'
+import tenAfrik from '../images/tenafric.png'
 import { FiGithub } from 'react-icons/fi'
 import { FiExternalLink } from 'react-icons/fi'
 
@@ -15,7 +16,7 @@ const Projects = () => {
                         <div className="pflex">
                             <div className="projImage">
                                 <a href="https://github.com/DennisRono/linkedin-clone">
-                                    <img src={LinkedIn} alt="" />
+                                    <img src={LinkedIn} alt="linkedin-clone" />
                                 </a>
                             </div>
                             <div className="projTexts">
@@ -39,7 +40,7 @@ const Projects = () => {
                         <div className="pflex pfreverse">
                             <div className="projImage">
                                 <a href="https://nullchemy.com">
-                                    <img src={NullChemy} alt="" />
+                                    <img src={NullChemy} alt="nullchemy" />
                                 </a>
                             </div>
                             <div className="projTexts">
@@ -55,6 +56,32 @@ const Projects = () => {
                                 <div className="getCode">
                                     <span><a href="https://github.com/DennisRono/linkedin-clone"><FiGithub title="Github"/></a></span>
                                     <span><a href="https://nullchemy.com"><FiExternalLink title="View live site"/></a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="proj">
+                        <div className="pflex">
+                            <div className="projImage">
+                                <a href="https://github.com/DennisRono/linkedin-clone">
+                                    <img src={tenAfrik} alt="tenAfrik" />
+                                </a>
+                            </div>
+                            <div className="projTexts">
+                                <h2 className="projTitle">tenAfrik</h2>
+                                <p>
+                                    tenAfrik is a company website aimed at market our creatives business ideas and software as a service. It was designed using figma and built using react and express. Be sure to check it out
+                                </p>
+                                <div className="pstack">
+                                    <span>React</span>
+                                    <span>Tailwind</span>
+                                    <span>scss</span>
+                                    <span>javascript</span>
+                                    <span>figma</span>
+                                </div>
+                                <div className="getCode">
+                                    <span><a href="https://github.com/tenafric/tenafrik"><FiGithub title="Github"/></a></span>
+                                    <span><a href="https://tenafric.herokuapp.com"><FiExternalLink title="View live site"/></a></span>
                                 </div>
                             </div>
                         </div>

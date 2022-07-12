@@ -3,12 +3,10 @@
   height: -moz-min-content;
   height: min-content;
 }
-
 .projects .pwrapper .pcontainer {
   margin: 0 5%;
   padding: 5% 0;
 }
-
 .projects .pwrapper .pcontainer .pTitle {
   position: relative;
   text-align: center;
@@ -16,7 +14,6 @@
   letter-spacing: 1.5px;
   font-weight: 400;
 }
-
 .projects .pwrapper .pcontainer .pTitle .pCounter {
   position: absolute;
   bottom: 0;
@@ -25,51 +22,35 @@
   color: aqua;
   font-size: 17px;
 }
-
 .projects .pwrapper .pcontainer .proj {
   padding: 5% 0;
 }
-
 .projects .pwrapper .pcontainer .proj .pflex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   width: 100%;
 }
-
 .projects .pwrapper .pcontainer .proj .pflex .projImage {
   width: 50%;
 }
-
 .projects .pwrapper .pcontainer .proj .pflex .projImage a img {
   width: 100%;
   height: auto;
-  -webkit-filter: brightness(85%);
-          filter: brightness(85%);
-  -webkit-transition: 0.3s;
+  filter: brightness(85%);
   transition: 0.3s;
   cursor: pointer;
 }
-
 .projects .pwrapper .pcontainer .proj .pflex .projImage a img:hover {
-  -webkit-filter: brightness(100%);
-          filter: brightness(100%);
+  filter: brightness(100%);
 }
-
 .projects .pwrapper .pcontainer .proj .pflex .projTexts {
   width: 40%;
 }
-
 .projects .pwrapper .pcontainer .proj .pflex .projTexts .projTitle {
   color: var(--text-primary);
   margin-bottom: 20px;
 }
-
 .projects .pwrapper .pcontainer .proj .pflex .projTexts p {
   color: var(--text-primary);
   letter-spacing: 1.2px;
@@ -79,51 +60,38 @@
   padding-right: 50px;
   border-radius: 5px;
 }
-
 .projects .pwrapper .pcontainer .proj .pflex .projTexts .pstack {
   margin-top: 20px;
 }
-
 .projects .pwrapper .pcontainer .proj .pflex .projTexts .pstack span {
   margin-right: 20px;
   color: var(--text-primary);
   font-size: 13px;
   font-weight: 100;
 }
-
 .projects .pwrapper .pcontainer .proj .pflex .projTexts .getCode {
   margin-top: 10px;
 }
-
 .projects .pwrapper .pcontainer .proj .pflex .projTexts .getCode span {
   margin-right: 20px;
   color: var(--text-primary);
   font-size: 1.5rem;
   font-weight: 100;
 }
-
 .projects .pwrapper .pcontainer .proj .pfreverse {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
-
 .projects .pwrapper .pcontainer .otherProjects .oTitle {
   color: var(--text-primary);
   text-align: center;
   letter-spacing: 1.5px;
   font-weight: 500;
 }
-
 .projects .pwrapper .pcontainer .otherProjects .oproj {
   margin-left: 10%;
   padding: 4% 0;
 }
-
 .projects .pwrapper .pcontainer .otherProjects .oproj a .otproj {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -131,44 +99,35 @@
   color: var(--text-primary);
   font-weight: 400;
   cursor: pointer;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
 .projects .pwrapper .pcontainer .otherProjects .oproj a .otproj::after {
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   position: relative;
   bottom: 2px;
   margin-left: 15px;
-  content: '';
+  content: "";
   background: url(../../images/arrow.png) no-repeat center;
   background-size: 100%;
   width: 15px;
   height: 15px;
   display: inline-block;
   vertical-align: middle;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
 .projects .pwrapper .pcontainer .otherProjects .oproj a .otproj:hover {
   color: aqua;
 }
-
 .projects .pwrapper .pcontainer .otherProjects .oproj a .otproj:hover::after {
   margin-left: 25px;
 }
-
 .projects .pwrapper .pcontainer .otherProjects .oproj .optexts {
   color: var(--text-primary);
   font-weight: 100;
 }
-
 .projects .pwrapper .pcontainer .otherProjects .oproj .ostack {
   margin-top: 20px;
 }
-
 .projects .pwrapper .pcontainer .otherProjects .oproj .ostack span {
   color: aqua;
   margin-right: 20px;
@@ -180,10 +139,7 @@
 
 @media (max-width: 768px) {
   .pflex {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .pflex .projImage {
     width: 100% !important;
@@ -191,17 +147,15 @@
   .pflex .projTexts {
     width: 100% !important;
   }
+
   .pfreverse {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
+    flex-direction: column !important;
   }
+
   .otherProjects .oproj {
     margin-left: 0px !important;
   }
   .otherProjects .oproj .ostack span {
     margin-right: 5px;
   }
-}
-/*# sourceMappingURL=projects.css.map */
+}/*# sourceMappingURL=projects.css.map */

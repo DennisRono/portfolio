@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/css/contact.css'
+import {Link} from 'react-router-dom'
 
 const Contact = () => {
   return (
@@ -12,7 +13,7 @@ const Contact = () => {
                     <p className="contexts">
                         let's chat on opportunities, new technologies, ideas or even say hi
                     </p>
-                    <a href="https://denniskibet.com/contact" className="contactb">Say Hi</a>
+                    <Link to="/contact" className="contactb">Say Hi</Link>
                 </div>
             </div>
         </div>

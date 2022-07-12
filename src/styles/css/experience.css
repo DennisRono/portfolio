@@ -2,12 +2,10 @@
 .experience {
   height: auto;
 }
-
 .experience .ewrapper .econtainer {
   margin: 6% 5%;
   margin-bottom: 10%;
 }
-
 .experience .ewrapper .econtainer .eflex .eTexts .eTitle {
   position: relative;
   text-align: center;
@@ -15,7 +13,6 @@
   letter-spacing: 1.5px;
   font-weight: 400;
 }
-
 .experience .ewrapper .econtainer .eflex .eTexts .eTitle .eCounter {
   position: absolute;
   bottom: 0;
@@ -24,39 +21,30 @@
   color: aqua;
   font-size: 17px;
 }
-
 .experience .ewrapper .econtainer .eflex .eTexts .experiences .exp {
   margin: 5% 0;
   margin-left: 10%;
 }
-
 .experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTitle {
   color: var(--text-primary);
   letter-spacing: 1.2px;
   font-weight: 400;
   margin-bottom: 10px;
 }
-
 .experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTexts {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   width: 80%;
 }
-
 .experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTexts p {
   color: var(--text-primary);
   width: 70%;
   font-weight: 100;
 }
-
 .experience .ewrapper .econtainer .eflex .eTexts .experiences .exp .eOneTexts .eduration {
   color: var(--text-primary);
   width: 20%;
-  font-family: Inconsolata,monospace;
+  font-family: Inconsolata, monospace;
 }
 
 @media (max-width: 480px) {
@@ -68,10 +56,7 @@
   }
   .exp .eOneTexts {
     width: 100% !important;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .exp .eOneTexts p {
     width: 100% !important;
@@ -80,5 +65,4 @@
     width: 100% !important;
     margin-top: 10px;
   }
-}
-/*# sourceMappingURL=experience.css.map */
+}/*# sourceMappingURL=experience.css.map */

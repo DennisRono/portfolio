@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './routes/Home'
 import Stats from './routes/Stats'
+import Contact from './routes/Contact'
 import NotFound from './routes/NotFound'
 import Preloader from './components/Preloader'
 import useLocalStorage from 'use-local-storage'
@@ -18,7 +19,7 @@ function App() {
             setTheme('light')
         } else if(theme === 'light') {
             setTheme('dark')
-        }
+        } 
     }
     //is First Load
     const [isFirst, setIsfirst] = useLocalStorage('isFirst', 'yes');
@@ -70,6 +71,7 @@ function App() {
                     <Routes>
                     <Route path="/" element={<Home />}></Route>
                     <Route path="/stats" element={<Stats />}></Route>
+                    <Route path="/contact" element={<Contact />}></Route>
                     <Route path="*" element={<NotFound />}></Route>
                     </Routes>
                 </Router>

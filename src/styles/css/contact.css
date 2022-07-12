@@ -2,16 +2,13 @@
   height: 50vh;
   position: relative;
 }
-
 .contact .conwrapper .concontainer {
   margin: 0 5%;
 }
-
 .contact .conwrapper .concontainer .conflex {
   width: 100%;
   position: relative;
 }
-
 .contact .conwrapper .concontainer .conflex .conTitle {
   position: relative;
   text-align: center;
@@ -20,7 +17,6 @@
   font-weight: 400;
   font-size: 20px;
 }
-
 .contact .conwrapper .concontainer .conflex .conTitle .conCounter {
   position: absolute;
   bottom: 0;
@@ -29,7 +25,6 @@
   color: aqua;
   font-size: 12px;
 }
-
 .contact .conwrapper .concontainer .conflex .constitle {
   text-align: center;
   color: var(--text-primary);
@@ -37,27 +32,22 @@
   font-weight: 600;
   margin-top: 10px;
 }
-
 .contact .conwrapper .concontainer .conflex .contexts {
   text-align: center;
   color: var(--text-primary);
   font-weight: 100;
   font-size: 1.3rem;
 }
-
 .contact .conwrapper .concontainer .conflex .contactb {
   position: absolute;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   color: var(--text-primary);
   padding: 10px 30px;
   border-radius: 5px;
   border: 1px solid aqua;
-  -webkit-transition: .2s;
-  transition: .2s;
+  transition: 0.2s;
   line-height: 1;
   margin-top: 50px;
   cursor: pointer;
-}
-/*# sourceMappingURL=contact.css.map */
+}/*# sourceMappingURL=contact.css.map */

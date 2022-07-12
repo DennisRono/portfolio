@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,WAAW,EAAE,GAAG;CAiBnB;;AAlBD,AAKgB,OALT,CAEH,SAAS,CACL,WAAW,CACP,MAAM,CACF,MAAM,CAAA;EACF,cAAc,EAAE,IAAI;CAQvB;;AAdjB,AAOoB,OAPb,CAEH,SAAS,CACL,WAAW,CACP,MAAM,CACF,MAAM,CAEF,CAAC,CAAA;EACG,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,mBAAmB;EAC1B,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,MAAM;EACjB,cAAc,EAAE,GAAG;CACtB",
-    "sources": [
-        "../scss/footer.scss"
-    ],
-    "names": [],
-    "file": "footer.css"
-}
+{"version":3,"sources":["../scss/footer.scss","footer.css"],"names":[],"mappings":"AAAA;EACI,gBAAA;ACCJ;ADGgB;EACI,oBAAA;ACDpB;ADEoB;EACI,kBAAA;EACA,0BAAA;EACA,gBAAA;EACA,iBAAA;EACA,mBAAA;ACAxB","file":"footer.css"}

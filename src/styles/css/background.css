@@ -1,40 +1,30 @@
 .background {
   height: 100vh;
 }
-
 .background .bwrapper .bcontainer {
   margin: 0 5%;
   padding: 12% 0;
 }
-
 .background .bwrapper .bcontainer .bflex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .background .bwrapper .bcontainer .bflex .dennisImage {
   width: 35%;
   padding-left: 5%;
 }
-
 .background .bwrapper .bcontainer .bflex .dennisImage .img-blk-wrapper {
   width: 270px;
   height: 270px;
   margin-right: 40px;
   padding: 18px;
 }
-
 .background .bwrapper .bcontainer .bflex .dennisImage .img-blk-wrapper .img-blk {
   position: relative;
   width: 100%;
   height: 100%;
   background: linear-gradient(132deg, #6f66be, #6c4ea5);
 }
-
 .background .bwrapper .bcontainer .bflex .dennisImage .img-blk-wrapper .img-blk img {
   margin: 0 auto;
   margin-left: 40px;
@@ -49,7 +39,6 @@
      object-fit: cover;
   z-index: 2;
 }
-
 .background .bwrapper .bcontainer .bflex .dennisImage .img-blk-wrapper .img-blk::before {
   content: "";
   width: 100%;
@@ -60,7 +49,6 @@
   background: #a5a5ff;
   z-index: -1;
 }
-
 .background .bwrapper .bcontainer .bflex .dennisImage .img-blk-wrapper .img-blk::after {
   content: "";
   width: 100%;
@@ -71,11 +59,9 @@
   background: #9974ff;
   z-index: 1;
 }
-
 .background .bwrapper .bcontainer .bflex .bTexts {
   width: 60%;
 }
-
 .background .bwrapper .bcontainer .bflex .bTexts .btTitle {
   color: var(--text-primary);
   white-space: nowrap;
@@ -86,7 +72,6 @@
   text-align: right;
   padding-right: 70px;
 }
-
 .background .bwrapper .bcontainer .bflex .bTexts .btTitle .secCounter {
   position: absolute;
   bottom: 0;
@@ -96,7 +81,6 @@
   color: aqua;
   font-size: 17px;
 }
-
 .background .bwrapper .bcontainer .bflex .bTexts .btTitle::before {
   background-color: var(--text-primary);
   content: "";
@@ -108,17 +92,14 @@
   width: 50%;
   right: -100px;
 }
-
 .background .bwrapper .bcontainer .bflex .bTexts .backtexts {
   color: var(--text-primary);
   font-size: 1.2rem;
   font-weight: 200;
 }
-
 .background .bwrapper .bcontainer .bflex .bTexts .backtexts::-moz-selection {
   background: #221427;
 }
-
 .background .bwrapper .bcontainer .bflex .bTexts .backtexts::selection {
   background: #221427;
 }
@@ -129,14 +110,10 @@
     height: -moz-min-content;
     height: min-content;
   }
+
   .bflex {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .bflex .dennisImage {
     width: 100% !important;
@@ -148,8 +125,7 @@
     margin-right: 0px !important;
     position: absolute;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
   .bflex .bTexts {
     width: 100% !important;
@@ -157,5 +133,4 @@
   .bflex .bTexts .btTitle::before {
     display: none !important;
   }
-}
-/*# sourceMappingURL=background.css.map */
+}/*# sourceMappingURL=background.css.map */

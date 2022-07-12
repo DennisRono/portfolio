@@ -1,16 +1,13 @@
 .footer {
   padding-top: 10%;
 }
-
 .footer .fwrapper .fcontainer .fflex .fcopy {
   padding-bottom: 20px;
 }
-
 .footer .fwrapper .fcontainer .fflex .fcopy p {
   text-align: center;
   color: var(--text-primary);
   font-weight: 100;
   font-size: 0.9rem;
   letter-spacing: 1.5;
-}
-/*# sourceMappingURL=footer.css.map */
+}/*# sourceMappingURL=footer.css.map */

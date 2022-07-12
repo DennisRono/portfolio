@@ -3,22 +3,18 @@
   text-align: center;
   position: relative;
 }
-
 .notfoundWrapper .notFound {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-
 .notfoundWrapper .notFound .fourNotFound {
   font-size: 16rem;
   font-weight: 900;
-  font-family: Inconsolata,monospace;
+  font-family: Inconsolata, monospace;
   color: aqua;
 }
-
 .notfoundWrapper .notFound .notFoundTexts {
   font-size: 1rem;
   line-height: 2.2rem;
@@ -28,7 +24,6 @@
   margin-top: -50px;
   margin-bottom: 20px;
 }
-
 .notfoundWrapper .notFound .notFoundLink {
   margin-top: 30px;
   font-size: 1.3rem;
@@ -39,7 +34,6 @@
   cursor: pointer;
   padding: 10px 40px;
   border-radius: 23px;
-  background: -webkit-gradient(linear, left top, right bottom, from(#14a9ff), to(#0088f0)) !important;
   background: linear-gradient(to bottom right, #14a9ff, #0088f0) !important;
 }
 
@@ -53,11 +47,9 @@
     line-height: 2rem;
   }
 }
-
 @media (max-width: 320px) {
   .notfoundWrapper .fourNotFound {
     font-size: 10rem !important;
     font-weight: 500 !important;
   }
-}
-/*# sourceMappingURL=notfound.css.map */
+}/*# sourceMappingURL=notfound.css.map */

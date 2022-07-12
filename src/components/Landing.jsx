@@ -38,9 +38,10 @@ const Landing = () => {
                   {/* <div className="dresume">
                       <a className="dresumeLink" href="https://denniskibet.com/docs/resume.pdf" download><DownloadIcon className="pIcons"  /><span className="talign">&nbsp;&nbsp;Resume</span></a>
                   </div> */}
-                  <a href="https://denniskibet.com/docs/resume.pdf" download>
+                  {/* <a href="https://denniskibet.com/docs/resume.pdf" download>
                     <Downloadbtn />
-                  </a>
+                  </a> */}
+                    <Downloadbtn />
               </div>
             </div>
             <div className="limages">
