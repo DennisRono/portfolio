@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './routes/Home'
 import Stats from './routes/Stats'
@@ -23,6 +23,7 @@ function App() {
     }
     //is First Load
     const [isFirst, setIsfirst] = useLocalStorage('isFirst', 'yes');
+    const [preloader, setPreloader] = useState(false)
 
     //page pre loader
     document.onreadystatechange = function() {
@@ -40,13 +41,13 @@ function App() {
                 }, 6000);
             }
         } else {
-            document.querySelector(".preloader").style.display = "none";
+            document.querySelector(".preloader").style.display = "none !important";
         }
     };
     return ( 
         <div className = "App" data-theme={theme}>
             {/* preloader */}
-            <div className="preloader">
+            <div className={(preloader)?"preloader":"hidepreloader"}>
                 <Preloader />
             </div>
             {/* contents */}

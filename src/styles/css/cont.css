@@ -5,12 +5,12 @@
   position: relative;
 }
 .contact-page .contact-page-wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 60%;
   padding: 20px;
+  margin: 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
 }
 .contact-page .contact-page-wrapper .contact-page-header {
   text-align: center;

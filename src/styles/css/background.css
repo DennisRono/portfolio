@@ -110,7 +110,6 @@
     height: -moz-min-content;
     height: min-content;
   }
-
   .bflex {
     display: flex;
     flex-direction: column;

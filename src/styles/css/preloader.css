@@ -1,8 +1,12 @@
+.hidepreloader {
+  display: none !important;
+}
+
 .thepreloader {
   padding: 0;
   margin: 0;
   width: 100% !important;
-  height: 100vh;
+  height: 100vh !important;
   border-style: border-box;
   overflow-x: hidden;
   background-color: #09090c;

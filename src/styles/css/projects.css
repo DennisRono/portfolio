@@ -147,11 +147,9 @@
   .pflex .projTexts {
     width: 100% !important;
   }
-
   .pfreverse {
     flex-direction: column !important;
   }
-
   .otherProjects .oproj {
     margin-left: 0px !important;
   }
