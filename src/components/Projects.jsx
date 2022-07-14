@@ -64,7 +64,7 @@ const Projects = () => {
                     <div className="proj">
                         <div className="pflex">
                             <div className="projImage">
-                                <a href="https://github.com/DennisRono/linkedin-clone">
+                                <a href="https://github.com/tenafric/tenafrik">
                                     <img src={tenAfrik} alt="tenAfrik" />
                                 </a>
                             </div>
