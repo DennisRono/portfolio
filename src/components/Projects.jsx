@@ -3,6 +3,7 @@ import '../styles/css/projects.css'
 import LinkedIn from '../images/Linkedin.png'
 import NullChemy from '../images/nullchemy.png'
 import tenAfrik from '../images/tenafric.png'
+import LeBo from '../images/lebo.png'
 import { FiGithub } from 'react-icons/fi'
 import { FiExternalLink } from 'react-icons/fi'
 
@@ -82,6 +83,30 @@ const Projects = () => {
                                 <div className="getCode">
                                     <span><a href="https://github.com/tenafric/tenafrik"><FiGithub title="Github"/></a></span>
                                     <span><a href="https://tenafric.herokuapp.com"><FiExternalLink title="View live site"/></a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="proj">
+                        <div className="pflex pfreverse">
+                            <div className="projImage">
+                                <a href="https://lebodesigns.herokuapp.com">
+                                    <img src={LeBo} alt="nullchemy" />
+                                </a>
+                            </div>
+                            <div className="projTexts">
+                                <h2 className="projTitle">LeBo designs</h2>
+                                <p>
+                                    LeBo designs is an ecommerce website for showcasing clothes designs. Users of the site can do online shopping from the best brands here. 
+                                </p>
+                                <div className="pstack">
+                                    <span>React</span>
+                                    <span>scss</span>
+                                    <span>HTML</span>
+                                </div>
+                                <div className="getCode">
+                                    <span><a href="https://github.com/DennisRono/lebo"><FiGithub title="Github"/></a></span>
+                                    <span><a href="https://lebodesigns.herokuapp.com"><FiExternalLink title="View live site"/></a></span>
                                 </div>
                             </div>
                         </div>
