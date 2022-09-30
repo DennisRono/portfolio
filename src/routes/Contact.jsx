@@ -30,6 +30,7 @@ const Contact = () => {
             <div className="contact-page-wrapper">
                 <div className="contFormSec">
                     <h2 className="contact-page-header">Contact</h2>
+                    {(response.message!=='')?<p className={(response.type==='success')?"formNotifySucc":"formNotify"}>{response.message}</p>:null}
                     <form onSubmit={handleSubmit}>
                         <h3>1. Tell me more about yourself</h3>
                         <div className="cont-group">

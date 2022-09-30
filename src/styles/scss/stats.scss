@@ -1,11 +1,13 @@
 .stats{
-    height: min-content;
+    min-height: 100vh;
+    padding-top: 5rem;
     .statsWrapper{
         .statsContainer{
             margin: 0 5%;
             .statsFlex{
+                position: relative;
                 .sprofile{
-                    height: 100vh;
+                    height: 50vh;
                     position: relative;
                     .sImage{
                         height: 150px;
@@ -16,7 +18,7 @@
                         top: 20%;
                         left: 50%;
                         transform: translate(-50%, -50%);
-                        border: 5px solid rgb(78, 169, 255);
+                        border: 5px solid #4ea9ff;
                         img{
                             height: 100%;
                             width: 100%;
@@ -25,7 +27,7 @@
                     }
                     .snameTexts{
                         position: absolute;
-                        top: 53%;
+                        top: 70%;
                         left: 50%;
                         transform: translate(-50%, -50%);
                         .suserTitle{
@@ -36,7 +38,9 @@
                         }
                         .suserName{
                             text-align: center;
-                            color: rgb(47, 47, 255);
+                            color: #4ea9ff;
+                            text-decoration: none !important;
+                            cursor: pointer;
                             font-size: 1.1rem;
                             font-weight: 200;
                         }
@@ -76,6 +80,15 @@
                             }
                         }
                     }
+                }
+                .dennisGraph{
+                    width: min-content;
+                    margin: 0 auto !important;
+                }
+                .sactivity{
+                    display: flex;
+                    width: min-content;
+                    margin: 0 auto !important;
                 }
             }
         }

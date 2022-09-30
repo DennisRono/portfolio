@@ -1,13 +1,15 @@
 .stats {
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
+  min-height: 100vh;
+  padding-top: 5rem;
 }
 .stats .statsWrapper .statsContainer {
   margin: 0 5%;
 }
+.stats .statsWrapper .statsContainer .statsFlex {
+  position: relative;
+}
 .stats .statsWrapper .statsContainer .statsFlex .sprofile {
-  height: 100vh;
+  height: 50vh;
   position: relative;
 }
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .sImage {
@@ -19,7 +21,7 @@
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 5px solid rgb(78, 169, 255);
+  border: 5px solid #4ea9ff;
 }
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .sImage img {
   height: 100%;
@@ -29,7 +31,7 @@
 }
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts {
   position: absolute;
-  top: 53%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -41,7 +43,9 @@
 }
 .stats .statsWrapper .statsContainer .statsFlex .sprofile .snameTexts .suserName {
   text-align: center;
-  color: rgb(47, 47, 255);
+  color: #4ea9ff;
+  text-decoration: none !important;
+  cursor: pointer;
   font-size: 1.1rem;
   font-weight: 200;
 }
@@ -79,4 +83,17 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: 200;
+}
+.stats .statsWrapper .statsContainer .statsFlex .dennisGraph {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin: 0 auto !important;
+}
+.stats .statsWrapper .statsContainer .statsFlex .sactivity {
+  display: flex;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin: 0 auto !important;
 }/*# sourceMappingURL=stats.css.map */
