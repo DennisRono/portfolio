@@ -1,5 +1,7 @@
 import React, { Fragment, useState } from 'react'
 import '../styles/css/cont.css'
+import { Link } from 'react-router-dom'
+import { ReactComponent as HomeIc } from '../assets/svg/home.svg'
 import { api } from '../api/axios'
 
 const Contact = () => {
@@ -27,6 +29,9 @@ const Contact = () => {
   return (
     <Fragment>
         <section className="contact-page">
+            <Link to="/">
+                <HomeIc className="homeIcon"/>
+            </Link>
             <div className="contact-page-wrapper">
                 <div className="contFormSec">
                     <h2 className="contact-page-header">Contact</h2>

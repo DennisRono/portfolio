@@ -4,6 +4,15 @@
   min-height: 100vh;
   position: relative;
 }
+.contact-page a .homeIcon {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  top: 3%;
+  left: 3%;
+  fill: #fff;
+  cursor: pointer;
+}
 .contact-page .contact-page-wrapper {
   width: 60%;
   padding: 20px;

@@ -1,6 +1,17 @@
 .stats{
     min-height: 100vh;
     padding-top: 5rem;
+    a{
+        .homeIcon{
+            position: absolute;
+            height: 25px;
+            width: 25px;
+            top: 2%;
+            left: 3%;
+            fill: #fff;
+            cursor: pointer;
+        }
+    }
     .statsWrapper{
         .statsContainer{
             margin: 0 5%;

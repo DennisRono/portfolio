@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import '../styles/css/stats.css'
 import axios from 'axios'
 import dateFormat from 'dateformat'
+import { Link } from 'react-router-dom'
+import { ReactComponent as HomeIc } from '../assets/svg/home.svg'
 import BackImage from '../images/Linkedin.png'
 import Footer from '../components/Footer'
 
@@ -24,6 +26,9 @@ const Stats = () => {
   return (
     <div>
       <div className="stats">
+        <Link to="/">
+          <HomeIc className="homeIcon"/>
+        </Link>
         <div className="statsWrapper">
           <div className="statsContainer">
             <div className="statsFlex">
