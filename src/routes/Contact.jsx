@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from 'react'
 import '../styles/css/cont.css'
-import axios from 'axios'
+import { api } from '../api/axios'
 
 const Contact = () => {
     const[data, setData] = useState({
@@ -10,9 +10,19 @@ const Contact = () => {
         website: '',
         brief: ''
     })
-    const handleSubmit =  (e) => {
-        e.preventDefault()
 
+    const [response, setResponse] = useState({message: '', type: ''})
+    const handleSubmit =  async (e) => {
+        e.preventDefault()
+        let res = await api('POST', 'contact', data)
+        setResponse(res)
+        setData({
+            name: '',
+            email: '',
+            phone: '',
+            website: '',
+            brief: ''
+        })
     }
   return (
     <Fragment>
