@@ -1,3 +1,20 @@
 .header{
-    
+    margin: 0 10%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    .header-wrapper{
+        .navigation{
+            ul{
+                display: flex;
+                .nav-link{
+                    a{
+                        padding: 10px;
+                        font-weight: 900;
+                        color: var(--text-primary);
+                    }
+                }
+            }
+        }
+    }
 }

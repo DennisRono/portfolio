@@ -8,7 +8,7 @@
   margin: 0 5%;
 }
 .landing .lcontainer .lwrapper {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .landing .lcontainer .lwrapper .lflex {
   display: flex;
@@ -16,7 +16,7 @@
 .landing .lcontainer .lwrapper .lflex .ltexts {
   width: 45%;
   margin-left: 5%;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 .landing .lcontainer .lwrapper .lflex .ltexts .lcachy {
   font-size: 1.75rem;

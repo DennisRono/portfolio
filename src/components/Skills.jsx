@@ -49,7 +49,7 @@ const Skills = () => {
                                 <li>php</li>
                                 <li>Node.js</li>
                                 <li>Java</li>
-                                <li>HTML & CSS</li>
+                                <li>C#</li>
                                 <li>Python</li>
                                 <li>Javascript (ES6+)</li>
                             </ul>

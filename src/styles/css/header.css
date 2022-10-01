@@ -1,1 +1,14 @@
-/*# sourceMappingURL=header.css.map */
+.header {
+  margin: 0 10%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.header .header-wrapper .navigation ul {
+  display: flex;
+}
+.header .header-wrapper .navigation ul .nav-link a {
+  padding: 10px;
+  font-weight: 900;
+  color: var(--text-primary);
+}/*# sourceMappingURL=header.css.map */

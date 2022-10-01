@@ -4,7 +4,8 @@ import axios from 'axios'
 import dateFormat from 'dateformat'
 import { Link } from 'react-router-dom'
 import { ReactComponent as HomeIc } from '../assets/svg/home.svg'
-import BackImage from '../images/Linkedin.png'
+import Header from '../components/Header'
+// import BackImage from '../images/Linkedin.png'
 import Footer from '../components/Footer'
 
 
@@ -25,10 +26,11 @@ const Stats = () => {
   console.log(userdata);
   return (
     <div>
+      <Header />
       <div className="stats">
-        <Link to="/">
+        {/* <Link to="/">
           <HomeIc className="homeIcon"/>
-        </Link>
+        </Link> */}
         <div className="statsWrapper">
           <div className="statsContainer">
             <div className="statsFlex">
