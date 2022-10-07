@@ -30,6 +30,22 @@
             font-size: 6rem;
             color: var(--text-primary);
         }
+        .formNotifySucc{
+            padding: 10px;
+            width: 95%;
+            color: var(--text-primary);
+            background-color: #34ff9a;
+            border-left: 7px solid #009431;
+            margin-bottom: 20px;
+        }
+        .formNotify{
+            padding: 10px;
+            width: 95%;
+            color: var(--text-primary);
+            background-color: #ff556b;
+            border-left: 7px solid #940000;
+            margin-bottom: 20px;
+        }
         .contFormSec{
             padding-top: 3rem;
             margin-left: 25px;

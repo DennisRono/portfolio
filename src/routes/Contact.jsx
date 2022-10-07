@@ -17,7 +17,7 @@ const Contact = () => {
     const [response, setResponse] = useState({message: '', type: ''})
     const handleSubmit =  async (e) => {
         e.preventDefault()
-        let res = await api('POST', 'contact', data)
+        let res = await api('POST', 'den/contact', data)
         setResponse(res)
         setData({
             name: '',
@@ -26,6 +26,20 @@ const Contact = () => {
             website: '',
             brief: ''
         })
+        setTimeout(() => {
+            setResponse({message: '', type: ''})
+        }, 5000)
+    }
+
+    const [btntxt, setBtntxt] = useState('submit')
+    const handleBtn = () => {
+        setBtntxt('sending...')
+        const btninterval = setInterval(() => {
+            setBtntxt('submit')
+        }, 1000)
+        if(response.message!==''){
+            clearInterval(btninterval)
+        }
     }
   return (
     <Fragment>
@@ -101,7 +115,7 @@ const Contact = () => {
                                 <span id="id-err fileErr"></span>
                             </div>
                         </div>
-                        <input type="submit" value="submit" name="contact-page" className="contact-page-btn"/>
+                        <input type="submit" value={btntxt} onClick={()=>{handleBtn()}} name="contact-page" className="contact-page-btn"/>
                     </form>
                 </div>
             </div>
