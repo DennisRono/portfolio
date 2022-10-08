@@ -27,6 +27,10 @@ const Contact = () => {
         Object.values(data.assets).forEach(file=>{
             formData.append("assets", file)
         })
+
+        for (const value of formData.values()) {
+            console.log(value);
+        }
         let res = await api('POST', 'den/contact', formData)
         setResponse(res)
         setData({
