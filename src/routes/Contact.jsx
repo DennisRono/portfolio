@@ -12,22 +12,27 @@ const Contact = () => {
         phone: '',
         website: '',
         brief: '',
-        assets: []
+        assets: null
     })
+
+    const delay = (time) => {
+        return new Promise(resolve => setTimeout(resolve, time));
+    }
 
     const [response, setResponse] = useState({message: '', type: ''})
     const handleSubmit =  async (e) => {
         e.preventDefault()
         const formData = new FormData()
+        Object.values(data.assets).forEach(file=>{
+            formData.append("assets", file)
+        })
+        
         for (const key in data) {
             if (data.hasOwnProperty(key)) {
                 formData.append(key, data[key])
             }
         }
-        Object.values(data.assets).forEach(file=>{
-            formData.append("assets", file)
-        })
-
+        await delay(1000)
         for (const value of formData.values()) {
             console.log(value);
         }
@@ -39,7 +44,7 @@ const Contact = () => {
             phone: '',
             website: '',
             brief: '',
-            assets: []
+            assets: null
         })
         setTimeout(() => {
             setResponse({message: '', type: ''})
