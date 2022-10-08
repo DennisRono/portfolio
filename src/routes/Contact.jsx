@@ -27,7 +27,7 @@ const Contact = () => {
         Object.values(data.assets).forEach(file=>{
             formData.append("assets", file)
         })
-        let res = await api('POST', 'den/contact', formData, { 'Content-Type': 'multipart/form-data', 'boundary': formData._boundary })
+        let res = await api('POST', 'den/contact', formData)
         setResponse(res)
         setData({
             name: '',
