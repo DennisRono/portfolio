@@ -25,4 +25,4 @@ yarn-error.log*
 
 .envcron-logs.json
 cron-logs.json
-cron-ping.js
+cron-ping.jscron-logs.json

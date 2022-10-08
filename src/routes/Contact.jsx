@@ -11,20 +11,31 @@ const Contact = () => {
         email: '',
         phone: '',
         website: '',
-        brief: ''
+        brief: '',
+        assets: []
     })
 
     const [response, setResponse] = useState({message: '', type: ''})
     const handleSubmit =  async (e) => {
         e.preventDefault()
-        let res = await api('POST', 'den/contact', data)
+        const formData = new FormData()
+        for (const key in data) {
+            if (data.hasOwnProperty(key)) {
+                formData.append(key, data[key])
+            }
+        }
+        Object.values(data.assets).forEach(file=>{
+            formData.append("assets", file)
+        })
+        let res = await api('POST', 'den/contact', formData, { 'Content-Type': 'multipart/form-data', 'boundary': formData._boundary })
         setResponse(res)
         setData({
             name: '',
             email: '',
             phone: '',
             website: '',
-            brief: ''
+            brief: '',
+            assets: []
         })
         setTimeout(() => {
             setResponse({message: '', type: ''})
@@ -52,7 +63,7 @@ const Contact = () => {
                 <div className="contFormSec">
                     <h2 className="contact-page-header">Contact</h2>
                     {(response.message!=='')?<p className={(response.type==='success')?"formNotifySucc":"formNotify"}>{response.message}</p>:null}
-                    <form onSubmit={handleSubmit}>
+                    <form onSubmit={handleSubmit}  encType="multipart/form-data">
                         <h3>1. Tell me more about yourself</h3>
                         <div className="cont-group">
                             <div className="user-input-wrp">
@@ -97,7 +108,7 @@ const Contact = () => {
                             <span id="id-err"></span>
                             <div className="input-field-row">
                                 <div className="input-file-row">
-                                    <label for="project_brief" className="project_brief">
+                                    <label htmlFor="project_brief" className="project_brief">
                                         <div className="file-content">
                                             <div className="icon">
                                                 <img src="./assets/svg/icon-download.svg" alt=""/>
@@ -110,7 +121,8 @@ const Contact = () => {
                                             <div id="filePush" className="button">upload</div>
                                         </div>
                                     </label>
-                                    <input className="file-field" type="file" accept="application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint" name="upload[]" multiple="multiple" onChange='getFile()'/>
+                                    {/* accept="application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint" */}
+                                    <input className="file-field" type="file" name="assets" onChange={e=>{setData({ ...data, [e.target.name]: e.target.files })}} multiple="multiple" />
                                 </div>
                                 <span id="id-err fileErr"></span>
                             </div>

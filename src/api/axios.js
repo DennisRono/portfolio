@@ -1,14 +1,12 @@
 import axios from "axios"
 
-let baseURL = 'https://api.denniskibet.com/'
+let baseURL = 'http://localhost:5000/'
 
-export const api = async (method = 'GET', slug = '', data = {}) => {
+export const api = async (method = 'GET', slug = '', data = {}, headers={'Content-Type': 'application/json'}) => {
     let config = {
         method: method,
         url: baseURL+slug,
-        headers: { 
-            'Content-Type': 'application/json'
-        },
+        headers: headers,
         data : JSON.stringify(data)
     }
     const response = await axios(config)
