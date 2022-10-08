@@ -14,7 +14,6 @@ const Contact = () => {
         brief: '',
         assets: null
     })
-    const [files, setFiles] = useState([])
 
     const delay = (time) => {
         return new Promise(resolve => setTimeout(resolve, time));
@@ -24,9 +23,11 @@ const Contact = () => {
     const handleSubmit =  async (e) => {
         e.preventDefault()
         const formData = new FormData()
-        Object.values(files).forEach(file=>{
-            formData.append("assets", file)
-        })
+        if(data.assets){
+            Object.values(data.assets).forEach(file=>{
+                formData.append("assets", file)
+            })
+        }
 
         for (const key in data) {
             if (data.hasOwnProperty(key)) {
@@ -48,9 +49,6 @@ const Contact = () => {
         setTimeout(() => {
             setResponse({message: '', type: ''})
         }, 5000)
-    }
-    const fileChange = (e) => {
-        setFiles(e.target.files)
     }
     const [btntxt, setBtntxt] = useState('submit')
     const handleBtn = () => {
@@ -132,7 +130,7 @@ const Contact = () => {
                                         </div>
                                     </label>
                                     {/* accept="application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint" */}
-                                    <input className="file-field" type="file" name="assets" onChange={e=>{fileChange(e)}} multiple="multiple" />
+                                    <input className="file-field" type="file" name="assets" onChange={e=>{setData({ ...data, [e.target.name]: e.target.files })}} multiple="multiple" />
                                 </div>
                                 <span id="id-err fileErr"></span>
                             </div>
