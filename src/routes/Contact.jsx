@@ -1,8 +1,5 @@
 import React, { Fragment, useState } from 'react'
 import '../styles/css/cont.css'
-// import { Link } from 'react-router-dom'
-// import { ReactComponent as HomeIc } from '../assets/svg/home.svg'
-import { api } from '../api/axios'
 import axios from "axios"
 import Header from '../components/Header'
 
@@ -15,11 +12,6 @@ const Contact = () => {
         brief: '',
         assets: null
     })
-
-    const delay = (time) => {
-        return new Promise(resolve => setTimeout(resolve, time));
-    }
-
     const [response, setResponse] = useState({message: '', type: ''})
     const handleSubmit =  async (e) => {
         e.preventDefault()
@@ -29,13 +21,11 @@ const Contact = () => {
                 formData.append("assets", file)
             })
         }
-
         for (const key in data) {
             if (data.hasOwnProperty(key)) {
                 formData.append(key, data[key])
             }
         }
-        await delay(1000)
         let config = {
             method: 'post',
             url: 'http://localhost:5000/den/contact',
@@ -45,7 +35,7 @@ const Contact = () => {
             data : formData
         };
         const res = await axios(config)
-        setResponse(res)
+        setResponse(res.data)
         setData({
             name: '',
             email: '',
