@@ -113,21 +113,20 @@ const Contact = () => {
                             </div>
                             <span id="id-err"></span>
                             <div className="input-field-row">
-                                <div className="input-file-row">
-                                    <label htmlFor="project_brief" className="project_brief">
-                                        <div className="file-content">
-                                            <div className="icon">
+                                <div class="input-file-row">
+                                    <label for="project_brief" class="project_brief">
+                                        <div class="file-content">
+                                            <div class="icon">
                                                 <img src="./assets/svg/icon-download.svg" alt=""/>
                                             </div>
-                                            <div className="content-label">
-                                                Drag or browse files to upload
+                                            <div class="content-label">
+                                                Drag or browse your project brief (you can upload multipe files)
                                             </div>
                                         </div>
-                                        <div className="row-wrap">
-                                            <div id="filePush" className="button">upload</div>
+                                        <div class="row-wrap">
+                                            <div id="filePush" class="button">upload</div>
                                         </div>
                                     </label>
-                                    {/* accept="application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint" */}
                                     <input className="file-field" type="file" name="assets" onChange={e=>{setData({ ...data, [e.target.name]: e.target.files })}} multiple="multiple" />
                                 </div>
                                 <span id="id-err fileErr"></span>
