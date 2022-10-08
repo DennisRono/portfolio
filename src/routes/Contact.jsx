@@ -58,6 +58,22 @@ const Contact = () => {
             clearInterval(btninterval)
         }
     }
+    const getFile = () => {
+        const files = document.querySelector('.file-field').files
+        let label = document.querySelector('.content-label')
+        let finlabel = ""
+        let filenames = []
+        for (var i = 0; i < files.length; ++i) {
+            var name = files.item(i).name;
+            filenames.push(name)
+        }
+        filenames.map(i=>{
+            return (
+            finlabel = finlabel + "<span class='filenames-list'>"+i+"</span>"
+            )
+        })
+        label.innerHTML = finlabel
+    }
   return (
     <Fragment>
         <section className="contact-page">
@@ -127,7 +143,16 @@ const Contact = () => {
                                             <div id="filePush" class="button">upload</div>
                                         </div>
                                     </label>
-                                    <input className="file-field" type="file" name="assets" onChange={e=>{setData({ ...data, [e.target.name]: e.target.files })}} multiple="multiple" />
+                                    <input
+                                        className="file-field"
+                                        type="file"
+                                        name="assets"
+                                        onChange={e=>{
+                                            setData({ ...data, [e.target.name]: e.target.files })
+                                            getFile()
+                                        }}
+                                        multiple="multiple"
+                                    />
                                 </div>
                                 <span id="id-err fileErr"></span>
                             </div>
