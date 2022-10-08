@@ -25,18 +25,16 @@ const Contact = () => {
         e.preventDefault()
         const formData = new FormData()
         Object.values(files).forEach(file=>{
-            formData.append("uploadImages", file)
+            formData.append("assets", file)
         })
 
         for (const key in data) {
             if (data.hasOwnProperty(key)) {
-                formData.append(key, data[key])
+                formData.append(toString(key), toString(data[key]))
             }
         }
         await delay(1000)
-        for (const value of formData.values()) {
-            console.log(value);
-        }
+
         let res = await api('POST', 'den/contact', formData)
         setResponse(res)
         setData({
@@ -114,7 +112,7 @@ const Contact = () => {
                         <div className="cont-group">
                             <div className="user-input-wrp">
                                 <br/>
-                                <textarea id="id-input" type="text" className="inputText" name="brief" value={data.brief} onChange={(e)=>{fileChange(e)}} style={{minHeight: "100px"}}></textarea>
+                                <textarea id="id-input" type="text" className="inputText" name="brief" value={data.brief} onChange={e=>{setData({ ...data, [e.target.name]: e.target.value })}} style={{minHeight: "100px"}}></textarea>
                                 <span className="floating-label">Describe your project briefly <span style={{color: "red"}}>*</span></span>
                             </div>
                             <span id="id-err"></span>
@@ -134,7 +132,7 @@ const Contact = () => {
                                         </div>
                                     </label>
                                     {/* accept="application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint" */}
-                                    <input className="file-field" type="file" name="assets" onChange={e=>{setData({ ...data, [e.target.name]: e.target.files })}} multiple="multiple" />
+                                    <input className="file-field" type="file" name="assets" onChange={e=>{fileChange(e)}} multiple="multiple" />
                                 </div>
                                 <span id="id-err fileErr"></span>
                             </div>
