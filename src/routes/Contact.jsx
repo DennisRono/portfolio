@@ -3,6 +3,7 @@ import '../styles/css/cont.css'
 // import { Link } from 'react-router-dom'
 // import { ReactComponent as HomeIc } from '../assets/svg/home.svg'
 import { api } from '../api/axios'
+import axios from "axios"
 import Header from '../components/Header'
 
 const Contact = () => {
@@ -31,12 +32,19 @@ const Contact = () => {
 
         for (const key in data) {
             if (data.hasOwnProperty(key)) {
-                formData.append(toString(key), toString(data[key]))
+                formData.append(key, data[key])
             }
         }
         await delay(1000)
-
-        let res = await api('POST', 'den/contact', formData)
+        let config = {
+            method: 'post',
+            url: 'http://localhost:5000/den/contact',
+            headers: { 
+              'auth-token': 'eyJhbGciOiJIUzI1NiJ9.a3l5NXhocnQ4OTQ3d205N25ucA.jZUx505N8EqxuaYZNeqrIGDfJVLd0vCEFfhXknrn3M8', 
+            },
+            data : formData
+        };
+        const res = await axios(config)
         setResponse(res)
         setData({
             name: '',
