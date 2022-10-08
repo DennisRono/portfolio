@@ -14,6 +14,7 @@ const Contact = () => {
         brief: '',
         assets: null
     })
+    const [files, setFiles] = useState([])
 
     const delay = (time) => {
         return new Promise(resolve => setTimeout(resolve, time));
@@ -23,10 +24,10 @@ const Contact = () => {
     const handleSubmit =  async (e) => {
         e.preventDefault()
         const formData = new FormData()
-        Object.values(data.assets).forEach(file=>{
-            formData.append("assets", file)
+        Object.values(files).forEach(file=>{
+            formData.append("uploadImages", file)
         })
-        
+
         for (const key in data) {
             if (data.hasOwnProperty(key)) {
                 formData.append(key, data[key])
@@ -50,7 +51,9 @@ const Contact = () => {
             setResponse({message: '', type: ''})
         }, 5000)
     }
-
+    const fileChange = (e) => {
+        setFiles(e.target.files)
+    }
     const [btntxt, setBtntxt] = useState('submit')
     const handleBtn = () => {
         setBtntxt('sending...')
@@ -111,7 +114,7 @@ const Contact = () => {
                         <div className="cont-group">
                             <div className="user-input-wrp">
                                 <br/>
-                                <textarea id="id-input" type="text" className="inputText" name="brief" value={data.brief} onChange={e=>{setData({ ...data, [e.target.name]: e.target.value })}} style={{minHeight: "100px"}}></textarea>
+                                <textarea id="id-input" type="text" className="inputText" name="brief" value={data.brief} onChange={(e)=>{fileChange(e)}} style={{minHeight: "100px"}}></textarea>
                                 <span className="floating-label">Describe your project briefly <span style={{color: "red"}}>*</span></span>
                             </div>
                             <span id="id-err"></span>
