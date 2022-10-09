@@ -4,14 +4,86 @@
     display: flex;
     align-items: center;
     .header-wrapper{
+        .bars{
+            fill: var(--text-primary);
+            height: 25px;
+            width: 25px;
+            cursor: pointer;
+            margin: 10px;
+            @media(min-width: 480px){
+                display: none;
+            }
+        }
+        @media(max-width: 480px){
+            .closenav{
+                -webkit-animation: close 0.5s forwards;
+                animation: close 0.5s forwards;
+            }
+            @-webkit-keyframes close {
+                100% { margin-left: -80%; }
+                0% {margin-left: 0%;}
+            }
+            
+            @keyframes close {
+                100% { margin-left: -80%; }
+                0% {margin-left: 0%;}
+            }
+            .opennav{
+                -webkit-animation: open 0.5s forwards;
+                animation: open 0.5s forwards;
+            }
+            @-webkit-keyframes open {
+                100% { margin-left: 0%; }
+                0% {margin-left: -80%;}
+            }
+            
+            @keyframes open {
+                100% { margin-left: 0%; }
+                0% {margin-left: -80%;}
+            }
+        }
         .navigation{
+            @media(max-width: 480px){
+                height: 100vh;
+                width: 80%;
+                background-color: var(--background);
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 999;
+                .timezclose{
+                    display: unset !important;
+                }
+            }
+            .timezclose{
+                fill: var(--text-primary);
+                height: 25px;
+                width: 25px;
+                cursor: pointer;
+                margin: 10px;
+                display: none;
+                position: absolute;
+                top: 15px;
+                right: 10px;
+            }
             ul{
                 display: flex;
+                @media(max-width: 480px){
+                    flex-direction: column;
+                    margin-top: 30%;
+                }
                 .nav-link{
+                    @media(max-width: 480px){
+                        margin-top: 40px;
+                    }
                     a{
                         padding: 10px;
                         font-weight: 900;
                         color: var(--text-primary);
+                        @media(max-width: 480px){
+                            padding: 25px;
+                            font-size: 2rem;
+                        }
                     }
                 }
             }

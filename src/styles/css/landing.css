@@ -117,6 +117,11 @@
 .landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks .git {
   margin-right: 15px;
 }
+@media (max-width: 480px) {
+  .landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks .git {
+    width: 100% !important;
+  }
+}
 .landing .lcontainer .lwrapper .lflex .ltexts .pouterLinks .git a {
   border: 0;
   background-color: rgb(0, 0, 0);

@@ -1,6 +1,6 @@
 import axios from "axios"
 
-let baseURL = 'http://localhost:5000/'
+let baseURL = 'https://api.denniskibet.com/'
 
 export const api = async (method = 'GET', slug = '', data = {}, headers={}) => {
     let config = {

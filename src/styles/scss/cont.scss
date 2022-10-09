@@ -3,6 +3,9 @@
     margin: 0 10%;
     min-height: 100vh;
     position: relative;
+    @media(max-width: 480px){
+        margin: 0 5px;
+    }
     a{
         .homeIcon{
             position: absolute;
@@ -25,10 +28,17 @@
         padding: 20px;
         margin: 0 auto;
         height: min-content;
+        @media(max-width: 480px){
+            width: unset;
+        }
         .contact-page-header{
             text-align: center;
             font-size: 6rem;
             color: var(--text-primary);
+            @media(max-width: 480px){
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
         }
         .formNotifySucc{
             padding: 10px;
@@ -49,6 +59,10 @@
         .contFormSec{
             padding-top: 3rem;
             margin-left: 25px;
+            @media(max-width: 480px){
+                margin-left: -10px;
+                padding-top: 1rem;
+            }
             form{
                 h3{
                     color: var(--text-primary);
@@ -118,6 +132,9 @@
                         .input-file-row{
                             width: 98%;
                             position: relative;
+                            @media(max-width: 480px){
+                                width: 100%;
+                            }
                             .project_brief{
                                 display: flex;
                                 padding: 18px 20px;
@@ -134,6 +151,9 @@
                                     align-items: center;
                                     position: relative;
                                     width: 80%;
+                                    @media(max-width: 480px){
+                                        width: 100%;
+                                    }
                                     .icon{
                                         margin-right: 15px;
                                         img{
@@ -178,6 +198,9 @@
                                     display: flex;
                                     -webkit-box-align: center;
                                     align-items: center;
+                                    @media(max-width: 480px){
+                                        display: none;
+                                    }
                                     .button{
                                         background: #2ac6ff;
                                         border-radius: 4px;
@@ -187,6 +210,7 @@
                                         color: rgb(255, 255, 255);
                                         text-transform: uppercase;
                                         font-weight: 500;
+                                        z-index: unset !important;
                                     }
                                 }
                             }
@@ -195,7 +219,7 @@
                                 opacity: 0;
                                 overflow: hidden;
                                 position: absolute;
-                                width: 70%;
+                                width: 100%;
                                 top: 0px;
                                 left: 0px;
                                 cursor: pointer;

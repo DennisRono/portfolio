@@ -4,6 +4,11 @@
   min-height: 100vh;
   position: relative;
 }
+@media (max-width: 480px) {
+  .contact-page {
+    margin: 0 5px;
+  }
+}
 .contact-page a .homeIcon {
   position: absolute;
   height: 25px;
@@ -21,10 +26,21 @@
   height: -moz-min-content;
   height: min-content;
 }
+@media (max-width: 480px) {
+  .contact-page .contact-page-wrapper {
+    width: unset;
+  }
+}
 .contact-page .contact-page-wrapper .contact-page-header {
   text-align: center;
   font-size: 6rem;
   color: var(--text-primary);
+}
+@media (max-width: 480px) {
+  .contact-page .contact-page-wrapper .contact-page-header {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 .contact-page .contact-page-wrapper .formNotifySucc {
   padding: 10px;
@@ -45,6 +61,12 @@
 .contact-page .contact-page-wrapper .contFormSec {
   padding-top: 3rem;
   margin-left: 25px;
+}
+@media (max-width: 480px) {
+  .contact-page .contact-page-wrapper .contFormSec {
+    margin-left: -10px;
+    padding-top: 1rem;
+  }
 }
 .contact-page .contact-page-wrapper .contFormSec form h3 {
   color: var(--text-primary);
@@ -108,6 +130,11 @@
   width: 98%;
   position: relative;
 }
+@media (max-width: 480px) {
+  .contact-page .contact-page-wrapper .contFormSec form .cont-group .input-field-row .input-file-row {
+    width: 100%;
+  }
+}
 .contact-page .contact-page-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief {
   display: flex;
   padding: 18px 20px;
@@ -122,6 +149,11 @@
   align-items: center;
   position: relative;
   width: 80%;
+}
+@media (max-width: 480px) {
+  .contact-page .contact-page-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content {
+    width: 100%;
+  }
 }
 .contact-page .contact-page-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .icon {
   margin-right: 15px;
@@ -168,6 +200,11 @@
   display: flex;
   align-items: center;
 }
+@media (max-width: 480px) {
+  .contact-page .contact-page-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .row-wrap {
+    display: none;
+  }
+}
 .contact-page .contact-page-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .row-wrap .button {
   background: #2ac6ff;
   border-radius: 4px;
@@ -177,13 +214,14 @@
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   font-weight: 500;
+  z-index: unset !important;
 }
 .contact-page .contact-page-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .file-field {
   height: 100%;
   opacity: 0;
   overflow: hidden;
   position: absolute;
-  width: 70%;
+  width: 100%;
   top: 0px;
   left: 0px;
   cursor: pointer;

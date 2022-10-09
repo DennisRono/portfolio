@@ -2,6 +2,7 @@ import React, { Fragment, useState } from 'react'
 import '../styles/css/cont.css'
 import axios from "axios"
 import Header from '../components/Header'
+import { ReactComponent as Upload } from '../assets/svg/icon-download.svg'
 
 const Contact = () => {
     const[data, setData] = useState({
@@ -28,7 +29,7 @@ const Contact = () => {
         }
         let config = {
             method: 'post',
-            url: 'http://localhost:5000/den/contact',
+            url: 'https://api.denniskibet.com/den/contact',
             headers: { 
               'auth-token': 'eyJhbGciOiJIUzI1NiJ9.a3l5NXhocnQ4OTQ3d205N25ucA.jZUx505N8EqxuaYZNeqrIGDfJVLd0vCEFfhXknrn3M8', 
             },
@@ -44,6 +45,7 @@ const Contact = () => {
             brief: '',
             assets: null
         })
+        getFile(true)
         setTimeout(() => {
             setResponse({message: '', type: ''})
         }, 5000)
@@ -58,7 +60,7 @@ const Contact = () => {
             clearInterval(btninterval)
         }
     }
-    const getFile = () => {
+    const getFile = (c) => {
         const files = document.querySelector('.file-field').files
         let label = document.querySelector('.content-label')
         let finlabel = ""
@@ -72,7 +74,11 @@ const Contact = () => {
             finlabel = finlabel + "<span class='filenames-list'>"+i+"</span>"
             )
         })
-        label.innerHTML = finlabel
+        if(c){
+            label.innerHTML = 'Drag or browse your project brief (you can upload multipe files)'
+        } else {
+            label.innerHTML = finlabel
+        }
     }
   return (
     <Fragment>
@@ -107,7 +113,7 @@ const Contact = () => {
                                     <div className="user-input-wrp">
                                         <br/>
                                         <input id="id-input" type="text" className="inputText" name="phone" value={data.phone} onChange={e=>{setData({ ...data, [e.target.name]: e.target.value })}} />
-                                        <span className="floating-label">Your Phone Number</span>
+                                        <span className="floating-label">Phone Number</span>
                                     </div>
                                     <span id="id-err"></span>
                                 </div>
@@ -133,7 +139,7 @@ const Contact = () => {
                                     <label for="project_brief" class="project_brief">
                                         <div class="file-content">
                                             <div class="icon">
-                                                <img src="./assets/svg/icon-download.svg" alt=""/>
+                                                <Upload className="image-upload-icon"/>
                                             </div>
                                             <div class="content-label">
                                                 Drag or browse your project brief (you can upload multipe files)
@@ -149,7 +155,7 @@ const Contact = () => {
                                         name="assets"
                                         onChange={e=>{
                                             setData({ ...data, [e.target.name]: e.target.files })
-                                            getFile()
+                                            getFile(false)
                                         }}
                                         multiple="multiple"
                                     />

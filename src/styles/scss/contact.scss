@@ -1,5 +1,5 @@
 .contact{
-    height: 50vh;
+    height: min-content;
     position: relative;
     .conwrapper{
         .concontainer{
@@ -29,6 +29,9 @@
                     font-size: 5rem;
                     font-weight: 600;
                     margin-top: 10px;
+                    @media(max-width: 480px){
+                        font-size: 3rem;
+                    }
                 }
                 .contexts{
                     text-align: center;
@@ -36,18 +39,20 @@
                     font-weight: 100;
                     font-size: 1.3rem;
                 }
-                .contactb{
-                    position: absolute;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    color: var(--text-primary);
-                    padding: 10px 30px;
-                    border-radius: 5px;
-                    border: 1px solid aqua;
-                    transition: .2s;
-                    line-height: 1;
-                    margin-top: 50px;
-                    cursor: pointer;
+                .contbtnP{
+                    margin-top: 20px;
+                    width: 100%;
+                    text-align: center;
+                    height: min-content;
+                    .contactb{
+                        color: var(--text-primary);
+                        padding: 10px 30px;
+                        border-radius: 5px;
+                        border: 1px solid aqua;
+                        transition: .2s;
+                        line-height: 1;
+                        cursor: pointer;
+                    }
                 }
             }
         }

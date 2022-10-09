@@ -13,7 +13,9 @@ const Contact = () => {
                     <p className="contexts">
                         let's chat on opportunities, new technologies, ideas or even say hi
                     </p>
-                    <Link to="/contact" className="contactb">Say Hi</Link>
+                    <p className="contbtnP">
+                        <Link to="/contact" className="contactb">Say Hi</Link>
+                    </p>
                 </div>
             </div>
         </div>

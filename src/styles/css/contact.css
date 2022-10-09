@@ -1,5 +1,7 @@
 .contact {
-  height: 50vh;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
   position: relative;
 }
 .contact .conwrapper .concontainer {
@@ -32,22 +34,31 @@
   font-weight: 600;
   margin-top: 10px;
 }
+@media (max-width: 480px) {
+  .contact .conwrapper .concontainer .conflex .constitle {
+    font-size: 3rem;
+  }
+}
 .contact .conwrapper .concontainer .conflex .contexts {
   text-align: center;
   color: var(--text-primary);
   font-weight: 100;
   font-size: 1.3rem;
 }
-.contact .conwrapper .concontainer .conflex .contactb {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+.contact .conwrapper .concontainer .conflex .contbtnP {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.contact .conwrapper .concontainer .conflex .contbtnP .contactb {
   color: var(--text-primary);
   padding: 10px 30px;
   border-radius: 5px;
   border: 1px solid aqua;
   transition: 0.2s;
   line-height: 1;
-  margin-top: 50px;
   cursor: pointer;
 }/*# sourceMappingURL=contact.css.map */

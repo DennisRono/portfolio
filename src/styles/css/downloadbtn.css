@@ -16,6 +16,13 @@
   border: 0;
   transition: border-radius linear 0.05s, width linear 0.05s;
 }
+@media (max-width: 480px) {
+  .resumedownloadbtn {
+    width: 95% !important;
+    margin-top: 20px;
+    margin-left: -5px;
+  }
+}
 .resumedownloadbtn:focus {
   outline: 0;
 }
