@@ -146,6 +146,9 @@ body::-webkit-scrollbar-thumb {
 .App {
   background-color: var(--background);
   transition: all 0.2s ease-in-out 0s;
+  max-width: 1180px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .contents {
