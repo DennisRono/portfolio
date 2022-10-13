@@ -93,6 +93,9 @@ body {
     font-family: Apercu,source sans pro,system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
     width: 100%;
+    max-width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
     overflow-x: hidden !important;
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;
@@ -158,9 +161,6 @@ body::-webkit-scrollbar-thumb {
 .App{
     background-color: var(--background);
     transition: all 0.2s ease-in-out 0s;
-    max-width: 1180px;
-    margin-right: auto;
-    margin-left: auto;
 }
 .contents{
     transition: all 0.2s ease-in-out 0s;
