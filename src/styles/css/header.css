@@ -109,5 +109,6 @@
   }
 }
 .header .header-wrapper .navigation ul .nav-link a:hover {
-  border: 1px solid var(--text-primary);
+  border: 0.0625rem solid var(--text-primary);
+  border-radius: 0.625rem;
 }/*# sourceMappingURL=header.css.map */
