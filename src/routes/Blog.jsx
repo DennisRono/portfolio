@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import '../styles/css/blog.css'
 import agility from '../images/agility.png'
+import Footer from '../components/Footer'
 
 const Blog = () => {
   return (
@@ -228,6 +229,7 @@ const Blog = () => {
             </div>
         </div>
     </section>
+    <Footer/>
     </Fragment>
   )
 }
