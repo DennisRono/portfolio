@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import '../styles/css/blog.css'
+import agility from '../images/agility.png'
 
 const Blog = () => {
   return (
@@ -12,14 +13,14 @@ const Blog = () => {
         <div class="blog-landing-wrapper">
             <div class="spot-blog">
                 <div class="spot-image">
-                    <img src="../images/agility.png" alt=""/>
+                    <img src={agility} alt=""/>
                 </div>
                 <div class="spot-texts">
                     <span class="spot-category">Web Development</span> <span class="spot-date">june 22 2022</span>
                     <h2><a href="">7 Frontend JavaScript Frameworks Loved by Developers in 2022</a></h2>
                     <p><a href="">is undoubtedly quite popular in building interactive and multimedia content. In 2021, it completed the ninth year in a row as the most commonly used programming language. A JavaScript frontend framework is a collection of JavaScript code libraries that helps developers with standard programming features and tasks. In addition, it offers reusable code components, a universal development environment, compilers, toolsets, code libraries, APIs, etc., to facilitate the app.</a></p>
                     <div class="spot-author">
-                        <img src="../images/agility.png" alt=""/>
+                        <img src={agility} alt=""/>
                         <div class="spot-author-name">
                             <h4>Dennis Kibet</h4>
                             <p>CEO</p>
@@ -60,7 +61,7 @@ const Blog = () => {
         <div class="highflex">
             <div class="highblogcard">
                 <div class="bloghighImage">
-                    <img src="../images/agility.png" alt=""/>
+                    <img src={agility} alt=""/>
                 </div>
                 <div class="bloghighTitle">
                     <a href="read.html">
@@ -76,7 +77,7 @@ const Blog = () => {
             </div>
             <div class="highblogcard">
                 <div class="bloghighImage">
-                    <img src="../images/agility.png" alt=""/>
+                    <img src={agility} alt=""/>
                 </div>
                 <div class="bloghighTitle">
                     <a href="read.html">
@@ -92,7 +93,7 @@ const Blog = () => {
             </div>
             <div class="highblogcard">
                 <div class="bloghighImage">
-                    <img src="../images/agility.png" alt=""/>
+                    <img src={agility} alt=""/>
                 </div>
                 <div class="bloghighTitle">
                     <a href="read.html">
@@ -108,7 +109,7 @@ const Blog = () => {
             </div>
             <div class="highblogcard">
                 <div class="bloghighImage">
-                    <img src="../images/agility.png" alt=""/>
+                    <img src={agility} alt=""/>
                 </div>
                 <div class="bloghighTitle">
                     <a href="read.html">
@@ -124,7 +125,7 @@ const Blog = () => {
             </div>
             <div class="highblogcard">
                 <div class="bloghighImage">
-                    <img src="../images/agility.png" alt=""/>
+                    <img src={agility} alt=""/>
                 </div>
                 <div class="bloghighTitle">
                     <a href="read.html">
@@ -140,7 +141,7 @@ const Blog = () => {
             </div>
             <div class="highblogcard">
                 <div class="bloghighImage">
-                    <img src="../images/agility.png" alt=""/>
+                    <img src={agility} alt=""/>
                 </div>
                 <div class="bloghighTitle">
                     <a href="read.html">
@@ -156,7 +157,7 @@ const Blog = () => {
             </div>
             <div class="highblogcard">
                 <div class="bloghighImage">
-                    <img src="../images/agility.png" alt=""/>
+                    <img src={agility} alt=""/>
                 </div>
                 <div class="bloghighTitle">
                     <a href="read.html">
@@ -172,7 +173,7 @@ const Blog = () => {
             </div>
             <div class="highblogcard">
                 <div class="bloghighImage">
-                    <img src="../images/agility.png" alt=""/>
+                    <img src={agility} alt=""/>
                 </div>
                 <div class="bloghighTitle">
                     <a href="read.html">
@@ -188,7 +189,7 @@ const Blog = () => {
             </div>
             <div class="highblogcard">
                 <div class="bloghighImage">
-                    <img src="../images/agility.png" alt=""/>
+                    <img src={agility} alt=""/>
                 </div>
                 <div class="bloghighTitle">
                     <a href="read.html">
