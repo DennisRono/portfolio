@@ -1,0 +1,352 @@
+/* ======pass card stylings====== */
+.passCard{
+    transform:skew(0deg, -5deg);
+    height: 50vh;
+    background: rgba(9,20,26,1);
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 170px;
+    .passCardWrapper{
+        transform:skew(0deg, 5deg);
+        margin-bottom: -100px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        background: linear-gradient(to top,rgb(9, 28, 37),rgba(9,20,26,1))!important;
+        .passCardContainer{
+            margin: 0 5%;
+            .passCardFlex{
+                display: flex;
+                padding-top: 80px;
+                .passCardTiler{
+                    width: 50%;
+                    .passTiltCard{
+                        width: 450px;
+                        height: 200px;
+                        padding: 20px;
+                        background-color: #17236892;
+                        overflow: hidden;
+                        border-radius: 10px;
+                        display: flex;
+                        position: relative;
+                        box-shadow: #6f00ff40 0px 54px 55px, #7d03ff1f 0px -12px 30px, #8800ff1f 0px 4px 6px, #7f07ff2b 0px 12px 13px, #7b00ff17 0px -3px 5px;
+                        .passTiltCardImage{
+                            width: 40%;
+                            overflow: hidden;
+                            display: flex;
+                            align-items: center;
+                            img{
+                                width: 80%;
+                                height: auto;
+                                object-fit: cover;
+                            }
+                        }
+                        .passTiltCardTexts{
+                            width: 65%; 
+                            display: flex;
+                            align-items: flex-end;
+                            justify-content: space-between;
+                            margin-left: -5%;
+                            color: #f6f6f6;
+                            div{
+                                margin-bottom: 40px;
+                                h1,p{
+                                    color: #f6f6f6;
+                                    span{
+                                        font-weight: 500;
+                                    }
+                                    .apikey{
+                                        background-color: #35353583;
+                                        padding: 5px;
+                                        border-radius: 5px;
+                                    }
+                                }
+                                p{
+                                    margin-bottom: 10px;
+                                }
+                            }                        
+                        }
+                    }
+                }
+                .passOutroTexts{
+                    width: 50%;
+                    display: flex;
+                    align-items: center;
+                    div{
+                        h2{
+                            line-height: 1.25;
+                            font-size: 2rem;
+                            color: #f6f6f6;
+                            font-weight: 700;
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            color: #e0e1ea;
+                            line-height: 1.25;
+                            letter-spacing: 1.2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* ======for the developers stylings====== */
+.forthedevs{
+    margin: 3rem 0;
+    .devswrapper{
+        .devcontainer{
+            margin: 0 10%;
+            .devflex{
+                display: flex;
+                justify-content: space-between;
+                .devstext{
+                    width: 50%;
+                    .fordestxt{
+                        text-transform: uppercase;
+                        font-size: .875rem;
+                        line-height: 1.25rem;
+                        font-weight: 700;
+                    }
+                    .devstitle{
+                        font-size: 2rem;
+                        line-height: 2.25rem;
+                        font-weight: 700;
+                        margin-top: 1rem;
+                        margin-bottom: 1.5rem;
+                    }
+                    .devtext{
+                        margin-bottom: 20px;
+                        a{
+                            color: #0088f0;
+                        }
+                    }
+                    .devbtns{
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+                        margin-top: 2rem;
+                        .devlearn{
+                            padding: 1.5rem 2rem;
+                            line-height: 1.25;
+                            font-weight: 600;
+                            font-size: .875rem;
+                            background: linear-gradient(to bottom right,#14a9ff,#0088f0)!important;
+                            border-radius: 0.75rem;
+                            border-style: none;
+                            border: none;
+                            outline: none;
+                        }
+                        .devdocs{
+                            color: #0088f0;
+                            line-height: 1.25;
+                            font-weight: 600;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+                .devstech{
+                    width: 40%;
+                    padding: 30px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    gap: 4rem;
+                    .devtechcard{
+                        height: 100px;
+                        width: 100px;
+                        overflow: hidden;
+                        .devIcon{
+                            font-size: 1rem !important;
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .devbrandIc{
+                            font-size: 6rem !important;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* ======newsletter subscribe stylings====== */
+.secNewsletter{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    .newsletter{
+        .newslettercontainer{
+            margin: 0 5%;
+            .subnewsletter{
+                background-size: 40%,60%;
+                background-position: left top,right bottom;
+                //background-image: url(../svg/glow-blue-02.svg),url(../svg/glow-purple-02.svg);
+                background-repeat: no-repeat;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 1216px;
+                .subnewsFlex{
+                    display: flex;
+                    grid-gap: 2.5rem;
+                    gap: 2.5rem;
+                    border-radius: 0.75rem;
+                    background-color: rgba(9,20,26,1);
+                    background-position: 100%;
+                    background-repeat: no-repeat;
+                    flex-direction: row;
+                    padding-top: 3rem;
+                    padding-bottom: 3rem;
+                    padding-left: 5rem;
+                    padding-right: 5rem;
+                    //background-image: url(../svg/envelop.svg);
+                    .subNewstexts{
+                        width: 50%;
+                        .subNewstitle{
+                            font-size: 2rem;
+                            line-height: 2.25rem;
+                            color: rgba(246,246,246,1);
+                            font-weight: 700;
+                            letter-spacing: 1.5px;
+                        }
+                        .subNewsTextsp{
+                            margin-top: 0.75rem;
+                            color: rgba(246,246,246,1);
+                            letter-spacing: .5px;
+                        }
+                    }
+                    .subnewsform{
+                        position: relative;
+                        width: 50%;
+                        .subNewsFormf{
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                            .subinputsFlex{
+                                display: flex;
+                                overflow: hidden;
+                                border-radius: 0.75rem;
+                                .subnewsinput{
+                                    outline: none;
+                                    border: none;
+                                    padding-left: 1rem;
+                                    padding-right: 1rem;
+                                    font-size: 1rem;
+                                    line-height: 1.5rem;
+                                    background-color: rgba(49, 49, 49, 0.707);
+                                    color: rgb(218, 218, 218);
+                                    height: 3.5rem;
+                                    margin-right: -10px;
+                                    width: 300px;
+                                }
+                                .subnewsButton{
+                                    cursor: pointer;
+                                    border-radius: 0.75rem;
+                                    background-color: cyan;
+                                    padding: 10px 20px;
+                                    font-weight: 600;
+                                    outline: none;
+                                    border: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* ======Footer stylings====== */
+.footer{
+    height: min-content;
+    .fcontainer{
+        margin: 0 5%;
+        position: relative;
+        height: 100%;
+        .fdet{
+            .fdetflex{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                .fflexsecs{
+                    width: 22%;
+                    height: min-content;
+                    margin-bottom: 40px;
+                    h2{
+                        margin-bottom: 20px;
+                    }
+                    ul{
+                        li{
+                            margin-bottom: 10px;
+                            a{
+                                color: var(--color);
+                            }
+                            a:hover{
+                                color: #0088f0;
+                            }
+                        }
+                    }
+                    &:nth-child(1){
+                        .flogo{
+                            display: flex;
+                            align-items: baseline;
+                            margin-bottom: 20px;
+                            img{
+                                height: 25px;
+                                width: 25px;
+                                margin-right: 10px;
+                            }
+                            h3{
+                                font-size: 2rem;
+                            }
+                        }
+                        .fsocials{
+                            display: flex;
+                            flex-direction: row;
+                            margin-bottom: 20px;
+                            i{
+                                margin-right: 20px;
+                                font-size: 1.2rem;
+                            }
+                        }
+                        .siteProtection{
+                            display: flex;
+                            flex-direction: column;
+                            img{
+                                margin-bottom: 10px;
+                                &:nth-child(1){
+                                    width: 50%;
+                                }
+                                &:nth-child(2){
+                                    width: 40%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .fcopyright{
+        height: min-content;
+        display: block;
+        padding: 10px 0px;
+        width: 100%;
+        p{
+            text-align: center;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: var(--color) !important;
+            font-family: 'Roboto', sans-serif;
+            a{
+                cursor: pointer;
+                color: var(--color);
+            }
+        }
+    }
+}
