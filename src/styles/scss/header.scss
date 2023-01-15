@@ -1,6 +1,6 @@
 .header{
     margin: 0 10%;
-    height: 80px;
+    height: 100px;
     display: flex;
     align-items: center;
     .header-wrapper{
@@ -80,6 +80,7 @@
                         padding: 10px;
                         font-weight: 200;
                         color: var(--text-primary);
+                        white-space: pre;
                         @media(max-width: 480px){
                             padding: 25px;
                             font-size: 2rem;
