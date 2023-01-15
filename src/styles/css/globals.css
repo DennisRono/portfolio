@@ -150,7 +150,6 @@ body::-webkit-scrollbar-thumb {
 
 .contents {
   transition: all 0.2s ease-in-out 0s;
-  max-width: 1500px;
   margin-right: auto;
   margin-left: auto;
 }
