@@ -11,6 +11,9 @@
                     width: 45%;
                     margin-left: 5%;
                     margin-top: 5%;
+                    @media(min-width: 1700px){
+                        margin-top: 10% !important;
+                    }
                     .lcachy{
                         font-size: 1.75rem;
                         color: var(--text-primary);

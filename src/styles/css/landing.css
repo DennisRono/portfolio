@@ -18,6 +18,11 @@
   margin-left: 5%;
   margin-top: 5%;
 }
+@media (min-width: 1700px) {
+  .landing .lcontainer .lwrapper .lflex .ltexts {
+    margin-top: 10% !important;
+  }
+}
 .landing .lcontainer .lwrapper .lflex .ltexts .lcachy {
   font-size: 1.75rem;
   color: var(--text-primary);
