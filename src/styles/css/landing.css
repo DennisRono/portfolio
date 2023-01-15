@@ -106,10 +106,16 @@
 .landing .lcontainer .lwrapper .lflex .ltexts .lintrotxts {
   color: var(--text-primary);
   margin-top: 10px;
+  font-size: 1.8rem;
+  margin-bottom: 50px;
   font-weight: 100;
-  font-size: 1.375rem;
-  line-height: 1.64;
-  letter-spacing: -0.015em;
+}
+@media (max-width: 1400px) {
+  .landing .lcontainer .lwrapper .lflex .ltexts .lintrotxts {
+    font-size: 1.375rem;
+    line-height: 1.64;
+    letter-spacing: -0.015em;
+  }
 }
 .landing .lcontainer .lwrapper .lflex .ltexts .lintrotxts::-moz-selection {
   background: #221427;

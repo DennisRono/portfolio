@@ -54,12 +54,14 @@
                     .lintrotxts{
                         color: var(--text-primary);
                         margin-top: 10px;
-                        // font-size: 1.8rem;
-                        // margin-bottom: 50px;
+                        font-size: 1.8rem;
+                        margin-bottom: 50px;
                         font-weight: 100;
-                        font-size: 1.375rem;
-                        line-height: 1.64;
-                        letter-spacing: -.015em;
+                        @media(max-width: 1400px){
+                            font-size: 1.375rem;
+                            line-height: 1.64;
+                            letter-spacing: -.015em;
+                        }
                     }
                     .lintrotxts::selection {
                         background: #221427;
