@@ -4,7 +4,7 @@ import Dennis from '../images/about-image.png'
 
 const background = () => {
   return (
-    <div className="background">
+    <div className="background" id='background'>
         <div className="bwrapper">
             <div className="bcontainer">
                 <div className="bflex">

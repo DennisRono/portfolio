@@ -9,14 +9,14 @@ import { FiExternalLink } from 'react-icons/fi'
 
 const Projects = () => {
     return (
-        <div className="projects">
+        <div className="projects" id='projects'>
             <div className="pwrapper">
                 <div className="pcontainer">
                     <h2 className="pTitle"><span className="pCounter">04. </span> &nbsp;&nbsp;&nbsp;&nbsp; Featured Projects</h2>
                     <div className="proj">
                         <div className="pflex">
                             <div className="projImage">
-                                <a href="https://github.com/DennisRono/linkedin-clone">
+                                <a href="https://linkedin.denniskibet.com/" target="_blank" rel="noreferrer">
                                     <img src={LinkedIn} alt="linkedin-clone" />
                                 </a>
                             </div>
@@ -31,8 +31,8 @@ const Projects = () => {
                                     <span>HTML</span>
                                 </div>
                                 <div className="getCode">
-                                    <span><a href="https://github.com/DennisRono/linkedin-clone"><FiGithub title="Github"/></a></span>
-                                    <span><a href="https://github.com/DennisRono/linkedin-clone"><FiExternalLink title="View live site"/></a></span>
+                                    <span><a href="https://github.com/DennisRono/linkedin-clone" target="_blank" rel="noreferrer"><FiGithub title="Github"/></a></span>
+                                    <span><a href="https://linkedin.denniskibet.com/" target="_blank" rel="noreferrer"><FiExternalLink title="View live site"/></a></span>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ const Projects = () => {
                     <div className="proj">
                         <div className="pflex pfreverse">
                             <div className="projImage">
-                                <a href="https://nullchemy.com">
+                                <a href="https://nullchemy.com" target="_blank" rel="noreferrer">
                                     <img src={NullChemy} alt="nullchemy" />
                                 </a>
                             </div>
@@ -55,8 +55,8 @@ const Projects = () => {
                                     <span>HTML</span>
                                 </div>
                                 <div className="getCode">
-                                    <span><a href="https://github.com/DennisRono/linkedin-clone"><FiGithub title="Github"/></a></span>
-                                    <span><a href="https://nullchemy.com"><FiExternalLink title="View live site"/></a></span>
+                                    <span><a href="https://github.com/DennisRono/linkedin-clone" target="_blank" rel="noreferrer"><FiGithub title="Github"/></a></span>
+                                    <span><a href="https://nullchemy.com" target="_blank" rel="noreferrer"><FiExternalLink title="View live site"/></a></span>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ const Projects = () => {
                     <div className="proj">
                         <div className="pflex">
                             <div className="projImage">
-                                <a href="https://github.com/tenafric/tenafrik">
+                                <a href="https://github.com/tenafric/tenafrik" target="_blank" rel="noreferrer">
                                     <img src={tenAfrik} alt="tenAfrik" />
                                 </a>
                             </div>
@@ -81,8 +81,8 @@ const Projects = () => {
                                     <span>figma</span>
                                 </div>
                                 <div className="getCode">
-                                    <span><a href="https://github.com/tenafric/tenafrik"><FiGithub title="Github"/></a></span>
-                                    <span><a href="https://tenafric.herokuapp.com"><FiExternalLink title="View live site"/></a></span>
+                                    <span><a href="https://github.com/tenafric/tenafrik" target="_blank" rel="noreferrer"><FiGithub title="Github"/></a></span>
+                                    <span><a href="https://tenafric.herokuapp.com" target="_blank" rel="noreferrer"><FiExternalLink title="View live site"/></a></span>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ const Projects = () => {
                     <div className="proj">
                         <div className="pflex pfreverse">
                             <div className="projImage">
-                                <a href="https://lebodesigns.herokuapp.com">
+                                <a href="https://lebodesigns.herokuapp.com" target="_blank" rel="noreferrer">
                                     <img src={LeBo} alt="nullchemy" />
                                 </a>
                             </div>
@@ -105,8 +105,8 @@ const Projects = () => {
                                     <span>HTML</span>
                                 </div>
                                 <div className="getCode">
-                                    <span><a href="https://github.com/DennisRono/lebo"><FiGithub title="Github"/></a></span>
-                                    <span><a href="https://lebodesigns.herokuapp.com"><FiExternalLink title="View live site"/></a></span>
+                                    <span><a href="https://github.com/DennisRono/lebo" target="_blank" rel="noreferrer"><FiGithub title="Github"/></a></span>
+                                    <span><a href="https://lebodesigns.herokuapp.com" target="_blank" rel="noreferrer"><FiExternalLink title="View live site"/></a></span>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@ const Projects = () => {
                     <div className="otherProjects">
                         <h2 className="oTitle">Other Noteworthy Projects</h2>
                         <div className="oproj">
-                            <a href="https://github.com/DennisRono/codewars">
+                            <a href="https://github.com/DennisRono/codewars" target="_blank" rel="noreferrer">
                                 <h2 className="otproj">Codewars</h2>
                             </a>
                             <p className="optexts">

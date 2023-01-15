@@ -33,7 +33,7 @@ const Skills = () => {
     };
 
   return (
-    <div className="skills">
+    <div className="skills" id='skills'>
         <div className="swrapper">
             <div className="scontainer">
                 <div className="sflex">
