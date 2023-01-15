@@ -5,9 +5,11 @@
 }
 .blog-sec-top h1 {
   font-size: 6rem;
+  color: var(--text-primary);
 }
 .blog-sec-top p {
   font-size: 1.2rem;
+  color: var(--text-primary);
 }
 
 .blog-landing .blog-landing-wrapper {
@@ -51,11 +53,11 @@
 }
 .blog-landing .blog-landing-wrapper .spot-blog .spot-texts h2 a {
   text-decoration: none;
-  color: inherit;
+  color: var(--text-primary);
 }
 .blog-landing .blog-landing-wrapper .spot-blog .spot-texts p a {
   text-decoration: none;
-  color: inherit;
+  color: var(--text-primary);
 }
 .blog-landing .blog-landing-wrapper .spot-blog .spot-texts .spot-author {
   display: flex;
@@ -91,7 +93,7 @@
   border-radius: 23px;
   font-size: 0.9rem;
   text-decoration: none;
-  color: #eaeaea;
+  color: var(--text-primary);
   margin-right: 20px;
   cursor: pointer;
 }
@@ -154,7 +156,7 @@
   padding: 10px;
 }
 .blogs-showcase .highflex .highblogcard .bloghighTitle a {
-  color: inherit;
+  color: var(--text-primary);
 }
 .blogs-showcase .highflex .highblogcard .bloghighTitle a h2 {
   display: -webkit-box;
@@ -169,7 +171,7 @@
 }
 .blogs-showcase .highflex .highblogcard .bloghighTitle a h2:hover {
   transition: 0.3s;
-  color: #0088f0;
+  color: var(--text-primary);
 }
 .blogs-showcase .highflex .highblogcard .bloghighTitle a p {
   margin-top: 10px;
@@ -225,13 +227,13 @@
 .secNewsletter .newsletter .newslettercontainer .subnewsletter .subnewsFlex .subNewstexts .subNewstitle {
   font-size: 2rem;
   line-height: 2.25rem;
-  color: rgb(246, 246, 246);
+  color: var(--text-primary);
   font-weight: 700;
   letter-spacing: 1.5px;
 }
 .secNewsletter .newsletter .newslettercontainer .subnewsletter .subnewsFlex .subNewstexts .subNewsTextsp {
   margin-top: 0.75rem;
-  color: rgb(246, 246, 246);
+  color: var(--text-primary);
   letter-spacing: 0.5px;
 }
 .secNewsletter .newsletter .newslettercontainer .subnewsletter .subnewsFlex .subnewsform {
@@ -257,7 +259,7 @@
   font-size: 1rem;
   line-height: 1.5rem;
   background-color: rgba(49, 49, 49, 0.707);
-  color: rgb(218, 218, 218);
+  color: var(--text-primary);
   height: 3.5rem;
   margin-right: -10px;
   width: 300px;
@@ -303,10 +305,10 @@
   margin-bottom: 10px;
 }
 .footer .fcontainer .fdet .fdetflex .fflexsecs ul li a {
-  color: var(--color);
+  color: var(--text-primary);
 }
 .footer .fcontainer .fdet .fdetflex .fflexsecs ul li a:hover {
-  color: #0088f0;
+  color: var(--text-primary);
 }
 .footer .fcontainer .fdet .fdetflex .fflexsecs:nth-child(1) .flogo {
   display: flex;
@@ -356,10 +358,10 @@
   cursor: pointer;
   font-size: 0.9rem;
   font-weight: 400;
-  color: var(--color) !important;
+  color: var(--text-primary);
   font-family: "Roboto", sans-serif;
 }
 .footer .fcopyright p a {
   cursor: pointer;
-  color: var(--color);
+  color: var(--text-primary);
 }/*# sourceMappingURL=blog.css.map */
