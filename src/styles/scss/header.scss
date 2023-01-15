@@ -78,11 +78,14 @@
                     }
                     a{
                         padding: 10px;
-                        font-weight: 900;
+                        font-weight: 200;
                         color: var(--text-primary);
                         @media(max-width: 480px){
                             padding: 25px;
                             font-size: 2rem;
+                        }
+                        &:hover{
+                            border: 1px solid var(--text-primary);
                         }
                     }
                 }
