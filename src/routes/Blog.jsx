@@ -1,13 +1,15 @@
 import React, { Fragment } from 'react'
 import '../styles/css/blog.css'
 import agility from '../images/agility.png'
+import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 const Blog = () => {
   return (
     <Fragment>
+      <Header/>
           <section class="blog-sec-top">
-        <h1>Our Blog</h1>
+        <h1>My Blog</h1>
         <p>In a software-defined world, the Simform Blog is your place to navigate through the renaissance in technology. Our publication aims to provide you the full scoop on the groundbreaking research, thought-leadership, and perspective on tech innovation in the world of software development, with a deep context to help tech leaders make intelligent decisions.</p>
     </section>
     <section class="blog-landing">
