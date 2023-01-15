@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react'
+import '../styles/css/blog.css'
 
 const Blog = () => {
   return (
     <Fragment>
-            <!-- landing page -->
+            
     <div class="landing">
         <div class="landcontainer">
             <div class="landflex">
@@ -15,10 +16,10 @@ const Blog = () => {
                     <a href="">learn more</a>
                 </div>
                 <div class="landing-right">
-                    <!-- <img loading="lazy" src="./assets/img/enterprise-overview-hero.webp" alt=""> -->
+                    
                     <div class="landing-blogs">
                         <div class="landing-blog">
-                            <img src="./assets/img/agility.png" alt="">
+                            <img src="./assets/img/agility.png" alt=""/>
                             <div class="blog-meta">
                                 <span class="category">Software</span>
                                 <span>june 14 2022</span>
@@ -27,13 +28,13 @@ const Blog = () => {
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi ducimus doloribus perferendis sapiente.</p>
                             <div class="author-blog">
                                 <div class="bog-author-image">
-                                    <img src="" alt="">
+                                    <img src="" alt=""/>
                                 </div>
                                 <p class="author-name">Dennis Kibet</p>
                             </div>
                         </div>
                         <div class="landing-blog">
-                            <img src="./assets/img/ceo-update.png" alt="">
+                            <img src="./assets/img/ceo-update.png" alt=""/>
                             <div class="blog-meta">
                                 <span class="category">Software</span>
                                 <span>june 14 2022</span>
@@ -42,7 +43,7 @@ const Blog = () => {
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi ducimus doloribus perferendis sapiente.</p>
                             <div class="author-blog">
                                 <div class="bog-author-image">
-                                    <img src="" alt="">
+                                    <img src="" alt=""/>
                                 </div>
                                 <p class="author-name">Dennis Kibet</p>
                             </div>
@@ -52,7 +53,7 @@ const Blog = () => {
             </div>
         </div>
     </div>
-    <!-- pass card -->
+    
     <div class="passCard">
         <div class="passCardWrapper">
             <div class="passCardContainer">
@@ -60,7 +61,7 @@ const Blog = () => {
                     <div class="passCardTiler">
                         <div class="passTiltCard">
                             <div class="passTiltCardImage">
-                                <img loading="lazy" src="./assets/img/null-api.png" alt="">
+                                <img loading="lazy" src="./assets/img/null-api.png" alt=""/>
                             </div>
                             <div class="passTiltCardTexts">
                                 <div>
@@ -82,7 +83,7 @@ const Blog = () => {
             </div>
         </div>
     </div>
-    <!-- for the developers -->
+    
     <section class="forthedevs">
         <div class="devswrapper">
             <div class="devcontainer">
@@ -133,7 +134,7 @@ const Blog = () => {
             </div>
         </div>
     </section>
-    <!-- newsletter subscribe -->
+    
     <section class="secNewsletter" id="newsletter">
         <div class="newsletter">
             <div class="newslettercontainer">
@@ -146,8 +147,8 @@ const Blog = () => {
                         <div class="subnewsform">
                             <form action="" class="subNewsFormf">
                                 <div class="subinputsFlex">
-                                    <input type="text" class="subnewsinput" placeholder="your e-mail address">
-                                    <input type="submit" value="Subscribe" class="subnewsButton">
+                                    <input type="text" class="subnewsinput" placeholder="your e-mail address"/>
+                                    <input type="submit" value="Subscribe" class="subnewsButton"/>
                                 </div>
                             </form>
                         </div>
@@ -156,14 +157,14 @@ const Blog = () => {
             </div>
         </div>
     </section>
-    <!-- footer -->
+    
     <footer class="footer">
         <div class="fcontainer">
             <div class="fdet">
                 <div class="fdetflex">
                     <div class="fflexsecs">
                         <div class="flogo">
-                            <img src="./assets/icons/favicon-32x32.png" alt="">
+                            <img src="./assets/icons/favicon-32x32.png" alt=""/>
                             <h3>nullchemy</h3>
                         </div>
                         <div class="fsocials">
@@ -173,8 +174,8 @@ const Blog = () => {
                             <i class="fa fa-youtube"></i>
                         </div>
                         <div class="siteProtection">
-                            <img src="./assets/img/google-page-speed.png" alt="Google lite speed badge">
-                            <img src="./assets/img/dmca-badge.png" alt="DMCA badge">
+                            <img src="./assets/img/google-page-speed.png" alt="Google lite speed badge"/>
+                            <img src="./assets/img/dmca-badge.png" alt="DMCA badge"/>
                         </div>
                     </div>
                     <div class="fflexsecs">
