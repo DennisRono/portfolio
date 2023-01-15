@@ -87,8 +87,9 @@
                             font-size: 2rem;
                         }
                         &:hover{
-                            border: 0.0625rem solid var(--text-primary);
-                            border-radius: 0.625rem;
+                            border: 1px solid var(--text-primary);
+                            border-radius: 10px;
+                            padding: 9px;
                         }
                     }
                 }
