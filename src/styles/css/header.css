@@ -1,6 +1,6 @@
 .header {
-  margin: 0 10%;
-  height: 100px;
+  margin: 0 8%;
+  height: 110px;
   display: flex;
   align-items: center;
 }
@@ -91,6 +91,9 @@
     flex-direction: column;
     margin-top: 30%;
   }
+}
+.header .header-wrapper .navigation ul .nav-link {
+  margin-right: 5%;
 }
 @media (max-width: 480px) {
   .header .header-wrapper .navigation ul .nav-link {
