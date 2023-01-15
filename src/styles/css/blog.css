@@ -198,7 +198,7 @@
 .secNewsletter .newsletter .newslettercontainer .subnewsletter {
   background-size: 40%, 60%;
   background-position: left top, right bottom;
-  background-image: url(../svg/glow-blue-02.svg), url(../svg/glow-purple-02.svg);
+  background-image: url(../../assets/svg/glow-blue-02.svg), url(../../assets/svg/glow-purple-02.svg);
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
@@ -217,7 +217,7 @@
   padding-bottom: 3rem;
   padding-left: 5rem;
   padding-right: 5rem;
-  background-image: url(../svg/envelop.svg);
+  background-image: url(../../assets/svg/envelop.svg);
 }
 .secNewsletter .newsletter .newslettercontainer .subnewsletter .subnewsFlex .subNewstexts {
   width: 50%;
