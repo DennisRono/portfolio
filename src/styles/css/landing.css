@@ -18,7 +18,7 @@
   margin-left: 5%;
   margin-top: 5%;
 }
-@media (min-width: 1700px) {
+@media (min-width: 1400px) {
   .landing .lcontainer .lwrapper .lflex .ltexts {
     margin-top: 10% !important;
   }
@@ -105,7 +105,7 @@
   margin-top: 10px;
   font-size: 1.8rem;
   margin-bottom: 50px;
-  font-weight: lighter;
+  font-weight: 100;
 }
 .landing .lcontainer .lwrapper .lflex .ltexts .lintrotxts::-moz-selection {
   background: #221427;
