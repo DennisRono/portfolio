@@ -228,63 +228,6 @@ const Blog = () => {
             </div>
         </div>
     </section>
-    
-    <footer class="footer">
-        <div class="fcontainer">
-            <div class="fdet">
-                <div class="fdetflex">
-                    <div class="fflexsecs">
-                        <div class="flogo">
-                            <img src="./assets/icons/android-chrome-192x192.png" alt=""/>
-                            <h3>nullchemy</h3>
-                        </div>
-                        <div class="fsocials">
-                            <i class="fa fa-facebook"></i>
-                            <i class="fa fa-twitter"></i>
-                            <i class="fa fa-linkedin"></i>
-                            <i class="fa fa-youtube"></i>
-                        </div>
-                        <div class="siteProtection">
-                            <img src="./assets/img/google-page-speed.png" alt="Google lite speed badge"/>
-                            <img src="./assets/img/dmca-badge.png" alt="DMCA badge"/>
-                        </div>
-                    </div>
-                    <div class="fflexsecs">
-                        <h2>Resources</h2>
-                        <ul>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li><a href="./privacy.html">Privacy</a></li>
-                            <li><a href="./tos.html">Terms</a></li>
-                            <li><a href="./cookies.html">Cookies</a></li>
-                        </ul>
-                    </div>
-                    <div class="fflexsecs">
-                        <h2>Company</h2>
-                        <ul>
-                            <li><a href="./about.html">About US</a></li>
-                            <li><a href="./partners.html">Our Partners</a></li>
-                            <li><a href="./contact.html">Contact Us</a></li>
-                            <li><a href="./careers.html">Careers</a></li>
-                            <li><a href="./events.html">Events</a></li>
-                        </ul>
-                    </div>
-                    <div class="fflexsecs">
-                        <h2>Services</h2>
-                        <ul>
-                            <li><a href="./webdev.html">Web Development</a></li>
-                            <li><a href="./mobidev.html">Mobile Development</a></li>
-                            <li><a href="./apis.html">APIs</a></li>
-                            <li><a href="./support.html">Support</a></li>
-                            
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="fcopyright">
-            <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> | built by <a title="Developer" target="blank" href="https://denniskibet.com">DennisRono</a> <a href="https://github.com/DennisRono" title="Github"><i class="fa-brands fa-github"></i></a></p>
-        </div>
-    </footer>
     </Fragment>
   )
 }
