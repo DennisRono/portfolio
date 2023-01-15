@@ -98,7 +98,9 @@
 .landing .lcontainer .lwrapper .lflex .ltexts .myname {
   color: var(--text-primary);
   margin-top: 20px;
-  font-size: 50px;
+  font-size: 5.375rem;
+  line-height: 5rem;
+  letter-spacing: -0.25rem;
 }
 .landing .lcontainer .lwrapper .lflex .ltexts .lintrotxts {
   color: var(--text-primary);
