@@ -1,7 +1,20 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 import '../styles/css/login.css'
 
 const Login = () => {
+    const [logbtntxt, setLogBtntxt] = useState({text:'login', state:false})
+    const [login, setLogin] = useState({
+        email: '',
+        password: ''
+    })
+    const [response, setResponse] = useState({message: '', type: ''})
+
+    const loginSubmit = async (e) => {
+        e.preventDefault()
+        setLogBtntxt({text:'loging in', state:true})
+
+        setLogBtntxt({text:'login', state:false})
+    }
   return (
     <Fragment>
         <div className="login">
@@ -11,7 +24,7 @@ const Login = () => {
                 <div className="contFormSec">
                     <h2 className="contact-header">wenotify kenya</h2>
                     {(response.message!=='')?<p className={(response.type==='success')?"formNotifySucc":"formNotify"}>{response.message}</p>:null}
-                    <form action="contact.php" method="POST" className={(active==='login')?"login-form":"hide-activity"}  onSubmit={(e)=>loginSubmit(e)}>
+                    <form action="contact.php" method="POST" className="login-form"  onSubmit={(e)=>loginSubmit(e)}>
                         <h3>Login</h3>
                         <div className="cont-group">
                             <div className="user-input-wrp">
@@ -27,13 +40,8 @@ const Login = () => {
                             </div>
                             <span id="id-err"></span>
                         </div>
-                        <p>don't have an account? <span onClick={()=>{
-                            setActive('register')
-                            setResponse({message: '', type: ''})
-                        }}>Register here</span></p>
                         <div className="resetting-pass">
                             <button type="submit" className={(logbtntxt.state)?"contact-btn rainbow":"contact-btn"}>{logbtntxt.text}</button>
-                            <p><Link to="/reset">forgot password?</Link></p>
                         </div>
                     </form>
                 </div>
