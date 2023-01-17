@@ -2,6 +2,7 @@ import React, { Fragment, useState } from 'react'
 import '../styles/css/cont.css'
 import axios from "axios"
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import { ReactComponent as Upload } from '../assets/svg/icon-download.svg'
 
 const Contact = () => {
@@ -168,6 +169,7 @@ const Contact = () => {
                 </div>
             </div>
         </section>
+        <Footer/>
     </Fragment>
   )
 }
