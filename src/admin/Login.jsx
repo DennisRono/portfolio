@@ -22,7 +22,7 @@ const Login = () => {
           <section className="contact">
             <div className="contact-wrapper">
                 <div className="contFormSec">
-                    <h2 className="contact-header">wenotify kenya</h2>
+                    <h2 className="contact-header">Dennis Kibet</h2>
                     {(response.message!=='')?<p className={(response.type==='success')?"formNotifySucc":"formNotify"}>{response.message}</p>:null}
                     <form action="contact.php" method="POST" className="login-form"  onSubmit={(e)=>loginSubmit(e)}>
                         <h3>Login</h3>
