@@ -87,8 +87,8 @@ const Blog = () => {
                 <div class="subnewsletter">
                     <div class="subnewsFlex">
                         <div class="subNewstexts">
-                            <h3 class="subNewstitle">Subscribe to our newsletter</h3>
-                            <p class="subNewsTextsp">stay upto date with our latest blogs and news updates</p>
+                            <h3 class="subNewstitle">Subscribe to my newsletter</h3>
+                            <p class="subNewsTextsp">stay upto date with my latest blogs and news updates</p>
                         </div>
                         <div class="subnewsform">
                             <form action="" class="subNewsFormf">
