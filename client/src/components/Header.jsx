@@ -27,7 +27,7 @@ const Header = () => {
                     <Link to="/blog">Blog</Link>
                   </li>
                   <li className="nav-link">
-                    <Link to="/#projects">Projects</Link>
+                    <Link to={{ pathname: "/", hash: "#projects" }}>Projects</Link>
                   </li>
                   <li className="nav-link">
                     <Link to="/contact">Contact</Link>
