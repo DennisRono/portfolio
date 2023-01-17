@@ -8,8 +8,8 @@ const Admin = () => {
     let LoggedIn = false
 
     useEffect(() => {
-        if (LoggedIn){
-           return navigate("/");
+        if (!LoggedIn){
+           return navigate("/login");
         }
      },[LoggedIn, navigate]);
   return (
