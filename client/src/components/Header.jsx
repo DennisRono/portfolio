@@ -3,6 +3,7 @@ import '../styles/css/header.css'
 import { Link } from 'react-router-dom'
 import { ReactComponent as Bars } from '../assets/svg/bars.svg'
 import { ReactComponent as Times } from '../assets/svg/times.svg'
+import { HashLink } from 'react-router-hash-link'
 
 const Header = () => {
   const [nav, setNav] = useState(false)
@@ -27,7 +28,7 @@ const Header = () => {
                     <Link to="/blog">Blog</Link>
                   </li>
                   <li className="nav-link">
-                    <Link to={{ pathname: "/", hash: "#projects" }}>Projects</Link>
+                    <HashLink to="/#projects">Projects</HashLink>
                   </li>
                   <li className="nav-link">
                     <Link to="/contact">Contact</Link>
