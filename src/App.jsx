@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './routes/Home'
+import Admin from './admin/Admin'
 import Stats from './routes/Stats'
 import Blog from './routes/Blog'
 import Contact from './routes/Contact'
@@ -69,6 +70,7 @@ function App() {
                 <Router>
                     <Routes>
                     <Route path="/" element={<Home />}></Route>
+                    <Route path="/admin" element={<Admin />}></Route>
                     <Route path="/stats" element={<Stats />}></Route>
                     <Route path="/blog" element={<Blog />}></Route>
                     <Route path="/contact" element={<Contact />}></Route>
