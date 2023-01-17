@@ -3,33 +3,33 @@
 }
 
 /*=-=-=-=-=-=auth page=-=-=-=-=-=-=*/
-.contact {
+.logincontact {
   height: 100vh;
   position: relative;
 }
 @media (max-width: 480px) {
-  .contact {
+  .logincontact {
     margin: 10px;
   }
 }
-.contact .contact-wrapper {
+.logincontact .contact-wrapper {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.contact .contact-wrapper .contact-header {
+.logincontact .contact-wrapper .contact-header {
   text-align: center;
   font-size: 4rem;
   margin-bottom: 15px;
   color: var(--text-primary);
 }
 @media (max-width: 480px) {
-  .contact .contact-wrapper .contact-header {
+  .logincontact .contact-wrapper .contact-header {
     font-size: 2.5rem;
   }
 }
-.contact .contact-wrapper .formNotify {
+.logincontact .contact-wrapper .formNotify {
   text-align: center;
   font-size: 1rem;
   padding: 10px;
@@ -38,7 +38,7 @@
   width: 50%;
   margin: 0 auto;
 }
-.contact .contact-wrapper .formNotifySucc {
+.logincontact .contact-wrapper .formNotifySucc {
   text-align: center;
   font-size: 1rem;
   padding: 10px;
@@ -47,31 +47,31 @@
   width: 50%;
   margin: 0 auto;
 }
-.contact .contact-wrapper .contFormSec {
+.logincontact .contact-wrapper .contFormSec {
   margin-left: 25px;
 }
 @media (max-width: 480px) {
-  .contact .contact-wrapper .contFormSec {
+  .logincontact .contact-wrapper .contFormSec {
     margin: 0 5px;
   }
 }
 @media (max-width: 480px) {
-  .contact .contact-wrapper .contFormSec .login-form {
+  .logincontact .contact-wrapper .contFormSec .login-form {
     margin: 5%;
   }
 }
-.contact .contact-wrapper .contFormSec form h3 {
+.logincontact .contact-wrapper .contFormSec form h3 {
   color: var(--text-primary);
 }
-.contact .contact-wrapper .contFormSec form .cont-group {
+.logincontact .contact-wrapper .contFormSec form .cont-group {
   margin-bottom: 40px;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .user-input-wrp {
+.logincontact .contact-wrapper .contFormSec form .cont-group .user-input-wrp {
   position: relative;
   width: 94%;
   margin: 5px 0px;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .inputText {
+.logincontact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .inputText {
   width: 100%;
   outline: none;
   border: 1px solid rgb(211, 211, 211);
@@ -81,10 +81,10 @@
   background-color: rgb(235, 235, 235);
   color: #444452;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .inputText:not([value=""]) {
+.logincontact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .inputText:not([value=""]) {
   background-color: rgb(255, 219, 166);
 }
-.contact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .floating-label {
+.logincontact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .floating-label {
   position: absolute;
   pointer-events: none;
   top: 30px;
@@ -93,33 +93,33 @@
   opacity: 0.5;
   color: rgb(95, 95, 95);
 }
-.contact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .inputText:not([value=""]) ~ .floating-label,
-.contact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .inputText:focus ~ .floating-label {
+.logincontact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .inputText:not([value=""]) ~ .floating-label,
+.logincontact .contact-wrapper .contFormSec form .cont-group .user-input-wrp .inputText:focus ~ .floating-label {
   top: 0px;
   left: 8px;
   font-size: 13px;
   opacity: 1;
   color: var(--text-primary);
 }
-.contact .contact-wrapper .contFormSec form .cont-group .cont-gr-flex {
+.logincontact .contact-wrapper .contFormSec form .cont-group .cont-gr-flex {
   width: 97%;
   display: flex;
   justify-content: space-between;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .cont-gr-flex .contPut {
+.logincontact .contact-wrapper .contFormSec form .cont-group .cont-gr-flex .contPut {
   width: 46%;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .input-field-row {
+.logincontact .contact-wrapper .contFormSec form .cont-group .input-field-row {
   display: flex;
   margin-bottom: 22px;
   justify-content: space-between;
   margin: 15px 0px;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row {
+.logincontact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row {
   width: 97%;
   position: relative;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief {
+.logincontact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief {
   display: flex;
   padding: 18px 20px;
   align-items: center;
@@ -128,19 +128,19 @@
   border: 1px dashed var(--color);
   border-radius: 5px;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content {
+.logincontact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content {
   display: flex;
   align-items: center;
   position: relative;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .icon {
+.logincontact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .icon {
   margin-right: 15px;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .icon img {
+.logincontact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .icon img {
   max-width: 100%;
   height: auto;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .content-label {
+.logincontact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .content-label {
   font-size: 16px;
   letter-spacing: -0.17px;
   line-height: 22px;
@@ -151,14 +151,14 @@
   width: 800px;
   overflow-x: scroll;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .content-label::-webkit-scrollbar {
+.logincontact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .content-label::-webkit-scrollbar {
   scrollbar-color: rgb(35, 42, 46);
   width: 5px;
   max-height: 3px;
   border-radius: 23px;
   background-color: rgba(255, 255, 255, 0);
 }
-.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .content-label .filenames-list {
+.logincontact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .content-label .filenames-list {
   padding: 8px 15px;
   border-radius: 23px;
   font-size: 0.9rem;
@@ -171,14 +171,14 @@
   width: min-content;
   white-space: nowrap;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .content-label .filenames-list:hover {
+.logincontact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .file-content .content-label .filenames-list:hover {
   background-color: #797979;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .row-wrap {
+.logincontact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .row-wrap {
   display: flex;
   align-items: center;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .row-wrap .button {
+.logincontact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .project_brief .row-wrap .button {
   background: #2ac6ff;
   border-radius: 4px;
   padding: 9px 23px 11px;
@@ -188,7 +188,7 @@
   text-transform: uppercase;
   font-weight: 500;
 }
-.contact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .file-field {
+.logincontact .contact-wrapper .contFormSec form .cont-group .input-field-row .input-file-row .file-field {
   height: 100%;
   opacity: 0;
   overflow: hidden;
@@ -198,18 +198,18 @@
   left: 0px;
   cursor: pointer;
 }
-.contact .contact-wrapper .contFormSec form p span {
+.logincontact .contact-wrapper .contFormSec form p span {
   color: #2ac6ff;
   cursor: pointer;
 }
-.contact .contact-wrapper .contFormSec form .resetting-pass {
+.logincontact .contact-wrapper .contFormSec form .resetting-pass {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 4rem;
   margin-top: 2rem;
 }
-.contact .contact-wrapper .contFormSec form .resetting-pass .contact-btn {
+.logincontact .contact-wrapper .contFormSec form .resetting-pass .contact-btn {
   border-radius: 4px;
   padding: 13px 54px 15px;
   background-color: #2ac6ff;
@@ -229,12 +229,12 @@
   transition: color 0.15s ease-in-out 0s;
   display: inline-block;
 }
-.contact .contact-wrapper .contFormSec form .resetting-pass .contact-btn:hover {
+.logincontact .contact-wrapper .contFormSec form .resetting-pass .contact-btn:hover {
   color: rgb(109, 216, 255);
   background-color: rgb(233, 233, 233);
   transition: 0.3s;
 }
-.contact .contact-wrapper .contFormSec form .resetting-pass p a {
+.logincontact .contact-wrapper .contFormSec form .resetting-pass p a {
   text-decoration: none;
   color: #2ac6ff;
 }

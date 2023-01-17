@@ -19,7 +19,7 @@ const Login = () => {
     <Fragment>
         <div className="login">
         <div className="authentification">
-          <section className="contact">
+          <section className="logincontact">
             <div className="contact-wrapper">
                 <div className="contFormSec">
                     <h2 className="contact-header">Dennis Kibet</h2>
