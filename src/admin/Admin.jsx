@@ -5,7 +5,7 @@ const Admin = () => {
   return (
     <Fragment>
         <div className="admin">
-
+            
         </div>
     </Fragment>
   )
