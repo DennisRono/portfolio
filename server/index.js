@@ -7,6 +7,9 @@ const logger = require('morgan')
 const bodyParser = require('body-parser')
 require('dotenv').config()
 
+//routes
+const authRoute = require('./routes/auth')
+
 //middlewares
 app.use(cors(options))
 app.use(logger('combined'))
@@ -17,5 +20,7 @@ app.use(
         extended: true
     })
 )
+
+app.use('/', authRoute)
 
 app.listen(PORT, console.log('Server running on Port ', PORT));
