@@ -1,9 +1,12 @@
 import React, { Fragment } from 'react'
+import '../styles/css/admin.css'
 
 const Admin = () => {
   return (
     <Fragment>
-        <h2>admin panel</h2>
+        <div className="admin">
+
+        </div>
     </Fragment>
   )
 }
