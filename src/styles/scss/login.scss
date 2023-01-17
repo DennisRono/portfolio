@@ -56,6 +56,9 @@
                 }
             }
             form{
+                h3{
+                    color: var(--text-primary);
+                }
                 .cont-group{
                     margin-bottom: 40px;
                     .user-input-wrp {
@@ -91,7 +94,7 @@
                         left: 8px;
                         font-size: 13px;
                         opacity: 1;
-                        color: var(--theme-color);
+                        color: var(--text-primary);
                     }
                     // #id-input{
                     //     border: 2px solid #ff5b5b;

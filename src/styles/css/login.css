@@ -60,6 +60,9 @@
     margin: 5%;
   }
 }
+.contact .contact-wrapper .contFormSec form h3 {
+  color: var(--text-primary);
+}
 .contact .contact-wrapper .contFormSec form .cont-group {
   margin-bottom: 40px;
 }
@@ -96,7 +99,7 @@
   left: 8px;
   font-size: 13px;
   opacity: 1;
-  color: var(--theme-color);
+  color: var(--text-primary);
 }
 .contact .contact-wrapper .contFormSec form .cont-group .cont-gr-flex {
   width: 97%;
