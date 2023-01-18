@@ -3,7 +3,6 @@ import '../styles/css/login.css'
 import { api } from '../api/axios'
 import { setJwtToken, setRefreshToken } from '../includes/session'
 import { useNavigate } from "react-router-dom"
-const axios = require('axios')
 
 const Login = () => {
 
@@ -24,8 +23,8 @@ const Login = () => {
 
         // Handle user session & JWT & Redirection
         if(res.data.type === 'success'){
-            setJwtToken(res.headers.authtoken)
-            setRefreshToken(res.headers.refreshtoken)
+            // setJwtToken(res.headers.authtoken)
+            // setRefreshToken(res.headers.refreshtoken)
             setLogBtntxt({text:'redirecting...', state:true})
             setTimeout(() => {
                 return navigate("/admin")
