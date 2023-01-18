@@ -1,0 +1,8 @@
+::1 - - [2023-01-18 18:35:23] "POST /login HTTP/1.1" 200 175 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+::1 - - [2023-01-18 18:35:57] "POST /login HTTP/1.1" 200 78 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+::1 - - [2023-01-18 18:36:00] "POST /login HTTP/1.1" 200 49 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+::1 - - [2023-01-18 18:36:01] "GET /verify HTTP/1.1" 404 145 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+::1 - - [2023-01-18 18:36:01] "GET /verify HTTP/1.1" 404 145 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+::1 - - [2023-01-18 18:36:23] "POST /login HTTP/1.1" 200 49 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+::1 - - [2023-01-18 18:36:24] "GET /verify HTTP/1.1" 404 145 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+::1 - - [2023-01-18 18:36:24] "GET /verify HTTP/1.1" 404 145 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
