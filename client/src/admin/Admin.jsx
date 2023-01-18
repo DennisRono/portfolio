@@ -15,7 +15,7 @@ const Admin = () => {
       });      
       let res = await api('POST', 'verify', data, {'Content-Type': 'application/json', authToken:t, refreshToken:r})
       console.log(res.data);
-      setJwtToken(res.headers.authToken)
+      setJwtToken(res.headers.authtoken)
       if(!(res.data.type==='success')){
         return navigate("/login")
       }
