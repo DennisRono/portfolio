@@ -10,5 +10,5 @@ export const api = async (method = 'GET', slug = '', data = {}, headers={}) => {
     }
     console.log(data);
     const response = await axios(config)
-    return response.data
+    return response
 }

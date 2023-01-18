@@ -22,7 +22,7 @@ const Login = () => {
         setResponse(res)
 
         // Handle user session & JWT & Redirection
-        if(res.type === 'success'){
+        if(res.data.type === 'success'){
             console.log(res.headers);
             // localStorage.setItem("user", JSON.stringify({username: res.userName, email: login.email}))
             // setJwtToken(res.authToken)
