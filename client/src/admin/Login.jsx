@@ -23,8 +23,8 @@ const Login = () => {
 
         // Handle user session & JWT & Redirection
         if(res.data.type === 'success'){
-            // setJwtToken(res.headers.authtoken)
-            // setRefreshToken(res.headers.refreshtoken)
+            setJwtToken(res.headers.authtoken)
+            setRefreshToken(res.headers.refreshtoken)
             setLogBtntxt({text:'redirecting...', state:true})
             setTimeout(() => {
                 return navigate("/admin")
