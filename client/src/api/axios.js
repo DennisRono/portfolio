@@ -8,7 +8,7 @@ export const api = async (method = 'GET', slug = '', data = {}, headers={}) => {
         headers: headers,
         data : JSON.stringify(data)
     }
-    console.log(config);
+    console.log(data);
     const response = await axios(config)
     return response.data
 }
