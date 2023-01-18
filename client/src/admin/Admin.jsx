@@ -16,11 +16,11 @@ const Admin = () => {
         url: backend() + 'verify',
         headers: {
             'Content-Type': 'application/json',
-            data: {
-                token: t,
-                refresh: r
-            }
-        }
+        },
+        data: JSON.stringify({
+            token: t,
+            refresh: r
+        })
       }).then(res => res).catch(err => console.error(err))
       console.log(res.data);
     }
