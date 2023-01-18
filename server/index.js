@@ -13,7 +13,7 @@ const authRoute = require('./routes/auth')
 //middlewares
 app.use(cors(options))
 app.use(cors({
-    exposedHeaders: 'authToken',
+    exposedHeaders: ['authToken', 'refreshToken'],
 }));
 app.use(logger('combined'))
 app.use(express.static('public'))
