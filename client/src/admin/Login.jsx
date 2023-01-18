@@ -27,7 +27,8 @@ const Login = () => {
             method: 'post',
             url: 'http://localhost:5000/login',
             headers: { 
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'access-control-expose-headers' : 'Authorization'
             },
             data : data
         };
