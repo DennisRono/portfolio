@@ -15,10 +15,10 @@ const Admin = () => {
         "token": t,
         "refresh": r
       });      
-      let res = await api('POST', 'verify', data)
-      console.log(res.data);
+      let res = await api('POST', 'verify', data, {'Content-Type': 'application/json', authToken:t, refreshToken:r})
       if(res.data.type==='success'){
         setLoggedIn(true)
+        console.log(LoggedIn);
       }
     }
     checkLoggedIn(getJwtToken(), getRefreshToken())
