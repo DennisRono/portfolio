@@ -1,8 +1,8 @@
 import React, { Fragment, useEffect, useState } from 'react'
 import '../styles/css/admin.css'
 import { useNavigate } from "react-router-dom";
-import { getJwtToken, getRefreshToken } from '../includes/session'
-import { api } from '../api/axios'
+import { backend, getJwtToken, getRefreshToken } from '../includes/session'
+import axios from "axios"
 
 
 const Admin = () => {
@@ -11,7 +11,7 @@ const Admin = () => {
 
     //verify jwt
     const checkLoggedIn = async (t, r) => {
-      let res = await api('GET', 'verify', {token: t, refresh:r})
+      let res = axios({method:'GET',url:backend()+'verify',headers:{'Content-Type': 'application/json',data:{token: t, refresh:r}}}).then(res => res).catch (err => console.error(err))
       console.log(res.data);
     }
     checkLoggedIn(getJwtToken(), getRefreshToken())
