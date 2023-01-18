@@ -19,7 +19,7 @@ const Login = () => {
         e.preventDefault()
         setLogBtntxt({text:'loging in', state:true})
         let res = await api('POST', 'login', login)
-        setResponse(res)
+        setResponse(res.data)
 
         // Handle user session & JWT & Redirection
         if(res.data.type === 'success'){
@@ -27,7 +27,7 @@ const Login = () => {
             // localStorage.setItem("user", JSON.stringify({username: res.userName, email: login.email}))
             // setJwtToken(res.authToken)
             // setRefreshToken(res.refreshToken)
-            // setLogBtntxt({text:'login', state:false})
+            setLogBtntxt({text:'redirecting...', state:true})
             // setTimeout(() => {
             //     return navigate("/admin")
             // }, 1000)
