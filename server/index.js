@@ -6,6 +6,7 @@ const PORT = process.env.PORT || 5000
 const logger = require('morgan')
 const bodyParser = require('body-parser')
 require('dotenv').config()
+const fs = require('fs')
 
 //routes
 const authRoute = require('./routes/auth')
@@ -15,7 +16,11 @@ app.use(cors(options))
 app.use(cors({
     exposedHeaders: ['authToken', 'refreshToken'],
 }));
-app.use(logger('combined'))
+//app.use(logger('combined'))
+app.use(logger('combined', {
+    stream: fs.createWriteStream('./access.log', {flags: 'a'})
+}));
+//app.use(logger('dev'))
 app.use(express.static('public'))
 app.use(bodyParser.json())
 app.use(
