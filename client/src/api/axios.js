@@ -8,5 +8,5 @@ export const api = async (method = 'GET', slug = '', data = {}, headers={'Conten
         headers: headers,
         data : data
     }
-    return axios(config).then(res => res.data).catch (err => console.error(err))
+    return axios(config).then(res => res).catch (err => console.error(err))
 }
