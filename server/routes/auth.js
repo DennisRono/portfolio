@@ -67,8 +67,22 @@ router.post("/login", async (req, res, next) => {
 
 // verify tokens
 router.post('/verify', async (req, res, next) => {
-    console.log(req.body)
-    res.json(req.body)
+    try {
+        if(!req.body.token){return res.json({type: "Error", message:"Access denied", status: 400})}
+        const verified = jwt.verify(req.body.token, process.env.TOKEN_SECRET)
+        res.json({verified: verified, message: "success", type: "success", status: 200})
+    } catch (error) {
+        try {
+            const verified = jwt.verify(req.body.refresh, process.env.REFRESH_TOKEN_SECRET)
+            await db.one('', verified.data).then((user) => {
+                if (!user) return res.json({status: 400, type:"Error", message:"user is not registered!"})
+                const token = jwt.sign({ data: user.UserID }, process.env.TOKEN_SECRET, { expiresIn: '15m' })
+                res.header('authToken', token).json({ verified: verified, status: 200, type: 'success', message: 'successfully fetched new token', authToken: token })
+            })
+        } catch (error) {
+            res.json({status: 400, type:"Error", message:"invalid refresh token", details:error});
+        }
+    }
 })
 
 module.exports = router;
