@@ -11,7 +11,17 @@ const Admin = () => {
 
     //verify jwt
     const checkLoggedIn = async (t, r) => {
-      let res = axios({method:'GET',url:backend()+'verify',headers:{'Content-Type': 'application/json',data:{token: t, refresh:r}}}).then(res => res).catch (err => console.error(err))
+      let res = await axios({
+        method: 'GET',
+        url: backend() + 'verify',
+        headers: {
+            'Content-Type': 'application/json',
+            data: {
+                token: t,
+                refresh: r
+            }
+        }
+      }).then(res => res).catch(err => console.error(err))
       console.log(res.data);
     }
     checkLoggedIn(getJwtToken(), getRefreshToken())
