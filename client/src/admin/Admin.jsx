@@ -7,8 +7,6 @@ import { api } from '../api/axios'
 
 const Admin = () => {
     let navigate = useNavigate()
-    let [LoggedIn, setLoggedIn] = useState(false)
-
     //verify jwt
     const checkLoggedIn = async (t, r) => {
       let data = JSON.stringify({
@@ -16,18 +14,11 @@ const Admin = () => {
         "refresh": r
       });      
       let res = await api('POST', 'verify', data, {'Content-Type': 'application/json', authToken:t, refreshToken:r})
-      if(res.data.type==='success'){
-        setLoggedIn(true)
-        console.log(LoggedIn);
+      if(!res.data.type==='success'){
+        return navigate("/login")
       }
     }
     checkLoggedIn(getJwtToken(), getRefreshToken())
-
-    useEffect(() => {
-        if (!LoggedIn){
-           return navigate("/login")
-        }
-     },[LoggedIn, navigate])
   return (
     <Fragment>
         <div className="admin">
