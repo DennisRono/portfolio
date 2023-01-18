@@ -34,11 +34,12 @@ const Login = () => {
 
         axios(config)
         .then((response) => {
-            setResponse(response.data);
+            setResponse(response);
         })
         .catch((error) => {
             console.log(error);
         });
+        console.log(response);
         //setResponse(res.data)
 
         // Handle user session & JWT & Redirection
