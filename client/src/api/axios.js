@@ -1,11 +1,10 @@
 import axios from "axios"
-
-let baseURL = 'https://api.denniskibet.com/'
+import { backend } from '../includes/session'
 
 export const api = async (method = 'GET', slug = '', data = {}, headers={}) => {
     let config = {
         method: method,
-        url: baseURL+slug,
+        url: backend+slug,
         headers: headers,
         data : JSON.stringify(data)
     }
