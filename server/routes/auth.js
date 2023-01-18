@@ -55,7 +55,12 @@ router.post("/login", async (req, res, next) => {
             })
         })
     } catch(err){
-
+        if (err.isJoi === true) {
+            res.json({status: 400, type: "Error", message: err.details[0].message})
+        } else {
+            console.log(err);
+            res.json({status: 500, type: "Error", message: "something wrong happened", details: err})
+        }
     }
 })
 
