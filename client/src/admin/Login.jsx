@@ -19,40 +19,20 @@ const Login = () => {
     const loginSubmit = async (e) => {
         e.preventDefault()
         setLogBtntxt({text:'loging in', state:true})
-        //let res = await api('POST', 'login', login)
-
-        let data = JSON.stringify(login);
-
-        let config = {
-            method: 'post',
-            url: 'http://localhost:5000/login',
-            headers: { 
-                'Content-Type': 'application/json',
-            },
-            data : data
-        };
-
-        axios(config)
-        .then((response) => {
-            setResponse(response);
-        })
-        .catch((error) => {
-            console.log(error);
-        });
-        console.log(response);
-        //setResponse(res.data)
+        let res = await api('POST', 'login', login)
+        setResponse(res.data)
 
         // Handle user session & JWT & Redirection
-        // if(res.data.type === 'success'){
-        //     console.log(res.headers);
-        //     // localStorage.setItem("user", JSON.stringify({username: res.userName, email: login.email}))
-        //     // setJwtToken(res.authToken)
-        //     // setRefreshToken(res.refreshToken)
-        //     setLogBtntxt({text:'redirecting...', state:true})
-        //     // setTimeout(() => {
-        //     //     return navigate("/admin")
-        //     // }, 1000)
-        // }
+        if(res.data.type === 'success'){
+            console.log(res.headers);
+            localStorage.setItem("user", JSON.stringify({username: res.userName, email: login.email}))
+            setJwtToken(res.authToken)
+            setRefreshToken(res.refreshToken)
+            setLogBtntxt({text:'redirecting...', state:true})
+            setTimeout(() => {
+                return navigate("/admin")
+            }, 1000)
+        }
         setLogin({
             email: '',
             password: ''
