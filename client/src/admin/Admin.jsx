@@ -16,7 +16,9 @@ const Admin = () => {
         "refresh": r
       });      
       let res = await api('POST', 'verify', data)
-      console.log(res.data)
+      if(res.data.type==='success'){
+        setLoggedIn(true)
+      }
     }
     checkLoggedIn(getJwtToken(), getRefreshToken())
 
