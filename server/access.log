@@ -18,3 +18,4 @@
 ::1 - - [2023-01-18 18:39:35] "POST /login HTTP/1.1" 200 49 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
 ::1 - - [2023-01-18 18:39:36] "GET /verify HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
 ::1 - - [2023-01-18 18:39:36] "GET /verify HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+::1 - - [2023-01-18 18:41:14] "GET /verify HTTP/1.1" 200 63 "-" "PostmanRuntime/7.30.0"

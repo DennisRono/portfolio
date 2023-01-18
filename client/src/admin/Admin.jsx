@@ -12,7 +12,7 @@ const Admin = () => {
     //verify jwt
     const checkLoggedIn = async (t, r) => {
       let res = await api('GET', 'verify', {token: t, refresh:r})
-      console.log(t, r);
+      console.log(res.data);
     }
     checkLoggedIn(getJwtToken(), getRefreshToken())
 
