@@ -77,7 +77,8 @@ router.post('/verify', async (req, res, next) => {
             await db.one('', verified.data).then((user) => {
                 if (!user) return res.json({status: 400, type:"Error", message:"user is not registered!"})
                 const token = jwt.sign({ data: user.UserID }, process.env.TOKEN_SECRET, { expiresIn: '15m' })
-                res.header('authToken', token).json({ verified: verified, status: 200, type: 'success', message: 'successfully fetched new token', authToken: token })
+                res.header('authToken', token)
+                res.json({ verified: verified, status: 200, type: 'success', message: 'successfully fetched new token', authToken: token })
             })
         } catch (error) {
             res.json({status: 400, type:"Error", message:"invalid refresh token", details:error});
