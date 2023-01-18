@@ -1,7 +1,13 @@
 import React, { Fragment, useState } from 'react'
 import '../styles/css/login.css'
+import { api } from '../api/axios'
+import { setJwtToken, setRefreshToken } from '../includes/session'
+import { useNavigate } from "react-router-dom"
 
 const Login = () => {
+
+    let navigate = useNavigate()
+
     const [logbtntxt, setLogBtntxt] = useState({text:'login', state:false})
     const [login, setLogin] = useState({
         email: '',
@@ -12,8 +18,24 @@ const Login = () => {
     const loginSubmit = async (e) => {
         e.preventDefault()
         setLogBtntxt({text:'loging in', state:true})
+        let res = await api('POST', 'auth/login', login)
+        setResponse(res)
 
-        setLogBtntxt({text:'login', state:false})
+        // Handle user session & JWT & Redirection
+        if(res.type === 'success'){
+            console.log(res.headers);
+            // localStorage.setItem("user", JSON.stringify({username: res.userName, email: login.email}))
+            // setJwtToken(res.authToken)
+            // setRefreshToken(res.refreshToken)
+            // setLogBtntxt({text:'login', state:false})
+            // setTimeout(() => {
+            //     return navigate("/admin")
+            // }, 1000)
+        }
+        setLogin({
+            email: '',
+            password: ''
+        })
     }
   return (
     <Fragment>
