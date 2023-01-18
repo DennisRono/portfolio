@@ -1,10 +1,10 @@
 const express = require("express")
 const router = express.Router()
-import verifyToken from "../utils/verify";
+const  verifyToken = require("../utils/verify")
 
 //secure route
-router.post("/register", verifyToken, async (req, res, next) => {
-
+router.post("/secure", verifyToken, async (req, res, next) => {
+    req.json({secure: true})
 })
 
 module.exports = router;

@@ -11,6 +11,7 @@ const moment = require('moment-timezone')
 
 //routes
 const authRoute = require('./routes/auth')
+const adminRoute = require('./routes/admin')
 
 //middlewares
 app.use(cors(options))
@@ -32,5 +33,6 @@ app.use(
 )
 
 app.use('/', authRoute)
+app.use('/', adminRoute)
 
 app.listen(PORT, console.log('Server running on Port ', PORT));
