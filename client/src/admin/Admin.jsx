@@ -2,7 +2,7 @@ import React, { Fragment, useEffect, useState } from 'react'
 import '../styles/css/admin.css'
 import { useNavigate } from "react-router-dom";
 import { backend, getJwtToken, getRefreshToken } from '../includes/session'
-import axios from "axios"
+import { api } from '../api/axios'
 
 
 const Admin = () => {
@@ -15,23 +15,8 @@ const Admin = () => {
         "token": t,
         "refresh": r
       });      
-      let config = {
-        method: 'POST',
-        url: backend()+'verify',
-        headers: { 
-          'Content-Type': 'application/json'
-        },
-        data : data
-      };
-      
-      axios(config)
-      .then((response) => {
-        console.log(JSON.stringify(response.data))
-        console.log(getJwtToken(), getRefreshToken())
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+      let res = await api('POST', 'verify', data)
+      console.log(res.data);
     }
     checkLoggedIn(getJwtToken(), getRefreshToken())
 
