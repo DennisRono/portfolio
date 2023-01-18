@@ -66,7 +66,7 @@ router.post("/login", async (req, res, next) => {
 })
 
 // verify tokens
-router.get('/verify', async (req, res, next) => {
+router.POST('/verify', async (req, res, next) => {
     console.log(req.body)
     res.json(req.body)
 })

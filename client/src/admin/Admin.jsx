@@ -16,7 +16,7 @@ const Admin = () => {
         "refresh": r
       });      
       let config = {
-        method: 'get',
+        method: 'POST',
         url: backend()+'verify',
         headers: { 
           'Content-Type': 'application/json'
@@ -26,7 +26,8 @@ const Admin = () => {
       
       axios(config)
       .then((response) => {
-        console.log(JSON.stringify(response.data));
+        console.log(JSON.stringify(response.data))
+        console.log(getJwtToken(), getRefreshToken())
       })
       .catch((error) => {
         console.log(error);
