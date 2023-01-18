@@ -1,11 +1,11 @@
-import React, { Fragment, useEffect } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
 import '../styles/css/admin.css'
 import { useNavigate } from "react-router-dom";
 
 
 const Admin = () => {
     let navigate = useNavigate();
-    let LoggedIn = false
+    let [LoggedIn, setLoggedIn] = useState(false)
 
     useEffect(() => {
         if (!LoggedIn){
