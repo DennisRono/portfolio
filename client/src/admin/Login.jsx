@@ -26,8 +26,8 @@ const Login = () => {
         if(res.data.type === 'success'){
             console.log(res.headers);
             localStorage.setItem("user", JSON.stringify({username: res.userName, email: login.email}))
-            setJwtToken(res.authToken)
-            setRefreshToken(res.refreshToken)
+            setJwtToken(res.headers.authtoken)
+            setRefreshToken(res.headers.refreshtoken)
             setLogBtntxt({text:'redirecting...', state:true})
             setTimeout(() => {
                 return navigate("/admin")
