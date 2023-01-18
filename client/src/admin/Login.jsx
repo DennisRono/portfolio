@@ -18,7 +18,7 @@ const Login = () => {
     const loginSubmit = async (e) => {
         e.preventDefault()
         setLogBtntxt({text:'loging in', state:true})
-        let res = await api('POST', 'auth/login', login)
+        let res = await api('POST', 'login', login)
         setResponse(res)
 
         // Handle user session & JWT & Redirection

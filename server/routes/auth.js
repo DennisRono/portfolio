@@ -40,6 +40,7 @@ router.post("/register", async (req, res, next) => {
 //login a user to the system
 router.post("/login", async (req, res, next) => {
     try{
+        console.log(req.body);
         const validate = await loginDataSchema.validateAsync(req.body);
         await db.one(validate.email).then((user) => {
             if (!user) return res.json({status: 400, type:"Error", message:"user is not registered!"})
