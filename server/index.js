@@ -12,6 +12,11 @@ const authRoute = require('./routes/auth')
 
 //middlewares
 app.use(cors(options))
+const corsOptions = {
+    exposedHeaders: 'authToken',
+};
+  
+app.use(cors(corsOptions));
 app.use(logger('combined'))
 app.use(express.static('public'))
 app.use(bodyParser.json())
