@@ -14,7 +14,7 @@ const Admin = () => {
         "refresh": r
       });      
       let res = await api('POST', 'verify', data, {'Content-Type': 'application/json', authToken:t, refreshToken:r})
-      if(!res.data.type==='success'){
+      if(!(res.data.type==='success')){
         return navigate("/login")
       }
     }
