@@ -23,7 +23,6 @@ logger.token('date', (req, res, tz) => {
 app.use(logger('combined', {
     stream: fs.createWriteStream('./access.log', {flags: 'a'})
 }));
-//app.use(logger('dev'))
 app.use(express.static('public'))
 app.use(bodyParser.json())
 app.use(
