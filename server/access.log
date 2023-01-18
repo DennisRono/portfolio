@@ -1,2 +1,4 @@
 ::1 - - [18/Jan/2023:15:19:18 +0000] "POST /login HTTP/1.1" 200 49
 ::1 - - [18/Jan/2023:15:19:58 +0000] "POST /login HTTP/1.1" 200 49 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+::1 - - [2023-01-18 18:24:43] "POST /login HTTP/1.1" 200 49 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+::1 - - [2023-01-18 18:25:48] "POST /login HTTP/1.1" 200 49 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"

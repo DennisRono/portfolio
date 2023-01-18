@@ -7,6 +7,7 @@ const logger = require('morgan')
 const bodyParser = require('body-parser')
 require('dotenv').config()
 const fs = require('fs')
+const moment = require('moment-timezone')
 
 //routes
 const authRoute = require('./routes/auth')
@@ -16,8 +17,8 @@ app.use(cors(options))
 app.use(cors({
     exposedHeaders: ['authToken', 'refreshToken'],
 }));
-morgan.token('date', (req, res, tz) => {
-    return moment().tz(tz).format('YYYY-MM-DD HH:mm:ss');
+logger.token('date', (req, res, tz) => {
+    return moment().tz('Africa/Nairobi').format('YYYY-MM-DD HH:mm:ss');
 })
 app.use(logger('combined', {
     stream: fs.createWriteStream('./access.log', {flags: 'a'})
