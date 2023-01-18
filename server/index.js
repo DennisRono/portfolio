@@ -16,7 +16,9 @@ app.use(cors(options))
 app.use(cors({
     exposedHeaders: ['authToken', 'refreshToken'],
 }));
-//app.use(logger('combined'))
+morgan.token('date', (req, res, tz) => {
+    return moment().tz(tz).format('YYYY-MM-DD HH:mm:ss');
+})
 app.use(logger('combined', {
     stream: fs.createWriteStream('./access.log', {flags: 'a'})
 }));
