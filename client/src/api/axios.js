@@ -6,7 +6,7 @@ export const api = async (method = 'GET', slug = '', data = {}, headers={}) => {
         method: method,
         url: backend()+slug,
         headers: headers,
-        data : JSON.stringify(data)
+        data : data
     }
     console.log(data);
     const response = await axios(config)
