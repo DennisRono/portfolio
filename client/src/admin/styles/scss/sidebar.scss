@@ -18,13 +18,16 @@
         ul{
             li{
                 display: flex;
-                align-items: flex-end;
-                align-content: flex-end;
                 flex-direction: row;
                 .navIcs{
                     fill: var(--text-primary);
                     height: 25px;
                     width: 25px;
+                    margin-right: 10px;
+                }
+                span{
+                    color: var(--text-primary);
+                    font-size: 1.5rem;
                 }
             }
         }
