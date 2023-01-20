@@ -28,6 +28,8 @@
   display: flex;
   flex-direction: row;
   cursor: pointer;
+  padding: 5px;
+  padding-left: 20px;
 }
 .adminSidebar .adminnavigation ul li .navIcs {
   fill: var(--text-primary);
@@ -39,4 +41,7 @@
 .adminSidebar .adminnavigation ul li span {
   color: var(--text-primary);
   font-size: 1.5rem;
+}
+.adminSidebar .adminnavigation ul li:hover {
+  background-color: var(--background);
 }/*# sourceMappingURL=sidebar.css.map */
