@@ -20,13 +20,14 @@
         ul{
             width: 100%;
             li{
-                width: calc(100% - 10%);
+                width: calc(100% - 20%);
                 margin: 0 auto;
                 display: flex;
                 flex-direction: row;
                 cursor: pointer;
                 padding: 5px;
                 padding-left: 20px;
+                border-radius: 5px;
                 .navIcs{
                     fill: var(--text-primary);
                     height: 25px;
