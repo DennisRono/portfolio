@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Home from '../Routes/Home'
 import '../styles/css/layout.css'
 import Header from './Header'
 import Sidebar from './Sidebar'
@@ -14,7 +15,9 @@ const Layout = () => {
                 <div className="adminheader">
                     <Header/>
                 </div>
-                <div className="adminplayarea"></div>
+                <div className="adminplayarea">
+                    <Home/>
+                </div>
             </div>
         </div>
     </Fragment>
