@@ -1,7 +1,14 @@
 .layout {
   min-height: 100vh;
+  width: 100%;
 }
-.layout .adheader {
+.layout .adsidebar {
+  width: 20%;
+}
+.layout .admain {
+  width: 80%;
+}
+.layout .admain .adheader {
   height: 60px;
   background-color: cyan;
 }/*# sourceMappingURL=layout.css.map */

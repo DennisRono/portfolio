@@ -1,7 +1,14 @@
 .layout{
     min-height: 100vh;
-    .adheader{
-        height: 60px;
-        background-color: cyan;
+    width: 100%;
+    .adsidebar{
+        width: 20%;
+    }
+    .admain{
+        width: 80%;
+        .adheader{
+            height: 60px;
+            background-color: cyan;
+        }
     }
 }

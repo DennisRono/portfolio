@@ -5,9 +5,9 @@ const Layout = () => {
   return (
     <Fragment>
         <div className="layout">
-            <div className="adheader"></div>
+            <div className="adsidebar"></div>
             <div className="admain">
-                <div className="adsidebar"></div>
+                <div className="adheader"></div>
                 <div className="adplayarea"></div>
             </div>
         </div>
