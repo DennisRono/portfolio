@@ -5,19 +5,15 @@
     .adsidebar{
         width: 15%;
         min-height: 100vh;
-        background-color: yellow;
     }
     .adminmain{
         flex-grow: 1;
         min-height: 100vh;
-        background-color: #fff;
         .adminheader{
             height: 54px;
-            background-color: cyan;
         }
         .adminplayarea{
             min-height: calc(100vh - 54px);
-            background-color: #30cf80;
         }
     }
 }

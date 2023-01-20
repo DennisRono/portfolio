@@ -6,18 +6,14 @@
 .layout .adsidebar {
   width: 15%;
   min-height: 100vh;
-  background-color: yellow;
 }
 .layout .adminmain {
   flex-grow: 1;
   min-height: 100vh;
-  background-color: #fff;
 }
 .layout .adminmain .adminheader {
   height: 54px;
-  background-color: cyan;
 }
 .layout .adminmain .adminplayarea {
   min-height: calc(100vh - 54px);
-  background-color: #30cf80;
 }/*# sourceMappingURL=layout.css.map */
