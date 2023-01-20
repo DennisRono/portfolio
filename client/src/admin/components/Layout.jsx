@@ -8,7 +8,7 @@ const Layout = () => {
   return (
     <Fragment>
         <div className="layout">
-            <div className="adsidebar">
+            <div className="adminsidebar">
                 <Sidebar/>
             </div>
             <div className="adminmain">
