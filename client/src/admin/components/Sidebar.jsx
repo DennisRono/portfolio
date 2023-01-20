@@ -1,10 +1,14 @@
 import React, { Fragment } from 'react'
+import Logo from '../../images/logo.png'
 
 const Sidebar = () => {
   return (
     <Fragment>
         <div className="adminSidebar">
-          <h1>DennisKibet</h1>
+          <div className="brand">
+            <img src={Logo} alt="" />
+            <h1>DennisKibet</h1>
+          </div>
         </div>
     </Fragment>
   )
