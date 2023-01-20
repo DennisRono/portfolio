@@ -6,6 +6,9 @@
         width: 15%;
         min-height: 100vh;
         backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: saturate(2);
+        backdrop-filter: saturate(2);
+        -webkit-backdrop-filter: blur(20px);
     }
     .adminmain{
         flex-grow: 1;
