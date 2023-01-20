@@ -17,6 +17,9 @@
 }
 .adminSidebar .adminnavigation ul li {
   display: flex;
+  align-items: flex-end;
+  align-content: flex-end;
+  flex-direction: row;
 }
 .adminSidebar .adminnavigation ul li .navIcs {
   fill: var(--text-primary);
