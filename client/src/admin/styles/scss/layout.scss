@@ -15,5 +15,9 @@
             height: 54px;
             background-color: cyan;
         }
+        .adminplayarea{
+            min-height: calc(100vh - 54px);
+            background-color: #30cf80;
+        }
     }
 }
