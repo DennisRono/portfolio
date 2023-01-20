@@ -1,14 +1,17 @@
 .layout {
   min-height: 100vh;
   width: 100%;
+  display: flex;
 }
 .layout .adsidebar {
   width: 20%;
   min-height: 100vh;
+  background-color: yellow;
 }
 .layout .admain {
-  width: 80%;
+  flex: 1;
   min-height: 100vh;
+  background-color: #fff;
 }
 .layout .admain .adheader {
   height: 60px;
