@@ -5,6 +5,7 @@
     .adminsidebar{
         width: 15%;
         min-height: 100vh;
+        backdrop-filter: blur(20px);
     }
     .adminmain{
         flex-grow: 1;

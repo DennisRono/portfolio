@@ -6,6 +6,8 @@
 .layout .adminsidebar {
   width: 15%;
   min-height: 100vh;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
 }
 .layout .adminmain {
   flex-grow: 1;
