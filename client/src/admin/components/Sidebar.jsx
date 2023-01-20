@@ -7,7 +7,7 @@ const Sidebar = () => {
     <Fragment>
         <div className="adminSidebar">
           <div className="brand">
-            <h1>Administrator</h1>
+            <h1>Dennis Kibet</h1>
           </div>
           <div className="adminnavigation">
             <ul>
