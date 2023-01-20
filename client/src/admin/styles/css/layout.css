@@ -4,9 +4,11 @@
 }
 .layout .adsidebar {
   width: 20%;
+  min-height: 100vh;
 }
 .layout .admain {
   width: 80%;
+  min-height: 100vh;
 }
 .layout .admain .adheader {
   height: 60px;

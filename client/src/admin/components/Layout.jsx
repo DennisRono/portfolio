@@ -7,7 +7,7 @@ const Layout = () => {
         <div className="layout">
             <div className="adsidebar"></div>
             <div className="admain">
-                <div className="adheader"></div>
+                <div className="adheader">header</div>
                 <div className="adplayarea"></div>
             </div>
         </div>

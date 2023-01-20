@@ -3,9 +3,11 @@
     width: 100%;
     .adsidebar{
         width: 20%;
+        min-height: 100vh;
     }
     .admain{
         width: 80%;
+        min-height: 100vh;
         .adheader{
             height: 60px;
             background-color: cyan;
