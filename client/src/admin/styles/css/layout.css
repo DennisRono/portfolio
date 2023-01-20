@@ -1,3 +1,7 @@
 .layout {
   min-height: 100vh;
+}
+.layout .header {
+  height: 60px;
+  background-color: cyan;
 }/*# sourceMappingURL=layout.css.map */
