@@ -1,0 +1,15 @@
+.adminSidebar .brand {
+  display: flex;
+}
+.adminSidebar .brand img {
+  height: 30px;
+  width: 30px;
+}
+.adminSidebar .brand h1 {
+  color: var(--text-primary);
+  margin-top: 20px;
+  font-size: 5.375rem;
+  line-height: 5rem;
+  letter-spacing: -0.25rem;
+  font-weight: 500;
+}/*# sourceMappingURL=sidebar.css.map */

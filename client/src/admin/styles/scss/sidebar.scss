@@ -1,0 +1,17 @@
+.adminSidebar{
+    .brand{
+        display: flex;
+        img{
+            height: 30px;
+            width: 30px;
+        }
+        h1{
+            color: var(--text-primary);
+            margin-top: 20px;
+            font-size: 5.375rem;
+            line-height: 5rem;
+            letter-spacing: -0.25rem;
+            font-weight: 500;
+        }
+    }
+}
