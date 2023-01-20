@@ -8,12 +8,12 @@
   min-height: 100vh;
   background-color: yellow;
 }
-.layout .admain {
-  width: 80%;
+.layout .adminmain {
+  flex-grow: 1;
   min-height: 100vh;
   background-color: #fff;
 }
-.layout .admain .adheader {
-  height: 60px;
+.layout .adminmain .adminheader {
+  height: 85px;
   background-color: cyan;
 }/*# sourceMappingURL=layout.css.map */

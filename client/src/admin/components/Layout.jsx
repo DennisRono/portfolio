@@ -6,8 +6,8 @@ const Layout = () => {
     <Fragment>
         <div className="layout">
             <div className="adsidebar"></div>
-            <div className="admain">
-                <div className="adheader">header</div>
+            <div className="adminmain">
+                <div className="adminheader">header</div>
                 <div className="adplayarea"></div>
             </div>
         </div>

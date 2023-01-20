@@ -7,12 +7,12 @@
         min-height: 100vh;
         background-color: yellow;
     }
-    .admain{
-        width: 80%;
+    .adminmain{
+        flex-grow: 1;
         min-height: 100vh;
         background-color: #fff;
-        .adheader{
-            height: 60px;
+        .adminheader{
+            height: 85px;
             background-color: cyan;
         }
     }
