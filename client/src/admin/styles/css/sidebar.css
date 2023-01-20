@@ -4,10 +4,11 @@
 .adminSidebar .brand {
   display: flex;
   width: 100%;
+  margin-bottom: 30px;
 }
 .adminSidebar .brand h1 {
   color: var(--text-primary);
-  margin: 0 auto;
+  margin-left: 5%;
   margin-top: 20px;
   font-size: 2.375rem;
   line-height: 2rem;
