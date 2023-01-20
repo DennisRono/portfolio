@@ -3,6 +3,7 @@ import '../styles/css/admin.css'
 import { useNavigate } from "react-router-dom"
 import { setJwtToken, getJwtToken, getRefreshToken } from '../includes/session'
 import { api } from '../api/axios'
+import Layout from './components/Layout'
 
 
 const Admin = () => {
@@ -24,7 +25,7 @@ const Admin = () => {
   return (
     <Fragment>
         <div className="admin">
-            <h3>admin</h3>
+            <Layout/>
         </div>
     </Fragment>
   )
