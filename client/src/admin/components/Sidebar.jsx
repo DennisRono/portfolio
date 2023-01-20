@@ -15,6 +15,10 @@ const Sidebar = () => {
                   <Home className="navIcs" />
                   <span>Dashboard</span>
               </li>
+              <li>
+                  <Home className="navIcs" />
+                  <span>Blogs</span>
+              </li>
             </ul>
           </div>
         </div>
