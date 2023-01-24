@@ -17,7 +17,7 @@
   gap: 1rem;
 }
 .dashHome .dashHomeContainer .dashHWidgets {
-  height: 250px;
+  min-height: 250px;
   border: 1px solid var(--text-primary);
   border-radius: 10px;
 }

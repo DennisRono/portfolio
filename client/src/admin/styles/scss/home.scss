@@ -15,7 +15,7 @@
         grid-auto-rows: minmax(250px, auto);
         gap: 1rem;
         .dashHWidgets{
-            height: 250px;
+            min-height: 250px;
             border: 1px solid var(--text-primary);
             border-radius: 10px;
             &:nth-child(1){
