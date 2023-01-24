@@ -8,16 +8,13 @@
   background-color: #171c28;
 }
 .dashHome .dashHomeContainer {
+  width: 100%;
   margin: 20px 5%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
   gap: 1rem;
 }
 .dashHome .dashHomeContainer .dashHWidgets {
-  width: 300px;
   height: 200px;
-  flex-grow: 1;
   border: 1px solid var(--text-primary);
   border-radius: 10px;
 }
