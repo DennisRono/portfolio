@@ -23,15 +23,15 @@ const Sidebar = () => {
             </ul>
           </div>
           <div className="adminnavigation">
-            <div><span>sections</span></div>
+            <div><span>Resources</span></div>
             <ul>
               <li>
                   <Home className="navIcs" />
-                  <span>Dashboard</span>
+                  <span>Newsletter</span>
               </li>
               <li>
                   <Home className="navIcs" />
-                  <span>Blogs</span>
+                  <span>Chats</span>
               </li>
             </ul>
           </div>
