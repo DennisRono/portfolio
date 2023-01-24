@@ -19,6 +19,13 @@
         width: 100%;
         div{
             color: var(--text-primary);
+            &::before{
+                content: '';
+                display: block;
+                height: 1px;
+                width: 10px;
+                background-color: #fff;
+            }
         }
         ul{
             width: 100%;
