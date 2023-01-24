@@ -10,6 +10,7 @@ const Sidebar = () => {
             <h1>Dennis Kibet</h1>
           </div>
           <div className="adminnavigation">
+            <h3>pages</h3>
             <ul>
               <li>
                   <Home className="navIcs" />

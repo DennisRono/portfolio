@@ -7,6 +7,7 @@
   width: 20%;
   min-height: 100vh;
   border-right: 1px solid var(--text-primary);
+  background-color: #161b22;
 }
 .layout .adminmain {
   flex-grow: 1;
