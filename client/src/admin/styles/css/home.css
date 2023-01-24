@@ -13,7 +13,7 @@
   margin: 20px 5%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-areas: "header header";
+  grid-auto-rows: minmax(250px, auto);
   gap: 1rem;
 }
 .dashHome .dashHomeContainer .dashHWidgets {
@@ -22,7 +22,7 @@
   border-radius: 10px;
 }
 .dashHome .dashHomeContainer .dashHWidgets:nth-child(1) {
-  grid-area: header;
+  grid-column: span 2;
   background-image: url(https://www.transparenttextures.com/patterns/cubes.png), linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652);
 }
 .dashHome .dashHomeContainer .dashHWidgets:nth-child(3) {
