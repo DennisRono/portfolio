@@ -17,6 +17,9 @@
     }
     .adminnavigation{
         width: 100%;
+        div{
+            color: var(--text-primary);
+        }
         ul{
             width: 100%;
             li{

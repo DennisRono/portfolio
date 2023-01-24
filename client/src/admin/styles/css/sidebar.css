@@ -19,6 +19,9 @@
 .adminSidebar .adminnavigation {
   width: 100%;
 }
+.adminSidebar .adminnavigation div {
+  color: var(--text-primary);
+}
 .adminSidebar .adminnavigation ul {
   width: 100%;
 }
