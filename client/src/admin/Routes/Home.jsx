@@ -12,8 +12,6 @@ const Home = () => {
             <div className="dashHWidgets"></div>
             <div className="dashHWidgets"></div>
             <div className="dashHWidgets"></div>
-            <div className="dashHWidgets"></div>
-            <div className="dashHWidgets"></div>
           </div>
         </div>
     </Fragment>
