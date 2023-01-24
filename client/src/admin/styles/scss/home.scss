@@ -10,10 +10,10 @@
         width: calc(100% - 5%);
         margin: 20px 5%;
         display: grid;
-        grid-template-columns: 2fr, repeat(4, 1fr);
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)) 100px repeat(3, 200px);
         gap: 1rem;
         .dashHWidgets{
-            width: 300px;
+            min-width: 300px;
             height: 200px;
             border: 1px solid var(--text-primary);
             border-radius: 10px;
