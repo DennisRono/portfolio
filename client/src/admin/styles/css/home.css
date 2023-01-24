@@ -28,5 +28,5 @@
 .dashHome .dashHomeContainer .dashHWidgets:nth-child(3) {
   grid-row: span 2;
   grid-column: span 2;
-  background-image: url("../../../images/black-orchid.png"), linear-gradient(to right top, #124425, #1a994f);
+  background-image: url("../../../images/black-orchid.png"), linear-gradient(to right top, #30cebb, #30cebb);
 }/*# sourceMappingURL=home.css.map */
