@@ -19,12 +19,16 @@
         width: 100%;
         div{
             color: var(--text-primary);
+            display: flex;
             &::before{
                 content: '';
                 display: block;
                 height: 1px;
                 width: 10px;
                 background-color: #fff;
+            }
+            span{
+                margin-left: 10px;
             }
         }
         ul{

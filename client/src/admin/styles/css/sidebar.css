@@ -21,6 +21,7 @@
 }
 .adminSidebar .adminnavigation div {
   color: var(--text-primary);
+  display: flex;
 }
 .adminSidebar .adminnavigation div::before {
   content: "";
@@ -28,6 +29,9 @@
   height: 1px;
   width: 10px;
   background-color: #fff;
+}
+.adminSidebar .adminnavigation div span {
+  margin-left: 10px;
 }
 .adminSidebar .adminnavigation ul {
   width: 100%;
