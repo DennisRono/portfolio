@@ -8,10 +8,11 @@
   background-color: #171c28;
 }
 .dashHome .dashHomeContainer {
+  padding: 20px;
   width: 95%;
   margin: 20px 5%;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(7, 2fr);
   gap: 1rem;
 }
 .dashHome .dashHomeContainer .dashHWidgets {

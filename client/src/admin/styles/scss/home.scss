@@ -7,11 +7,11 @@
         background-color: #171c28;
     }
     .dashHomeContainer{
+        padding: 20px;
         width: calc(100% - 5%);
         margin: 20px 5%;
-        display: flex;
-        flex-wrap: wrap;
-        // grid-template-columns: 2fr repeat(5, 1fr);
+        display: grid;
+        grid-template-columns: repeat(7, 2fr);
         gap: 1rem;
         .dashHWidgets{
             min-width: 300px;
