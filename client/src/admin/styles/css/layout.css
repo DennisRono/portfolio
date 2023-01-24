@@ -4,6 +4,7 @@
 }
 .layout .adminheader {
   height: 54px;
+  overflow: hidden;
 }
 .layout .adminmain {
   display: flex;
