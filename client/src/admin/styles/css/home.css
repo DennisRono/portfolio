@@ -20,6 +20,7 @@
   min-height: 250px;
   border: 1px solid var(--text-primary);
   border-radius: 10px;
+  padding: 10px;
 }
 .dashHome .dashHomeContainer .dashHWidgets:nth-child(1) {
   grid-column: span 2;

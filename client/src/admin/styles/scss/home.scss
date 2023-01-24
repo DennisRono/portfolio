@@ -18,6 +18,7 @@
             min-height: 250px;
             border: 1px solid var(--text-primary);
             border-radius: 10px;
+            padding: 10px;
             &:nth-child(1){
                 grid-column: span 2;
                 background-image: url(https://www.transparenttextures.com/patterns/cubes.png), linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652);
