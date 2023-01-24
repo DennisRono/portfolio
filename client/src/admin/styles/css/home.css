@@ -8,9 +8,9 @@
   background-color: #171c28;
 }
 .dashHome .dashHomeContainer {
-  padding: 20px;
+  padding: 10px;
   width: 90%;
-  margin: 20px 5%;
+  margin: 20px 4%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(250px, auto);

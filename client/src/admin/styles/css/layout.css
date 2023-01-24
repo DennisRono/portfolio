@@ -14,6 +14,11 @@
   width: 15%;
   min-height: 100vh;
   border-right: 1px solid var(--text-primary);
+  overflow-y: scroll;
+}
+.layout .adminmain .adminsidebar::-webkit-scrollbar {
+  width: 5px;
+  background-color: #171c28;
 }
 .layout .adminmain .adminplayarea {
   width: 85%;
