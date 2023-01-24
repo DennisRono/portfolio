@@ -1,0 +1,7 @@
+.adminheader .adminHContainer {
+  margin: 0 5%;
+}
+.adminheader .adminHContainer h1 {
+  padding: 5px 0;
+  color: var(--text-primary);
+}/*# sourceMappingURL=header.css.map */
