@@ -34,6 +34,45 @@ const Sidebar = () => {
               </li>
             </ul>
           </div>
+          <div className="adminnavigation">
+            <div><span>Portfolio</span></div>
+            <ul>
+              <li>
+                  <Home className="navIcs" />
+                  <span>cv</span>
+              </li>
+              <li>
+                  <Chats className="navIcs" />
+                  <span>projects</span>
+              </li>
+            </ul>
+          </div>
+          <div className="adminnavigation">
+            <div><span>socials</span></div>
+            <ul>
+              <li>
+                  <Home className="navIcs" />
+                  <span>twitter</span>
+              </li>
+              <li>
+                  <Chats className="navIcs" />
+                  <span>LinkedIn</span>
+              </li>
+            </ul>
+          </div>
+          <div className="adminnavigation">
+            <div><span>Dev & Automations</span></div>
+            <ul>
+              <li>
+                  <Home className="navIcs" />
+                  <span>Github</span>
+              </li>
+              <li>
+                  <Chats className="navIcs" />
+                  <span>Stackoverflow</span>
+              </li>
+            </ul>
+          </div>
         </div>
     </Fragment>
   )
