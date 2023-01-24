@@ -8,12 +8,12 @@ const Layout = () => {
   return (
     <Fragment>
         <div className="layout">
-            <div className="adminsidebar">
-                <Sidebar/>
+            <div className="adminheader">
+                <Header/>
             </div>
             <div className="adminmain">
-                <div className="adminheader">
-                    <Header/>
+                <div className="adminsidebar">
+                    <Sidebar/>
                 </div>
                 <div className="adminplayarea">
                     <Home/>
