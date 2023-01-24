@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import '../styles/css/sidebar.css'
 import {ReactComponent as Home} from '../../assets/svg/home.svg'
+import {ReactComponent as Chats} from '../../assets/svg/chats.svg'
 
 const Sidebar = () => {
   return (
@@ -30,7 +31,7 @@ const Sidebar = () => {
                   <span>Newsletter</span>
               </li>
               <li>
-                  <Home className="navIcs" />
+                  <Chats className="navIcs" />
                   <span>Chats</span>
               </li>
             </ul>
