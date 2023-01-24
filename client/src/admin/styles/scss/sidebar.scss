@@ -41,7 +41,8 @@
                     font-size: 1rem;
                 }
                 &:hover{
-                    background-color: var(--background);
+                    border: 1px solid var(--text-primary);
+                    border-radius: 10px;
                 }
             }
         }

@@ -45,5 +45,6 @@
   font-size: 1rem;
 }
 .adminSidebar .adminnavigation ul li:hover {
-  background-color: var(--background);
+  border: 1px solid var(--text-primary);
+  border-radius: 10px;
 }/*# sourceMappingURL=sidebar.css.map */
