@@ -22,6 +22,9 @@
                 grid-area: header;
                 background-image: url(https://www.transparenttextures.com/patterns/cubes.png), linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652);
             }
+            &:nth-child(3){
+                grid-row: span 2;
+            }
         }
     }
 }
