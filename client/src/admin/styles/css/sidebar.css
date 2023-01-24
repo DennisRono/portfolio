@@ -22,7 +22,7 @@
 .adminSidebar .adminnavigation div {
   color: var(--text-primary);
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .adminSidebar .adminnavigation div::before {
   content: "";

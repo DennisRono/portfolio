@@ -22,6 +22,19 @@ const Sidebar = () => {
               </li>
             </ul>
           </div>
+          <div className="adminnavigation">
+            <div><span>sections</span></div>
+            <ul>
+              <li>
+                  <Home className="navIcs" />
+                  <span>Dashboard</span>
+              </li>
+              <li>
+                  <Home className="navIcs" />
+                  <span>Blogs</span>
+              </li>
+            </ul>
+          </div>
         </div>
     </Fragment>
   )
