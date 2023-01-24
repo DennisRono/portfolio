@@ -6,6 +6,7 @@
     }
     .adminmain{
         display: flex;
+        width: 100%;
         min-height: 100vh;
         .adminsidebar{
             width: 20%;
@@ -17,7 +18,7 @@
             // -webkit-backdrop-filter: blur(20px);
         }
         .adminplayarea{
-            width: 80%;
+            flex-grow: 1;
             min-height: calc(100vh - 54px);
         }
     }

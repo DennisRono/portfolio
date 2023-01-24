@@ -9,7 +9,7 @@
 }
 .dashHome .dashHomeContainer {
   padding: 20px;
-  width: 95%;
+  width: 90%;
   margin: 20px 5%;
   display: grid;
   grid-template-columns: repeat(7, 2fr);

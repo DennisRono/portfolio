@@ -7,6 +7,7 @@
 }
 .layout .adminmain {
   display: flex;
+  width: 100%;
   min-height: 100vh;
 }
 .layout .adminmain .adminsidebar {
@@ -15,6 +16,6 @@
   border-right: 1px solid var(--text-primary);
 }
 .layout .adminmain .adminplayarea {
-  width: 80%;
+  flex-grow: 1;
   min-height: calc(100vh - 54px);
 }/*# sourceMappingURL=layout.css.map */
