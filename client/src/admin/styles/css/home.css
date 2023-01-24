@@ -10,8 +10,8 @@
 .dashHome .dashHomeContainer {
   width: 95%;
   margin: 20px 5%;
-  display: grid;
-  grid-template-columns: 600px, 300px;
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 .dashHome .dashHomeContainer .dashHWidgets {
