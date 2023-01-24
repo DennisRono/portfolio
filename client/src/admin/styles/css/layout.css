@@ -22,5 +22,10 @@
 }
 .layout .adminmain .adminplayarea {
   width: 85%;
-  min-height: calc(100vh - 54px);
+  height: calc(100vh - 54px);
+  overflow-y: scroll;
+}
+.layout .adminmain .adminplayarea::-webkit-scrollbar {
+  width: 5px;
+  background-color: #171c28;
 }/*# sourceMappingURL=layout.css.map */
