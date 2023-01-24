@@ -56,11 +56,9 @@ const Skills = () => {
                             <ul>
                                 <h2>Frameworks</h2>
                                 <li>React.js</li>
-                                <li>Three.js</li>
                                 <li>TensorFlow</li>                                
                                 <li>Electron</li>                                
-                                <li>Django</li>                               
-                                <li>Jekyll</li>                               
+                                <li>Django</li>                                                            
                             </ul>
                             <ul>
                                 <h2>Design</h2>
