@@ -11,7 +11,8 @@
   width: 100%;
   margin: 20px 5%;
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: -webkit-min-content 1fr;
+  grid-template-columns: min-content 1fr;
   gap: 1rem;
 }
 .dashHome .dashHomeContainer .dashHWidgets {
