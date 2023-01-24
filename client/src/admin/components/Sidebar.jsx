@@ -8,9 +8,6 @@ const Sidebar = () => {
   return (
     <Fragment>
         <div className="adminSidebar">
-          <div className="brand">
-            <h1>Dennis Kibet</h1>
-          </div>
           <div className="adminnavigation">
             <div><span>pages</span></div>
             <ul>

@@ -1,22 +1,18 @@
 .layout {
   min-height: 100vh;
   width: 100%;
-  display: flex;
 }
-.layout .adminsidebar {
+.layout .adminheader {
+  height: 54px;
+}
+.layout .adminmain {
+  display: flex;
+  min-height: 100vh;
+}
+.layout .adminmain .adminsidebar {
   width: 20%;
   min-height: 100vh;
   border-right: 1px solid var(--text-primary);
-}
-.layout [data-theme=dark] .adminsidebar {
-  background-color: #161b22;
-}
-.layout .adminmain {
-  flex-grow: 1;
-  min-height: 100vh;
-}
-.layout .adminmain .adminheader {
-  height: 54px;
 }
 .layout .adminmain .adminplayarea {
   min-height: calc(100vh - 54px);

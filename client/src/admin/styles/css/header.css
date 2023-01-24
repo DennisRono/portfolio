@@ -1,3 +1,6 @@
+.adminheader {
+  border-bottom: 1px solid var(--text-primary);
+}
 .adminheader .adminHContainer {
   margin: 0 5%;
 }
