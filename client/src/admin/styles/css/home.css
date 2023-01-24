@@ -8,14 +8,14 @@
   background-color: #171c28;
 }
 .dashHome .dashHomeContainer {
-  width: 100%;
+  width: 95%;
   margin: 20px 5%;
   display: grid;
-  grid-template-columns: -webkit-min-content 1fr;
-  grid-template-columns: min-content 1fr;
+  grid-template-columns: 2fr, repeat(4, 1fr);
   gap: 1rem;
 }
 .dashHome .dashHomeContainer .dashHWidgets {
+  width: 300px;
   height: 200px;
   border: 1px solid var(--text-primary);
   border-radius: 10px;
