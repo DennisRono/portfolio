@@ -11,13 +11,15 @@
         width: calc(100% - 10%);
         margin: 20px 5%;
         display: grid;
-        grid-template-columns: repeat(7, 2fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 'header header';
         gap: 1rem;
         .dashHWidgets{
             height: 200px;
             border: 1px solid var(--text-primary);
             border-radius: 10px;
             &:nth-child(1){
+                grid-area: 'header';
                 background-image: url(https://www.transparenttextures.com/patterns/cubes.png), linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652);
             }
         }
